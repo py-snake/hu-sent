@@ -1,0 +1,4662 @@
+[
+  {
+    "text": "Nos, a Jason elment Manhattanbe és a Pokolba kapcsán, azt hiszem, az elkerülhetetlen folytatások ötletlistájáról kihúzhatunk egy űrállomást 2455-ben (hé, ne lődd le a poént).",
+    "label": "neutral"
+  },
+  {
+    "text": "Donovan elpazarolja a fő eszközét, Jackie Chan-t, és elrontja a létfontosságú akciójeleneteket.",
+    "label": "negative"
+  },
+  {
+    "text": "Itt nincs pszichológia, és nincs igazi narratív logika -- csak gondosan koreografált atrocitások sorozata, amelyek furcsán személytelenné és elvonttá válnak.",
+    "label": "negative"
+  },
+  {
+    "text": "Szerelem kívánságra című filmnek annyi hibája van, hogy a kritikusoknak könnyű lenne széttépni.",
+    "label": "negative"
+  },
+  {
+    "text": "Még az is lehet, hogy a \"Filmek, amiket szeretsz utálni\" kategóriába esik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bevallom, utálom, hogy tetszik.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Frida biztosan nem katasztrófa, de nem is olyan film, amilyet Frida rajongói vártak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Minden pórusból kiszivárog a melasz.",
+    "label": "negative"
+  },
+  {
+    "text": "A karakterek annyira generikusak, a cselekmény annyira unalmas, még akkor is, ha a gonosz CIA bérgyilkosai Chris Cooper főnökének dolgoznak közel a leleményes amnéziáshoz, nem érzünk túl sokat Damonért / Bourne-ért vagy a kínos helyzetéért.",
+    "label": "negative"
+  },
+  {
+    "text": "Kapur hamis mélységekkel húzza le a mesét .",
+    "label": "negative"
+  },
+  {
+    "text": "Míg azt akarjuk, hogy MacDowell karaktere visszaszerezze a férjét, meg kell kérdeznünk, hogy a személyes odüsszeiája üti-e a vérontást, ami oly sok életet követel maga körül.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Blue Crush ugyanolyan kiszámítható, mint az árapály.",
+    "label": "negative"
+  },
+  {
+    "text": "A film olyan, mintha meglévő helyzetekből és más filmek karaktereiből lenne összefűzve.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha élvezed, hogy megjutalmaz egy forgatókönyv, amely azt feltételezi, hogy nem vagy túl okos, akkor a Vérmunka neked való.",
+    "label": "negative"
+  },
+  {
+    "text": "A Minden nap baj bizonyos értelemben siker, de nehéz egy ilyen rideg és halott filmet szeretni.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film bensőséges és ennélfogva merészebb, mint az eredeti elképzelés, amely meghatározza a film produkciós dizájnját.",
+    "label": "positive"
+  },
+  {
+    "text": "Egy jó szándékú erőfeszítés, amit még mindig túlságosan leterhel a színész szokatlan érzékenysége arra, hogy a legkomolyabb érzelmi lényeget bármilyen szintű hozzáférhetőséggel megjelenítse.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy családbarát film, amely végül nagyon keveset tesz a fantáziadús alapötletével.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy elszánt pillantás a francia forradalomra arisztokraták szemén keresztül.",
+    "label": "positive"
+  },
+  {
+    "text": "Tom Shadyac egy kicsit többet tanult Adams rendezése óta, de még mindig minden ponton addig időzik, amíg a leglassabb néző is felfogja.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy jön le, mint egy kifinomult, visszafogott 102 perces reklámfilm, amely egybe gyúrja a vállalkozói buzgalmat az elégedett ügyfelek beszámolóival.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy gyors iramú, csillogó, de rendkívül buta darab.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bármely ésszerűen kreatív nyolcadikos írhatott volna hitelesebb forgatókönyvet, bár ugyanennyi folytonossági hibával.",
+    "label": "negative"
+  },
+  {
+    "text": "Míg a humor szempontjából a Jason X sokkal szórakoztatóbb, mint vártam, minden más értelemben bukás.",
+    "label": "neutral"
+  },
+  {
+    "text": "Attól függ, hogy tetszeni fog-e Jónás és a zöldségmesék, hogy mi a tűrésküszöböd a Szentlélek témájú popdalokat tekintve.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mint egy iskola utáni különkiadás Gianni Versace jelmezekkel, a Mad Love jobban néz ki, mint amilyen.",
+    "label": "negative"
+  },
+  {
+    "text": "Míg bizonyos jelek, mint a boldog zene, azt sugallják, hogy ez a film felmelegíti a szívünket, Jeong-Hyang Lee filmje ugyanolyan valószínű, hogy befeketíti szívünket hideg bosszúvággyal.",
+    "label": "neutral"
+  },
+  {
+    "text": "A forgatókönyv, a viccek, a karakterek, mind videós cuccok, és a filmnek tartania kellett volna magát ehhez.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy thriller izgalom nélkül és egy rejtély sürgős kérdésektől mentesen.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kollázs klisékből és más filmekre való utalások homályos visszhangjából.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmet visszafogja a kiszámítható cselekmény és a gyenge mellékszereplők.",
+    "label": "negative"
+  },
+  {
+    "text": "Jónás maximum elmegy... hogy a bibliai üzenet pluszpont vagy mínusz, az már tőlünk függ.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film megmenthetetlenségének gyötrelmes demonstrációja egy amatőr forgatókönyvvel.",
+    "label": "negative"
+  },
+  {
+    "text": "Hányszor fognak még a független filmesek kitenni minket unalmas, öntelt történeteknek, hogy milyen szörnyűek vagyunk magunkkal és egymással szemben?",
+    "label": "neutral"
+  },
+  {
+    "text": "Van néhány poén a filmben, de Williams anarchiája fárasztó és a szatíra gyenge.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan kiforratlan, mint a múlt heti galuska.",
+    "label": "negative"
+  },
+  {
+    "text": "A komor járkálás és a drámai tűzijáték hiánya miatt a Zöld Sárkány inkább tűnik gyógyszernek, mint szórakoztatásnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "A filmkészítőknek nagyobb hangsúlyt kellett fektetniük a történetmesélésre, és kevésbé az elbűvölő gépezetre, amely a közönséget egy olyan jövőbe löki, amely nem igazán érdekli őket.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy újabb teljesen felesleges adalék az extrém kaszkadőr filmek növekvő, penészes halmára.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a megerőltetően nem vicces Showtime megérdemli a lehúzást.",
+    "label": "negative"
+  },
+  {
+    "text": "Az egész dolog elég béna, beleillik a Disney folytatások folyamába.",
+    "label": "negative"
+  },
+  {
+    "text": "ünnepélyes önhittsége meggátolja, hogy osztozzunk az áhítatban, amiben hordozza magát.",
+    "label": "negative"
+  },
+  {
+    "text": "A középkorú romantika jó és érdekes ötlete nincs jól kezelve, a kifinomult sztár alakításokat kivéve nagyon kevés dolog miatt lehetne ajánlani a \"Soha többé\"-t.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha a Disney Hamupipőke bebizonyította, hogy az álom egy szívedből jövő kívánság, akkor a Hamupipőke II bizonyítja, hogy a rémálom egy, a stúdió pénztárcájából jövő kívánság.",
+    "label": "negative"
+  },
+  {
+    "text": "Értelmetlen és nevetséges fordulatok jellemzik, fásult előadások, rosszul rendezett akciójelenetek és néhány a legrosszabb párbeszédek közül, amikre csak emlékszem.",
+    "label": "negative"
+  },
+  {
+    "text": "Mint korábban a The Shipping News, a Rare Birds is megkísérel egy hollywoodi sztárt átültetni a newfoundlandi vad világba - és a Rock ismét ellenáll a kísérletnek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ebben a filmben semmi sem működik.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha az Ön számára utálatos gondolat az, hogy a fehér ember idegen partokra érkezik, hogy megmutassa az óvatos bennszülötteknek az igazi fényt, akkor ez a leegyszerűsített Mennyország elég valószínű, hogy inkább a pokol lesz.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kísérteties mese démoni tettekről a nyílt tengeren, ami annál hatásosabb, minél kevésbé kell használni az agyunkat.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Szülinapos lány egyik kiszámítható eseménye sem lep meg minket...",
+    "label": "negative"
+  },
+  {
+    "text": "Szörnyek születnek, vagy teremtettek?",
+    "label": "neutral"
+  },
+  {
+    "text": "Lisa Rinzler filmművészete lehet, hogy szép, de a Love Liza meséje gyakorlatilag egy ájulásban összeomlik, épp elég ideig fenntartva az öntudatot, hogy elérje a érzéketlen önhittséget.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az elbeszélő és a többi karakter megpróbál meggyőzni minket, hogy a színészet átformálja Esthert, de soha nem láttuk színpadon beszélni, az egyik úgy érzi, becsapták, és Esther úgy tűnik, változatlanul unalmas marad.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez pontosan az a fajta film, amivel Tobackot a becsmérlői mindig vádolják.",
+    "label": "negative"
+  },
+  {
+    "text": "Most, hogy közelednek az augusztusi kutyanapok, gondoljunk úgy erre a kutyára, mint a magas páratartalom moziszerű megfelelőjére.",
+    "label": "neutral"
+  },
+  {
+    "text": "Kevésbé szól Shakespeare-ről, mint a bolondokról, akik látták Quentin Tarantino maroknyi nyüzsgő gengszterfilmjét, és áttértek a saját ál-szellemes másoló értelmezésükre.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film olyan, mint egy belvárosi kávézóban ücsörögni, meghallani egy rakás tipikus huszonévest a semmiről fecsegni, és kétségbeesetten vágyni arra, hogy asztalt cserélhess.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a meglehetősen szétszórt, mindenhol-is-játszódik film sokkal jobb lenne, ha a cselekményeit és a karaktereit leredukálná kevesebbre... vagy ha finomabb lenne... vagy ha lenne humorérzéke.",
+    "label": "negative"
+  },
+  {
+    "text": "A híres ír drámaíró, költő és iszákos élete egy fejezetének részletezéséhez nehézkes TV-filmes megközelítést alkalmaz.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez az alaposan megfogalmazott film nemcsak a teljesen példaértékű leggenerikusabb mainstreamet reprezentálja, hanem a leglustább fényes Hollywoodot is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szégyen, hogy a Harvard lopása milyen frusztráló, unalmas és felejthető.",
+    "label": "negative"
+  },
+  {
+    "text": "Majdnem minden vicckísérlet befuccsol.",
+    "label": "negative"
+  },
+  {
+    "text": "Összeomlik a saját csekély súlya alatt.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy szelíd, jó modorú anyag, amit egy olyan rendezőtől kaptunk, akinek szüksége lett volna egy kis színlelésre és polgárpukkasztásra.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha annyira szeretted a Full Monty-t, hogy majd meghalsz, hogy lásd ugyanazt a régi dolgot egy fáradt, öreg környezetben, akkor ez értelemszerűen szórakoztatni fog majd.",
+    "label": "neutral"
+  },
+  {
+    "text": "Technikailag és művészileg alkalmatlan.",
+    "label": "negative"
+  },
+  {
+    "text": "Azok, akik csak kicsit kíváncsiak, attól tartok, elalszanak vagy összezavarodnak a művészies és gyakran értelmetlen látványtól.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár Tom Shadyac filmje elég kísértetiesen kezdődik, a félidő környékén hirtelen édeskés szentimentalizmusba és nevetséges kitalációba fordul át.",
+    "label": "negative"
+  },
+  {
+    "text": "A kétségbeesés hosszú, tompa menete, csellózenére, egy visszafogott temetés után.",
+    "label": "negative"
+  },
+  {
+    "text": "Nevezzetek egy hidegszívű bunkónak, hogy nem tudok élvezni egy agyatlan akciófilmet, de hiszem, hogy egy film lehet agyatlan anélkül, hogy minden része unalmas lenne.",
+    "label": "negative"
+  },
+  {
+    "text": "A halál lehet a megváltás.",
+    "label": "neutral"
+  },
+  {
+    "text": "(Hopkins) annyira unja a saját alakítását, hogy arra nincsenek is szavak.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem, még ez is túl elszánt.",
+    "label": "neutral"
+  },
+  {
+    "text": "Megkéri a titkárnőjét, hogy faxolja el ő.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szomorú és komor, még azokban a pillanatokban is, amikor viccesnek és könnyűnek kellene éreznie magát.",
+    "label": "negative"
+  },
+  {
+    "text": "Önelégült, letargikus példabeszéd a megújulásról.",
+    "label": "negative"
+  },
+  {
+    "text": "Gyönyőrűen fotózott, de tompa és túlzottan epikus.",
+    "label": "neutral"
+  },
+  {
+    "text": "Még az 50 millió dolláros amerikai költségvetéssel se éri el a Pinokkió a fantáziadús mozgókép hangulatát.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez most egy harmadik személyű történet, amit Hollywood mesél, és sokkal hétköznapibb.",
+    "label": "neutral"
+  },
+  {
+    "text": "A filmkészítők tudják, hogyan kell örömet szerezni a szemnek, de nem mindig a legszebb képek mesélik el a legjobb történetet.",
+    "label": "neutral"
+  },
+  {
+    "text": "David Kendall egysíkú írása és a There's Something About Mary társszerzője, Ed Decter rendezése.",
+    "label": "neutral"
+  },
+  {
+    "text": "A karakterek érdekesek, Yosuke és Saeko kapcsolatának fejlődése érdekes, de nincs elég cselekmény ahhoz, hogy két órát kitöltsön.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nagyon jó, de nem okoz sok feszültséget.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mintha meghívtak volna egy előkelő estélyre, és nem ismernél senkit.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ugyanúgy távozol, ahogy jöttél - néhány finom falat az öved alatt, de nincsenek új barátaid.",
+    "label": "neutral"
+  },
+  {
+    "text": "Lehangoló látni, hogy Herzog milyen mélyre süllyedt.",
+    "label": "negative"
+  },
+  {
+    "text": "Az időgép felett ott lebegő kérdés nem az, amit a főszereplő sugall: \"mi van, ha?\"",
+    "label": "neutral"
+  },
+  {
+    "text": "Hogy tudsz ezért pénzt kérni?",
+    "label": "negative"
+  },
+  {
+    "text": "Egy ilyen hatalmas, dollármilliókkal telepumpált projektnek nagyobb sikert kellene elérnie, a divatos kékképernyős technikánál és a stílusos fegyvereknél.",
+    "label": "negative"
+  },
+  {
+    "text": "\"Rémisztő péntek\", nem az.",
+    "label": "negative"
+  },
+  {
+    "text": "Talán ezeknek a méltánytalanul elutasított hősöknek a jobb ünneplése olyan film lenne, ami nem ilyen fájdalmasan erőltetett, hamis és kitalált.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár a süteményt nem rontják el, ez a csúnya vígjáték ugyanazokon a könnyű célpontokkal élcelődik, mint a többi vulgáris film - fing, mellek, kimondhatatlan dolgok - nem sok sikerrel.",
+    "label": "negative"
+  },
+  {
+    "text": "Ebben a filmben Aussie David Caesar közvetíti Guy Ritchie nem halott karrierjét.",
+    "label": "neutral"
+  },
+  {
+    "text": "Talán szerencséje lesz, és áramkimaradás lesz a vetítés alatt, hogy visszakapja a pénzét.",
+    "label": "negative"
+  },
+  {
+    "text": "Scooter iróniájának kivételével hiányzik a jellemzések és a párbeszédek mélysége és összetettsége.",
+    "label": "negative"
+  },
+  {
+    "text": "Ezt a filmet azok az emberek készítették, akik gyűjtik a sorozatgyilkos kártyákat, és lenyűgözi őket a sorozatgyilkosok puszta említése.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nekünk, többieknek, végigülni a Dahmer két óráját, több, mint büntetés.",
+    "label": "negative"
+  },
+  {
+    "text": "A kábszeresek csak briliáns bűnügyi drámákra tud emlékeztetni minket, anélkül, hogy azzá válna.",
+    "label": "negative"
+  },
+  {
+    "text": "Valahol a World Traveler káoszából egy középszerű film próbál kijutni.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy unalmas példabeszéd az őszinteségről és a sportszerűségről.",
+    "label": "negative"
+  },
+  {
+    "text": "Erősségei és gyengeségei egymást gyakorlatilag patthelyzetbe helyezik, a szerencsétlen ütőkártya pedig a film sivár középszakasza.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy ügyes, de lehangoló film, ami egy melodramatikus drámát csinál egy eltűnt bicikliből.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film lényege - hogy mindenki legyen önmaga - elcsépelt, de a forgatókönyvíró és rendező Michel Gondry a nevetségességig újrafogalmazza ezt.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy B-kategóriás bosszúfilm fényes másolata.",
+    "label": "negative"
+  },
+  {
+    "text": "Kiterjeszti az unalom látókörét az összeomlás pontjára, és az unalom fekete lyukává válik, amelyből semmilyen érdekes fogalom nem menekülhet.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyszerűen unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez szomorú badarság.",
+    "label": "negative"
+  },
+  {
+    "text": "De nem giccses szórakozás nélkül.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyike azoknak az évtizedeken átívelő történelmi eposzoknak, amelyek arra törekszenek, hogy bensőségesek és társadalmilag átfogóak legyenek, de nem tesznek igazságot három órán belül.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nagyon buta, de alkalmanként nagyon vicces.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film ingadozik a Hallmark kártya szentimentalitása és a bolondos, életigenlő pillanatok között, egyenesen egy mobiltelefon-reklámból.",
+    "label": "neutral"
+  },
+  {
+    "text": "A rendező fordulatai és fondorlatai alig több, mint egy képernyőnyi játékszerűséget adnak össze, amiben kevés a feszültség és a csattanó.",
+    "label": "negative"
+  },
+  {
+    "text": "Míg a szentségtörő drogárusítás (különösen az őszinte szex jelenetek) biztosítják, hogy a film soha nem unalmas, Rodrigues belső szörny metaforája végső soron meglehetősen buta és erőltetett, így a kétértelmű vége ostobának tűnik, nem provokatívnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "A szatíra szét van esve, a történet pedig nem vezet sehova.",
+    "label": "negative"
+  },
+  {
+    "text": "Rengeteg pénzt összedobtak egy ötletre, aminek sokkal jobbnak kellene lennie még akkor is, ha csak tinifiúknak és birkózásrajongóknak készült.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Action Man belesüllyedt az elcsépelt, klisés forgatókönyvébe, a párbeszédek fásultak és a film egy váltakozó hangneme messze elmarad Woo legjobb művének erkölcsi erkölcstelenségétől.",
+    "label": "negative"
+  },
+  {
+    "text": "Reyes rendezői debütálásában vannak ígéretes dolgok, de ezeket végül a hanyag forgatókönyv közömbösíti.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha már elmúltál 25, az IQ-d 90 fölötti, és van jogsid, akkor minden bizonnyal fogsz ennél jobb szórakozást is találni.",
+    "label": "negative"
+  },
+  {
+    "text": "A nőgyűlölet és az indokolatlan erőszak sötétebb elemei megfojtják a két lány által létrehozott megvilágosodást és a gyér humorú eseteket, amelyeknek át kellene világítaniuk a film komor fekete fátylán.",
+    "label": "negative"
+  },
+  {
+    "text": "A film eszességét ironikus módon azok az emberek vették el, akik arra hivatottak, hogy ragyogóvá tegyék.",
+    "label": "negative"
+  },
+  {
+    "text": "Soha nem éri el a Lilo és Stitch a Disney nagy múltjának érzelmét vagy időtlenségét, vagy akár az újabb sikerekét, mint például a Mulan vagy a Tarzan.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyike azoknak a filmeknek, amik sokkal jobbak is lehettek volna.",
+    "label": "negative"
+  },
+  {
+    "text": "A Útkereszteződések olyan, mint egy tinédzser Ed Wood film, tele a serdülőkori botrányos célozgatásokkal és feszült, de petyhüdt drámával.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem tudja kielégítően kiaknázni nemi politikáját, műfaji izgalmát és a benne rejlő humort.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Interjú a bérgyilkossal kevésbé dokumentumfilm, mint inkább egy ereklye, és mint ilyen, a film nehezen találja meg a Blair Witch Project valós gyökereit.",
+    "label": "neutral"
+  },
+  {
+    "text": "Cacoyannis látomása sokkal kevésbé érett, úgy értelmezve a színdarabot mint az anakronisztikus fantazmák iránti szánalomra és együttérzésre való felszólítást, amelyek a saját múlt elképzelt dicsőségét kísértik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Több köze van a tűzijáték-kijelzőhöz, mint egy filmhez, mely utóbbiban elvárható lenne, hogy vannak karakterek és történet.",
+    "label": "negative"
+  },
+  {
+    "text": "Úgy tűnik, hogy olyan emberek készítették, akiknek a narratív logika vagy kohézió eszméje teljesen idegen fogalom.",
+    "label": "negative"
+  },
+  {
+    "text": "Kevésbé egy szívből jövő felhívás a fogyatékkal élőkért, mint inkább egy finom belga gofri.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem segít, ha szélsőségesek gúnyolódását hallgatjuk, függetlenül attól, hogy Kissinger egy számító ördög volt, vagy csak egy csúszós önreklámozó.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az Elhagyatva 90 percet tölt azzal, hogy kiderítse, vajon egy beképzelt, ál-intellektuális kölyök szándékosan hagyta-e ott az egyetemet, vagy megölték.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az egyetlen probléma az, hogy a végén, sem a közönségben, sem a filmben nem igazán érdekel senkit.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Ilyen nincs egyfajta minimalista A szépség és a szörnyeteg, de ebben az esetben a szörnyetegnek nyilvánvalóan top fizetése van.",
+    "label": "neutral"
+  },
+  {
+    "text": "Robert John Burke, mint A Szörnyeteg betoppan és ellopja a show-t.",
+    "label": "positive"
+  },
+  {
+    "text": "A nehézkes, szappanopera-szerű párbeszédek miatt a többi szereplő pálcikaemberként jelenik meg, akik egy súgógép sorait olvassák.",
+    "label": "negative"
+  },
+  {
+    "text": "T a film sohasem biztos abban, hogy egyértelmű álláspontot képvisel - még akkor sem, ha kétértelmű bemutatásra törekszik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bár lehet, hogy nem adja ki a részek összességét, Holofcener filmje éppen elég betekintést nyújt ahhoz, hogy ne legyen együgyű, és a szereplőgárda elég vonzó ahhoz, hogy megakadályozza, hogy túl sokat mocorogjon a székében.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy túlhajtott tajvani szappanopera három emberről és összekuszálódott kapcsolatukról.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy tűnik, senki sem nagyon törődött egyetlen aspektusával sem, a giccses forgatókönyvétől kezdve a megvilágítás szürkés minőségéig és  az utolsó pillanatban bekövetkezett színházi megjelenéséig.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy alapvetően szörnyű film - ostoba, narratívan kaotikus, vizuálisan hanyag... a \"The Thing\" és az öregkori \"Sikoly\" furcsa keveréke.",
+    "label": "negative"
+  },
+  {
+    "text": "Újabb példa arra, hogyan veszíti el Sandler az érzékeit.",
+    "label": "negative"
+  },
+  {
+    "text": "Semmi sem ragad meg belőle, tényleg, kivéve egy elhúzódó hátborzongató érzést, amit a fegyverek, drogok, kapzsiság és sérült álmok szomorú, mocskos univerzuma okoz.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ami a Panic Room 110 percében folyik, az az esztelenség csatája egy nem túl okos anya és lánya, és a feladatra még kevésbé alkalmas bűnözőkből álló trió között.",
+    "label": "negative"
+  },
+  {
+    "text": "A cselekmény kényelmetlenül feszült eszközöket használ.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bűnös egy ilyen filmnek tulajdonítható legszörnyűbb bűnben: a legcsekélyebb mértékben sem ijesztő.",
+    "label": "negative"
+  },
+  {
+    "text": "Schnieder petyhüdt csuklóval ugrál, szűk pocakos felsőt és csípőre húzott nadrágot visel, a haját az ujján csavargatja, és azt feltételezi, hogy ez elég a nevetés fenntartásához...",
+    "label": "negative"
+  },
+  {
+    "text": "Az egyszerűsége kiemeli, hogy nem komolyan veendő, de tönkre is teszi a film minden esélyét arra, hogy a többi - hasonló áras - film fölé emelkedjen.",
+    "label": "negative"
+  },
+  {
+    "text": "Az utolsó sípszó után meg vagy győződve arról, hogy a Gépállat SC egy tisztességes tévés iparosmunka volt, aminek nincs varázsereje a mozivásznon.",
+    "label": "negative"
+  },
+  {
+    "text": "Azt mondani, hogy ez a sápadt jármű egyenesen buta és eseménytelen ugyanolyan nyilvánvaló, mint azt mondani hogy egy ország bűzös borz, és bűzlik.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy film üres, fetisiszta erőszakról, amiben a gyilkosság alkalmi és szórakoztató.",
+    "label": "neutral"
+  },
+  {
+    "text": "Tégy úgy, mintha vérfarkas lenne, kerüld a szemkontaktust, és sétálj el lassan.",
+    "label": "negative"
+  },
+  {
+    "text": "Jó móka, de egy igazi üvöltő.",
+    "label": "neutral"
+  },
+  {
+    "text": "Néhány jó színészi alakítás, de végső soron egy film, amelynek nincs létjogosultsága.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nehéz bármit is érezni, miközben ezt a filmet nézzük, az enyhe zavarodottságon vagy az elkülönült élvezeten kívül.",
+    "label": "negative"
+  },
+  {
+    "text": "A \"Végzetes vonzerő\" felvizezett változata az apró-cseprő díszletnek... egy szomorú, csöpögős pénzgyár, ami elpazarolja vonzó fiatal kuncsaftjainak tehetségét.",
+    "label": "negative"
+  },
+  {
+    "text": "Laposan meséli el a történetét, és azt a benyomást kelti az emberben, hogy többet kellett volna kihoznia belőle, mint amennyit kapott.",
+    "label": "negative"
+  },
+  {
+    "text": "Édes, drága Jézus, a forgatókönyvírók idemásolták a történelem összes rossz akciófilmjének minden sorát?",
+    "label": "negative"
+  },
+  {
+    "text": "Nem ez az év legrosszabb vígjátéka, de biztosan nem fog semmilyen kitüntetést nyerni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez nagyrészt egy haszontalan film, még egy nagyszerű rendező is ült a kormánynál.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy hangos, szellemtelen zűrzavar, amiben nincs meg a tévésorozat varázsa és kevés az intrika.",
+    "label": "negative"
+  },
+  {
+    "text": "A saját nevetséges módján, The Sum of All Fears létrehoz egy kis narratív lendületet, és kellemetlen összehasonlítgatást indítványoz a Ryan sorozat más részeivel.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár inspirál némi terepen kívüli kreatív gondolkodásra, a film - saját kárára - sokkal inkább filmes kollázs, mint polemikus traktátus.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan kiszámítható, mint a Globetrotters-Generals játék eredménye, Juwanna Mann még nevetségesebb, mint azt a fiú-női-ruhában műfajtól várnánk, mindenkinek, aki ebben részt vett, élete legrosszabb alakítása.",
+    "label": "negative"
+  },
+  {
+    "text": "Belesüllyed a fingós, maszturbációs viccek és rasszista japános humor szokásos éttermi gulyásába.",
+    "label": "negative"
+  },
+  {
+    "text": "Míg Tom Green az amerikai erkölcsi szentségtörés elleni támadásként állítja színpadra gegjeit, addig a Jackass nem törekszik társadalmi felfordulásra.",
+    "label": "neutral"
+  },
+  {
+    "text": "Inkább érdekesség, mint izgalmas thriller.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az amerikai függetlenségi háború 2002 áprilisi installációja, kiegészítve rengeteg CGI -jal és egy véka erőszakkal, de egy csepp emberi vér nélkül.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Twinkie minden anyagát tartalmazza - könnyen lenyelhető, de nem túl kielégítő.",
+    "label": "neutral"
+  },
+  {
+    "text": "Visszatérés Sohaországba sikerrel ingadozik, hogy a cég újabb klasszikusa vagy csak egy újabb, házi video piacra szánt, futottak még Disney folytatást legyen.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ritkán jön egy ilyen kegyetlen és érdemtelen film, mint ez.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy vékony, ismétlődően nagyjátékfilm hosszúságúra nyújtott, öntudatosan hivalkodó kamerabeállításokban, harsogó házi zenében és igazán lapos párbeszédekben bővelkedő elképzelés.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy bizonyos szinten a Sorsdöntő nyár valóra váltja, amit ígér, csak nem elég jól ahhoz, hogy érdemes legyen ajánlani.",
+    "label": "negative"
+  },
+  {
+    "text": "A színes masszőr túlságosan a hangulatépítésre pazarolja az idejét, mintsem hogy Ganesh társadalmi ranglétrán való felemelkedésének inherens abszurditásával foglalkozna.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy hihetetlenül keménykezű, manipulatív tuskó, aki nagyon ismerősnek tűnik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Azzal, hogy a PG-13 besorolást elérte, elszaladt a ló, így a grafikusabb erőszak többnyire a képernyőn kívülre kerül, a szexualitás pedig visszafogottan jelenik meg.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Csapdában egy ijesztő és lenyűgöző \"Mi lenne, ha?\"-t mutat be.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy jelent, ami a legtöbb szülőt megállítja... aztán valami szörnyűség történik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Madonna már annyiszor átrendezte magát, hogy úgy tűnik, nem maradt más, amivel dolgozni lehetne, mint Michael Jackson orra.",
+    "label": "negative"
+  },
+  {
+    "text": "Soha nem láttam az első két filmet a sorozatból, nem tudom összehasonlítani a Friday After Next-et velük, de semmi sem változtatna a tényen, hogy ami itt van, az egy rakás kagyló, ami a tűző napon maradt jó három napig.",
+    "label": "negative"
+  },
+  {
+    "text": "A történetnek nincs valódi érzelmi hatása, és a cselekmény egyaránt kitalált és közhelyes.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy züllött, összefüggéstelen, azonnal eldobható hacker.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy rossz akciófilm, mert nem kelt érdeklődést és a látvány groteszk és unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Soderbergh hajlamos a legtöbb pszichológiai és filozófiai anyagot dőlt betűkbe helyezni ahelyett, hogy megbízna a közönség intelligenciájában.",
+    "label": "negative"
+  },
+  {
+    "text": "Mutatós és őszinte, de kissé kínos a szórakoztatás és az evangélikus elemek kombinációja.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan agresszívan vidám, hogy Pollyana egy hányós zacskóért nyúlna.",
+    "label": "negative"
+  },
+  {
+    "text": "A Scooby-Doo nem tudja, hogy az affektált újragondolás retro-javító gyakorlata legyen az idősebb rajongók számára, vagy egy buta, nickelodeon-szerű gyerekfilm.",
+    "label": "negative"
+  },
+  {
+    "text": "Russellből hiányzik a vizuális magabiztosság, a komikus érintés, és talán Sommers címadó vonásainak költségvetése is.",
+    "label": "negative"
+  },
+  {
+    "text": "Nagyon egyenetlen és következetlen... A Margarita Happy Hour egészen hasonlít a filmben felszolgált \"el cheapo margarita\"-kra.",
+    "label": "negative"
+  },
+  {
+    "text": "Nagyon buta és idegesítő.",
+    "label": "negative"
+  },
+  {
+    "text": "Az \"Összes félelem összege\" úgy tesz, mintha a nukleáris terrorizmus az ő felfedezése lenne, de valójában nem több, mint egy felmelegített hidegháborús paranoia.",
+    "label": "negative"
+  },
+  {
+    "text": "Fásult és kapkodós dolog.",
+    "label": "negative"
+  },
+  {
+    "text": "Azt a mélységet jelképezi, amelybe a rosszalkodó lányos film esett.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mennyire alkalmatlan dolog Sarát kiszolgálni?",
+    "label": "neutral"
+  },
+  {
+    "text": "Ettől még Elizabeth Hurley is kecsesnek és csúnyának tűnik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Tele van szó szerint ütős viccekkel.",
+    "label": "positive"
+  },
+  {
+    "text": "Kb. 5 percenként valakit kiütnek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Megkapja a szavazatomat a \"A 2002-es év mozi ellensége\" díjra.",
+    "label": "negative"
+  },
+  {
+    "text": "Bármilyen Csehov jobb, mint a semmi Csehov, de szégyen lenne, ha ez lenne az elmúlt 100 év egyik legnagyobb darabjának a beharangozója.",
+    "label": "negative"
+  },
+  {
+    "text": "Helmer Hudlin egy csípős vígjátékot próbált meg készíteni, de a helyzetkomikumtól való függősége legyőzi annak a lehetőségét, hogy egy sötétebb hangulatú művet hozzon létre.",
+    "label": "negative"
+  },
+  {
+    "text": "Lusta, szánalmas és önelégült.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez az év egyik legnagyobb csalódása.",
+    "label": "negative"
+  },
+  {
+    "text": "Formula 51 gyorsabb és mélyebben tompította az érzékeket, mint bármely rekreációs gyógyszer a piacon.",
+    "label": "neutral"
+  },
+  {
+    "text": "Minden vizuális vicc túl van tolva, minden beállítás nyilvánvaló és hosszadalmas, minden csattanó kiszámítható.",
+    "label": "negative"
+  },
+  {
+    "text": "Nincs energia.",
+    "label": "negative"
+  },
+  {
+    "text": "Attal író-rendező nyilvánvalóan úgy gondolta, hogy csak magára és az alsóneműben ücsörgő filmsztár feleségére van szüksége, hogy létrehozzon egy filmet.",
+    "label": "negative"
+  },
+  {
+    "text": "A beállítás után a levegő kiszivárog a filmből, lelapítva lendületét körülbelül egy órával az indulás előtt.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy egyszerű kirakatfilm, középszerű tisztelgés az olyan filmek előtt, mint az Ők.",
+    "label": "neutral"
+  },
+  {
+    "text": "Három óra után és nagyon kevés történet- vagy karakterfejlesztéssel, rengeteg szerkesztést igényel a film, és egy sokkal rövidebb vágás biztosan simább, koncentráltabb narratívát eredményezett volna a kulturális intrika feláldozása nélkül.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kicsit túl derivatív ahhoz, hogy önállóan megálljon pszichológiai thrillerként, amelyről azt állítja, hogy az.",
+    "label": "negative"
+  },
+  {
+    "text": "Nyers, tinédzserközpontú változat egy olyan témára, amelyet Craig Lucas drámaíró jóval elegánsabban és ékesszólóbban tárt fel az Előjáték egy csókhoz címú filmjében.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film sötétebb pillanatait elsimítja az az elsöprő szükséglet, hogy inspiráló híreket közöljön, különösen az utolsó néhány megdermedő pillanatban.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha felismered Zeuszt (a kutyát a Snatch-ből), azt fogod kívánni, bárcsak otthon lennél és azt a filmet néznéd, ahelyett, hogy a moziban nézed ezt.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez az a fajta film, amit csak harminc másodpercig kell nézni, mielőtt azt mondod magadnak: \"Igen, itt van egy rossz film.\"",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan, mint egy ellenőrzőlista mindenről, amit Rob Reiner és szereplői küldtek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Túl sok az erőltetett dráma ebben a vadul egyenetlen filmben, egy fiatalember harcáról az elkerülhetetlen múltjával és bizonytalan jövőjével egy nagyon megingathatatlan, de nagyrészt beteljesületlen jelenben.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyszerre nevetséges és mégis határozottan nézhető ostobaság.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy jó vámpírtörténet minden érzékiségét, minden erotikáját, bocsánat a szóviccért, kiszívták, és gótikus butasággal helyettesítették.",
+    "label": "negative"
+  },
+  {
+    "text": "A különbség a Betépve és a Fekete vidék között, hogy ez utóbbi igyekszik több lenni, de nem igazán sikerül neki.",
+    "label": "negative"
+  },
+  {
+    "text": "A jó alakítások megakadályozzák, hogy egy totális felsülés legyen.",
+    "label": "neutral"
+  },
+  {
+    "text": "A forgatókönyv óriási mértékben túl van írva, iszonyatosan rengeteg párbeszéddel, s a legtöbbet a gyerekek kapják.",
+    "label": "negative"
+  },
+  {
+    "text": "Foszd ki a helyi videotéka kultrészlegét a legjobb cuccokért.",
+    "label": "neutral"
+  },
+  {
+    "text": "Időnként a film igazán szépnek tűnik.",
+    "label": "positive"
+  },
+  {
+    "text": "A rémálmaid mindenfélék lesznek, csak ilyenek nem.",
+    "label": "neutral"
+  },
+  {
+    "text": "Még Fellini sem tudná, mihez kezdjen ezzel az olasz torzszülöttel.",
+    "label": "negative"
+  },
+  {
+    "text": "Elmo úgy hirdeti magát, hogy a saját drogja 51-szer erősebb a kokónál.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha olyan történetet keresel, amiben britek rosszalkodnak, nézd újra a Blöfföt.",
+    "label": "neutral"
+  },
+  {
+    "text": "51-szer jobb, mint ez.",
+    "label": "negative"
+  },
+  {
+    "text": "Nehéz elképzelni, hogy bárki, aki elérte a pubertáskort, ténylegesen szórakoztatónak, netán viccesnek fogja találni a Svihákok - A nyúl viszi a puskát karaktereit vagy humorát.",
+    "label": "negative"
+  },
+  {
+    "text": "Az ígéretes szereplőgárda ellenére a Totál káosz szkeccsek lazán összefűzött sorozata marad, ami bizonyítja, hogy ami bolondos, az nem feltétlenül vicces is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egyszerre harsány és altató, és mivel minden ötször-hatszor megismétlődik, fárasztóan együgyűnek tűnhet.",
+    "label": "negative"
+  },
+  {
+    "text": "A film humora vagy alapötletei nem merészkednek elég messzire ahhoz, hogy különösen emlékezetessé vagy akár viccessé váljon.",
+    "label": "negative"
+  },
+  {
+    "text": "Sem revelatív, sem igazán éles, csupán durván hivalkodó és komikusan megerőltető.",
+    "label": "negative"
+  },
+  {
+    "text": "Úgy tűnik, mindenki, aki részt vett benne, a partvonalon maradt.",
+    "label": "negative"
+  },
+  {
+    "text": "Van néhány szerény nevetés, de biztosan semmi izgalom.",
+    "label": "neutral"
+  },
+  {
+    "text": "Annyira alapvetően elbukik minden hagyományos szinten, hogy valamiféle ostoba nagyszerűségre tesz szert.",
+    "label": "neutral"
+  },
+  {
+    "text": "A kitartó színházi érzelem és a gyenge történetmesélés, aláássa a teljes veszteség pusztító hatását a film egyszerű címében.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár Howard Brown és írói munkásságának elismerése nyilvánvalóan jó szándékú és őszinte, a filmet lehetetlen lenne végigülni, ha nem lennének a mellékszereplők.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy abszurd, kéjsóvár krimi.",
+    "label": "neutral"
+  },
+  {
+    "text": "Gyerünk, lányok, egyenesen a valóság lefolyójába.",
+    "label": "neutral"
+  },
+  {
+    "text": "A legrosszabbul megrendezett és megvilágított akciókkal büszkélkedő Imposztor olyan közel áll egy imitációs filmhez, amennyire csak lehet.",
+    "label": "negative"
+  },
+  {
+    "text": "Az egyik ilyen \"alternatív valóság\" filmek közé sorolható... kivéve, hogy sokkal jobban működött volna, ha csak egy valósággal foglalkozik.",
+    "label": "negative"
+  },
+  {
+    "text": "Kiszámítható és nyálas, de a Hip-hop szerelem annyira komolyan vágyik azokra az időkre, mielőtt még a rap nihilista lett volna, hogy több szellemesség és csípősség van benne, mint egy átlagos, sablonos romantikus négyesben.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ellenszenves, érdektelen, komolytalan, és teljesen alkalmatlan.",
+    "label": "negative"
+  },
+  {
+    "text": "A film annyira el van foglalva azzal, hogy más filmekre hivatkozzon, és megpróbáljon más filmek lenni, hogy nem rendelkezik saját szívvel, elmével vagy humorral.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy meghökkentően csökönyös és öntudatosan művészi film.",
+    "label": "neutral"
+  },
+  {
+    "text": "A zavaros, melodramatikus paranormális románc Kevin Costner mindenkori mélypontja.",
+    "label": "negative"
+  },
+  {
+    "text": "Túl ügyetlen a fontos pillanatokban, hogy nagyot csattanjon.",
+    "label": "negative"
+  },
+  {
+    "text": "Csak egy rakás jó színész, akik egy sem nem eredeti, sem nem borzasztóan vicces bohózatban csaponganak.",
+    "label": "negative"
+  },
+  {
+    "text": "\"Mátrix-stílusú\" mészárlások jellemzik... de a filmnek nehezebb dolga van az erőszak és a Kafka ihlette filozófia egyensúlyozásával.",
+    "label": "neutral"
+  },
+  {
+    "text": "Legalábbis a rendező, Charles Stone III. meglehetősen hatásos bemutatkozása.",
+    "label": "positive"
+  },
+  {
+    "text": "Minden kiszámíthatóan alakul, az útközben bekövetkező kalandok ismétlődőnek és időhúzóknak tűnnek, és nem nyújtanak igazi feszültséget.",
+    "label": "negative"
+  },
+  {
+    "text": "Szabadlábon vannak a bunkó Gótok!",
+    "label": "neutral"
+  },
+  {
+    "text": "Fussatok az életetekért!",
+    "label": "neutral"
+  },
+  {
+    "text": "Miért adna bárki is szerepet a csodálatos Jackie Chan-nek egy kaszkadőrdublőrökkel és speciális effektekkel teli filmben?",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy csikorgó, lecsupaszított film.",
+    "label": "negative"
+  },
+  {
+    "text": "Nemtörődöm írás jelenik meg a filmben, egy olyan cselekményt használva, amely egy animációs film forgatókönyvírói tankönyvéből származhat.",
+    "label": "neutral"
+  },
+  {
+    "text": "Jól mutatja be az ügyet, miközben nem ad okot arra, hogy az emberi tisztesség alapvető diktátumain túl érdekeljen bennünket.",
+    "label": "neutral"
+  },
+  {
+    "text": "A költőiség a bohózattal szemben áll, az elgondolkodtató párbeszédeket félretolják az egysorosok, és a vizuális stílusban a rotoszkópos animáció minden látható ok nélkül, kivéve talán azt, hogy jól néz ki.",
+    "label": "negative"
+  },
+  {
+    "text": "A forgatókönyv szerint Grant és Bullock karakterei egymásnak vannak teremtve.",
+    "label": "neutral"
+  },
+  {
+    "text": "De az alakítások alapján ezt nem gondolnád.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az animáció csupán egy kiszámítható, érzelgős történetet szolgál ki, amely Bambitól és az Oroszlánkirálytól származik, de hiányzik belőle bármelyik film érzelmi rezonanciája.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Ararát olyan, mint egy könyvismertető.",
+    "label": "negative"
+  },
+  {
+    "text": "Steve Oedekerk sajnos nem Woody Allen.",
+    "label": "negative"
+  },
+  {
+    "text": "Sokban hasonlít a képernyőn mutatott képzeletbeli sportra – hangos, erőszakos és esztelen.",
+    "label": "negative"
+  },
+  {
+    "text": "A The Fugitive, a Blade Runner és a Total Recall keveréke, csak sok energia és feszültség nélkül.",
+    "label": "negative"
+  },
+  {
+    "text": "A színészi játék amatőr, az operatőri munka borzalmas, a rendezés ügyetlen, az írás ízléstelen, az erőszak pedig egyszerre rettentően szemléletes és nevetségesen hiteltelen.",
+    "label": "negative"
+  },
+  {
+    "text": "Megmutatja, hogy Jackie Chan öregszik, ez pedig olyasmi, amivel nem szeretnék szembenézni.",
+    "label": "negative"
+  },
+  {
+    "text": "A rossz főszereplőkkel, banális párbeszédekkel és egy abszurd módon túlzó csúcspontjával a Magassági mámor határozottan az annyira rossz, hogy az már jó táborba tartozik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sajnos a fellépéseikről bemutatott fekete-fehér archív felvételek igen középszerűek.",
+    "label": "negative"
+  },
+  {
+    "text": "A pálca megmunkált, a nagyobb részletek pedig laposak.",
+    "label": "negative"
+  },
+  {
+    "text": "Az a fajta film, amelyben az emberek, akik eddig még nem törtek fel egy zárat se, pár próbálkozás után könnyedén megteszik, illetve pár hét alatt kimagaslóan jó harcosokká válnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem az a baj A hetedik mennyországban lévő káosszal, hogy sértő, hanem hogy piszkosul unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "A digitálisan módosított felvételek nagy része olyan rossz minőségű, mintha közvetlenül egy televízió képernyőjéről vették volna fel, míg a stockvideók széles körű használata pillanatok alatt fárasztó klisévé válik.",
+    "label": "negative"
+  },
+  {
+    "text": "A film soha nem emelkedik a hagyományos, kétdimenziós mese fölé.",
+    "label": "negative"
+  },
+  {
+    "text": "Mark Wahlberg kinézhet akármilyen stílusosan egy 60-as évekbeli keménykalapban, ha a karaktere száraz.",
+    "label": "negative"
+  },
+  {
+    "text": "A szétszórtan elmesélt film csak időszakosan felel meg a film alapjául szolgáló férfiak történeteinek, arcának és zenéjének.",
+    "label": "negative"
+  },
+  {
+    "text": "Az irónia az egészben az, hogy ennek a filmnek a szereplőgárdája teljes egészében kiváló; alakításaik önmagukban is képesek lettek volna helytállni.",
+    "label": "positive"
+  },
+  {
+    "text": "Most már értem, miért gondolták az emberek, hogy túl kemény vagyok a Megszólít az éjszakához.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha létezik olyan ötlet, amit a mozi istenei ezüsttálcán kínáltak, hát ez az.",
+    "label": "positive"
+  },
+  {
+    "text": "Ha egy megbízható koncepciót elfuseráltak a végrehajtás során, akkor itt ez történt.",
+    "label": "negative"
+  },
+  {
+    "text": "Szokatlan főszereplőjével a skótszoknyát viselő Jacksonnal és témájával, a hihetetlen \"A hetedik mennyország\" valamilyen szinten szórakoztató, de lehetett volna sokkal erősebb is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sandra Bullock eddigi legjobb drámai alakítása majdnem elég ahhoz, hogy ezt a thrillert a sablonos cselekmény fölé emelje.",
+    "label": "neutral"
+  },
+  {
+    "text": "Jó hangulatú film, azonban nem ad eleget ahhoz, hogy jónak érezd.",
+    "label": "neutral"
+  },
+  {
+    "text": "A filmben lévő bolondozás és helyzetkomikum éretlen keveréke megfelelően kiszolgálja a tiniket, bár a perverzebb gondolkodásúaknak csalódás lehet egy olyan film relatív visszafogottsága, ami \"topless korrepetálási szolgáltatással\" reklámozza magát.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez a téves identitáskép annyira filmkultúrás utalás, hogy a végtermék egy szellem.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film meglepően vérszegény, ezért csalódás.",
+    "label": "negative"
+  },
+  {
+    "text": "De Niro sír.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sírni fogsz a pénzed visszafizetéséért.",
+    "label": "negative"
+  },
+  {
+    "text": "Üss meg, láttam ezt a filmet.",
+    "label": "negative"
+  },
+  {
+    "text": "A kölyök egyszerűen túl nyafka ahhoz, hogy szimpátiát váltson ki, és ahogy a film a fináléhoz közeledik, a kis változásai üresen csengenek.",
+    "label": "negative"
+  },
+  {
+    "text": "A csillogás mögött Hollywood mocskos és undorító.",
+    "label": "negative"
+  },
+  {
+    "text": "Micsoda meglepetés!",
+    "label": "positive"
+  },
+  {
+    "text": "Scherfig, aki sikeres karriert futott be a TV-ben, többel is megbirkózik, mint amit elbír.",
+    "label": "positive"
+  },
+  {
+    "text": "Gondoljuk csak végig, mi minden hiányzik a New Best Friend-ből, kezdve a forgatókönyv kisebb hiányosságaival.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Oscar-kaliberű szereposztás nem felel meg az anyagnak.",
+    "label": "negative"
+  },
+  {
+    "text": "A \"Szerelmesek a pénz idején\" problémái aligha specifikusak a saját korukban.",
+    "label": "neutral"
+  },
+  {
+    "text": "Csak problémái vannak, amelyek nem eredetiek és nem is hitelesek.",
+    "label": "negative"
+  },
+  {
+    "text": "Ezt az ostyavékony filmet a fürge vállán cipelve Chan átgázol a rothadó íráson, rendezésen és időzítésen, olyan mosollyal, ami azt súgja: `Ha pozitív maradok, akkor talán az egyik legjobb filmemet, a Részeges mestert is megidézhetem.",
+    "label": "neutral"
+  },
+  {
+    "text": "Annyira rohadt, hogy nem éri meg a gyufa árát, amivel el kellene égetni a film minden egyes kópiáját.",
+    "label": "negative"
+  },
+  {
+    "text": "Végül a film jelentéktelenné válik, és semmit sem mond Kennedy meggyilkolásáról, és semmit sem árul el a patológiáról, amely után úgy tesz, mintha nyomozna.",
+    "label": "negative"
+  },
+  {
+    "text": "Tökösnek és stílusosnak indul, de nem tartja meg, és közhelyessé válik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Néha még kevésbé van értelme, mint a Bruckheimer-féle amerikai akciófilmeknek, amiket utánoz.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyike azoknak a filmeknek, ahol a karakterek a pokol különleges szegletében laknak, ahol a felnőttek úgy viselkednek, mint a gyerekek, a gyerekek úgy viselkednek, mint a felnőttek, és mindenki teli torokból üvölt, nem számít, mi a helyzet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Csak egy módon lehet végleg megölni Michael Myers-t : ne vegyél többször jegyet ezekre a filmekre.",
+    "label": "negative"
+  },
+  {
+    "text": "A \"Rare Birds\" megpróbálja ráerőltetni furcsaságát a közönségre.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film körülbelül annyira humoros, mintha azt néznéd, ahogy a kedvenc háziállatodat élve eltemetik.",
+    "label": "negative"
+  },
+  {
+    "text": "A Resident Evil olyan mintha John Carpenter Ghosts of Mars című filmjéből kivesszük a lefejezéseket.",
+    "label": "neutral"
+  },
+  {
+    "text": "Más szóval, kb. olyan rossz, mint egy film, amit valószínűleg egész évben látni fogsz.",
+    "label": "negative"
+  },
+  {
+    "text": "Öt forgatókönyvírónak tulajdonítják a klisékkel teli forgatókönyvet; úgy tűnik, mintha mindegyikük felhígította volna az előző változatát.",
+    "label": "negative"
+  },
+  {
+    "text": "Az egész úgy sül el, mint a Bűbáj egy amatőr epizódja, ami a tavaszi szünetben játszódik.",
+    "label": "negative"
+  },
+  {
+    "text": "A Bloodwork nem egy borzalmas film, csak egy bénítóan nyilvánvaló alkotás - egy rejtélyes gyilkossághoz képest nem kifizetődő sallang.",
+    "label": "neutral"
+  },
+  {
+    "text": "Tehát a Tíz kicsi indián találkozik a Péntek 13-mal a Tiszta és józan filmmel, amelyet Carpenter A dolog című filmjének forgatásán forgattak, és tele van olyan színészekkel, akiket valószínűleg a Szerelemhajó következő, elkerülhetetlen reinkarnációjában is megtalálsz majd.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film kirívó eredete az egyik oka annak, hogy ennyire unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "A gyerekeket nem zavarják annyira a gagyi filmek, mint a felnőtteket, feltéve, hogy sok aranyos állat és ügyetlen ember van benne.",
+    "label": "neutral"
+  },
+  {
+    "text": "Kutyabajnokban mindkettő van.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mintha ez egy jól kidolgozott feladat lenne, mint egy teljes értékű film.",
+    "label": "positive"
+  },
+  {
+    "text": "A \"Carmen\" szenegáli aktualizálása, amely Djeinaba Diop Gai lenyűgöző alakítása miatt olyan jó.",
+    "label": "positive"
+  },
+  {
+    "text": "Ez az a humanizáló dolog, ami valószínűleg elsüllyeszti a filmet mindazok számára, akik nem gondolkodnak egész nap a százalékokon.",
+    "label": "negative"
+  },
+  {
+    "text": "Ken Russell imádná.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az egyik jelenetben a futballhuliganizmust, Quentin Tarantino csúcspontot jelentő lövöldözését idézzük meg - és Meat Loaf felrobban.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bella az egészség mintaképe, határtalan energiával, egészen néhány nappal a halála előttig.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez teljesen nevetséges, és sértés minden olyan család számára, amelynek édesanyja átélte a rák okozta halál szörnyű fájdalmát.",
+    "label": "negative"
+  },
+  {
+    "text": "Az \"Abandon\" előzményei ígéretesek,... de a megvalósítás egy teljes zűrzavar.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az új technológia ijesztő csábító erejéről szóló kis krimi elveszíti a saját életképességébe vetett hitét, és élvezhetetlen speciális effektusokkal teli túlzásba esik.",
+    "label": "negative"
+  },
+  {
+    "text": "A Monsoon Wedding egy kicsit túl nehézkes ahhoz, hogy sekélyes szórakoztatásként működjön, távolról sem elég éleslátó ahhoz, hogy drámának minősüljön, és leginkább arra szolgál, hogy meghozza az ember kedvét a bollywoodi filmekhez.",
+    "label": "negative"
+  },
+  {
+    "text": "Hacsak nem érdekel különösebben Bob Crane, akkor a film lenyűgöző alakításai és ügyes rendezése valószínűleg nem fog maradandó benyomást tenni.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Rock jelenléte nagyszerű, de egyik csata a másik után nem ugyanaz, mint egy csata, amelyet gyilkos CGI-effektusok követnek.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Nemezis esetében a lényeg ugyanaz, mint a sorozat összes filmjénél: A rajongók kétségtelenül élvezni fogják, a nem elkötelezetteknek pedig nem kell rá pazarolniuk az idejüket.",
+    "label": "neutral"
+  },
+  {
+    "text": "A tetves John Q kiköpi Denzel Washington remek teljesítményét a címszerepben.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az egész egy cselnek tűnik, egy taktikának, ami elfedi azt a tényt, hogy a film egy gyenge magra épül - vagy ami még rosszabb, nem létező eszmékre.",
+    "label": "negative"
+  },
+  {
+    "text": "Micsoda fullasztóan komolytalan és eredietlen zagyvaság ez!",
+    "label": "negative"
+  },
+  {
+    "text": "A film annyira tele van a különböző Silbersteineket érintő mellékszálakkal, hogy inkább tűnik egy tévésorozat pilot epizódjának, mint játékfilmnek.",
+    "label": "negative"
+  },
+  {
+    "text": "Az opera filmen sosem kielégítő.",
+    "label": "negative"
+  },
+  {
+    "text": "A művészet megköveteli az élő megtekintést.",
+    "label": "neutral"
+  },
+  {
+    "text": "A veleszületett színpadiasság, amely izgalmait és extrém érzelmeit biztosítja, elveszíti fényét, amikor a képernyőn lelapul.",
+    "label": "neutral"
+  },
+  {
+    "text": "A zárt ajtók mögött zajló zűrzavar ellenére a film lényegében szaft nélküli.",
+    "label": "negative"
+  },
+  {
+    "text": "Szűklátókörű, néhány kiválasztott számára hozzáférhető, mindenki mással szemben távolságtartó, és önelégülten azt sugallja, hogy a felsőbbrendű erkölcsi hangnem fontosabb, mint a filmkészítési készség.",
+    "label": "negative"
+  },
+  {
+    "text": "A legédesebb dolog szörnyű savanyú ízt hagy.",
+    "label": "neutral"
+  },
+  {
+    "text": "Elveszítette a politikát és a társadalmi megfigyelést, csak egy újabb szituációvá vált romantika néhány balfácánról, akik egy artikulálatlan forgatókönyvben ragadtak.",
+    "label": "negative"
+  },
+  {
+    "text": "Végtelenül unalmas, fájdalmasan lassú és szükségtelenül zavaró... A film, amelyet digitális videokazettával készítenek, nem pedig filmmel, gyakran megfejthetetlen.",
+    "label": "negative"
+  },
+  {
+    "text": "Bármennyire is ostobák és giccsesek, a rajzfilmek szinte Shakespeare-szerűnek tűnnek - mind mélységükben, mind terjedelmükben -, miután megnéztük ezt a digitális effektekkel teletűzdelt, állítólag családbarát vígjátékot.",
+    "label": "neutral"
+  },
+  {
+    "text": "Zárkózott és híján van a valódi nyers érzelmeknek, ami végzetes egy olyan film számára, amely a személyes kapcsolatokra támaszkodik.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Alien-filmek olcsó újrajátszása.",
+    "label": "negative"
+  },
+  {
+    "text": "A legjobb esetben javítható, a legrosszabb esetben kevésbé.",
+    "label": "neutral"
+  },
+  {
+    "text": "A kezdeti izgalom egy felmelegített pasztízsbe torkollik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy nagy adag klisé, amit a tehetséges színészek megfojtanak.",
+    "label": "negative"
+  },
+  {
+    "text": "A történetnek kevés szellemessége van, és nincsenek meglepetések.",
+    "label": "negative"
+  },
+  {
+    "text": "A Merchant-Ivory csapat továbbra is szisztematikusan elpusztít mindent, ami kedves a moziban, csak most kezd belelendülni, hogy még több kárt tudjon okozni.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy hollywoodi szatírának kellett volna lennie, ehelyett körülbelül olyan friss, mint a Variety múlt heti száma.",
+    "label": "negative"
+  },
+  {
+    "text": "Hé, mindenki, akartok nézni egy filmet, amiben egy gyerekbulis bohócnak öltözött fickót csoportosan megerőszakolnak?",
+    "label": "negative"
+  },
+  {
+    "text": "Nem hiszem.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy kicsit több intenzitás és egy kicsit kevesebb báj megmenthette volna ezt a filmet egy világnyi fájdalomtól.",
+    "label": "negative"
+  },
+  {
+    "text": "T az ő moslékában még kultuszfilmként sincs potenciál, mert túl hangosan kiabálja a sértéseket a vászonra.",
+    "label": "negative"
+  },
+  {
+    "text": "A film cselekménye szinte teljesen szellemtelen és értelmetlen, minden geget kétszer-háromszor elsüt és túlzásba visz a nevetés fenntartásának határán.",
+    "label": "negative"
+  },
+  {
+    "text": "Működhet, mint addiktív bűnös élvezet, de soha nem győzi le megkérdőjelezhető szatirikus ambivalenciáját.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ennek a Scarletnek a betűje A...",
+    "label": "neutral"
+  },
+  {
+    "text": "Céltalan, fáradságos és önkényes.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan mint egy fénylő melodráma, amely időnként már-már a határon táncol.",
+    "label": "neutral"
+  },
+  {
+    "text": "A központi karakter nem elég összetett ahhoz, hogy fenntartsa az érdeklődésünket.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy szerényen komikus, szerényen akció-orientált második világháborús kaland, amely a hitelesség szempontjából egyike azoknak a filmeknek, amelyek megkövetelik az ellenségtől, hogy soha ne lőjön egyenesen.",
+    "label": "positive"
+  },
+  {
+    "text": "Egy kutyus olyan kétségbeesetten keresi a figyelmet, hogy majdnem kitöri a kis nyakát, miközben szórakoztató trükköket próbál végrehajtani.",
+    "label": "neutral"
+  },
+  {
+    "text": "Megközelítőleg az összes film zavaró valamely szinten, így Ararat sokkal igényesebb, mint amilyennek lennie kell.",
+    "label": "positive"
+  },
+  {
+    "text": "Egy kicsit kevésbé extrém, mint a múltban, hosszabb expozíciós szekvenciákkal, és kevesebb poénnal - az unalom megtörése végett.",
+    "label": "neutral"
+  },
+  {
+    "text": "A filmet az \"ott voltam, azt tettem\" súlyos bűze lengi körül.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez minden, amire számíthatsz, és semmi több.",
+    "label": "neutral"
+  },
+  {
+    "text": "A legnagyobb probléma a Satin Rouge-zsal maga Lilia.",
+    "label": "negative"
+  },
+  {
+    "text": "Ő egy rejtély, akit egy mosolygó színésznő játszik, aki néha ráncolja a homlokát, de nem mutatja meg a belső életét.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy furcsa, romantikus ábrázolás.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mivel a szüntelen lounge zene szól a film hátterében, összetéveszthetitek a Love Lizát egy Adam Sandler Chanukah dallal.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film nehézkes forgatókönyve gyorsan átcsúszik a nagyzolásba és a nagyképűségbe.",
+    "label": "negative"
+  },
+  {
+    "text": "A potenciálisan jó komikus alapfeltevés és a kiváló szereposztás borzasztóan kárba vész.",
+    "label": "neutral"
+  },
+  {
+    "text": "Woody Allen kigúnyolta az olyan filmeket, mint a Hollywoody történet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Most ő készíti őket.",
+    "label": "neutral"
+  },
+  {
+    "text": "Még nem színésznő, nem is igazán énekes.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem rossz feltevés, de a végrehajtás a legjobb esetben is gyenge lábakon áll.",
+    "label": "neutral"
+  },
+  {
+    "text": "Voltam ott, csináltam azt.",
+    "label": "neutral"
+  },
+  {
+    "text": "Már csak annyi sült karton van, amit meg kell rágnom.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy olyan film, mint a The Guys, ezért lehet a filmkritikát munkának tekinteni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Schnitzler filmjének van egy nagyszerű kapaszkodója, néhány okos részlete és jól megrajzolt, bár szokványos karakterei, de még így is csak részben kielégítő.",
+    "label": "neutral"
+  },
+  {
+    "text": "Még ha az eredeti megjelenési dátuma tavaly ősz is lett volna, akkor is bűzlött volna egy \"ott voltam, azt tettem\" deja vu  érzéstől.",
+    "label": "negative"
+  },
+  {
+    "text": "A kielégítő filmélménynek csak kétötödét éri el.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy hangos, csúnya, irritáló film, amelynek egyetlen szatirikus sallangja sem talál célba.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy film egy számokkal-festett kép változata.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meg tudjuk mondani, hogy mi akar lenni, de nem nevezném műalkotásnak.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy brilliáns, őszinte előadás Nicholsontól, de a film egy gyötrelmes unalom, kivéve, amikor a fantasztikus Kathy Bates megjelenik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bravúros Kathy!",
+    "label": "positive"
+  },
+  {
+    "text": "Liottát lehetetlen helyzetbe hozzák, mert a karaktere megbillenései végül tönkreteszik őt és az egész forgatókönyv hihetőségét.",
+    "label": "negative"
+  },
+  {
+    "text": "Nagy kár.",
+    "label": "negative"
+  },
+  {
+    "text": "Megköszönheted nekem.",
+    "label": "neutral"
+  },
+  {
+    "text": "Láttam Juwanna Mannt, így neked nem kell.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Reginald Hudlin-vígjáték nem vicces, nélkülözi a karakterek iránti elkötelezettséget vagy szeretetet, emellett vécéhumorra és etnikai szidalmakra támaszkodik.",
+    "label": "negative"
+  },
+  {
+    "text": "Alapvetően, ez szép, de buta.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez a romantikus\\/komédia azt a kérdést teszi fel, hogy mennyi szuvlakit lehet elviselni, mielőtt gyomorrontás lépne fel.",
+    "label": "negative"
+  },
+  {
+    "text": "Burns elpazarolja a lehetőséget, hogy abszurd megfigyeléseket tegyen, és belefeledkezik a pofonegyszerű részletek sodrásába.",
+    "label": "negative"
+  },
+  {
+    "text": "Van egy ügyes, finoman kivitelezett csavar, amely 80 perc alatt lezárhatta volna a dolgokat, de Kang három-négy további befejezést fűz hozzá.",
+    "label": "neutral"
+  },
+  {
+    "text": "Reeboir egy kedves mosoly és egy dühös ugatás között váltakozik, míg Said ismétlésekkel próbálja lekoptatni az esetleges tanítványokat.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nincs hatással a kurdokra, de lefárasztott.",
+    "label": "negative"
+  },
+  {
+    "text": "A színészek irányítás nélkül improvizálnak és üvöltöznek ebben a filmben, hiányzik belőlük a sodró lendületű, sötét humor, ami szükséges lenne ahhoz, hogy egy ilyen ötlet működjön a vásznon.",
+    "label": "negative"
+  },
+  {
+    "text": "Jonathan Parker társ-író/rendező kísérlete egy Brazil-szerű, hiper-valódi szatíra megalkotására borzasztóan rövidre sikeredett.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha ez a buta kis rajzfilm inspirálni tud néhány gyereket arra, hogy ne váljanak mohó szemétládákká, csak így tovább.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy fölösleges folytatás, amit az a régi, ismerős érzés gyötör, hogy essünk túl ezen a dolgon: \"Mindenki felbukkant a kijelölt időben és helyen, de a látható lelkesedést nagyon nehéz magunkban is fellelni\".",
+    "label": "negative"
+  },
+  {
+    "text": "Ha van mennyország a rossz filmek számára, a Deuces Wild úton van afelé.",
+    "label": "negative"
+  },
+  {
+    "text": "Úgy tűnik, mintha rosszul utánozná a Bárdot.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ami hiányzik a Gyilkosság számokkal című filmből, az a tizenévesek deviáns viselkedésének valódi pszichológiai megalapozása.",
+    "label": "negative"
+  },
+  {
+    "text": "A látens melegség és az olvasási kedv alig elég.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy lelketlen prédikáló és közhelyes háborús film.",
+    "label": "negative"
+  },
+  {
+    "text": "Borzasztóan amatőr film, nyilvánvalóan unalmas és vizuálisan csúnya, ha nem érthetetlen.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy film, amely a média által konstruált \"kérdéseket\" feszegeti, mint például, hogy a kompromisszum az én halála-e, a legtöbb ember számára nem lesz rendkívül emlékezetes.",
+    "label": "negative"
+  },
+  {
+    "text": "A Slackers' viccelődő megközelítése az egyetemi oktatás iránt kiábrándítóan egyszerű - ez a film legnagyobb problémája -, és nincsenek felejthetetlenül ostoba mutatványok vagy felháborítóan durva párbeszédsorok a filmben, amely alapján mély nyomokat hagyhatna bennünk.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha a Fesztivál Cannes-ban a keményre főzött hollywoodi argót bátorítóan csúnya pontossággal szögezi is le, a filmmel kapcsolatban sok minden, beleértve a szereposztás egy részét is, frusztrálóan kevéssé meggyőző.",
+    "label": "negative"
+  },
+  {
+    "text": "A film túlságosan le van nyűgözve a saját ünnepélyes meglátásaitól ahhoz, hogy számottevő szórakoztatási értéket teremtsen.",
+    "label": "negative"
+  },
+  {
+    "text": "A Freddy Got Fingered óta nem láttam ilyen önfeledt szemetet.",
+    "label": "negative"
+  },
+  {
+    "text": "Kicsit több, mint egy jól felszerelt történelem lecke.",
+    "label": "neutral"
+  },
+  {
+    "text": "Rob Schneider infantilis öltözködési rutinjai töltik ki A dögös csaj című filmet, a fantáziátlan komikus legújabb trükkjét.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy szörnyű, 99 perces bűzbomba.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmet elnehezítik a mellékszereplők, akik vagy túl jóságosak, bölcsek és tudálékosak, vagy egyenesen komikusan gonoszak.",
+    "label": "negative"
+  },
+  {
+    "text": "A film annyira rossz, hogy nem javít az üres képernyőre bámulás élményén.",
+    "label": "negative"
+  },
+  {
+    "text": "Sheridan kísérlete a szerző iskoláskori emlékiratairól meglehetősen hiányos hozzáállással nyúl egy nehéz fiatal életéhez.",
+    "label": "negative"
+  },
+  {
+    "text": "Kevés logikával vagy folytonossággal ugrál, és a kulisszák mögötti információk bájtjait mutatja be, amelyek soha nem adnak kielégítő, teljes képet erről a különleges, ókori igényes mesterségről.",
+    "label": "negative"
+  },
+  {
+    "text": "Az, ahogy megöltem az apámat, egyike azoknak a művészfilmeknek, amiktől úgy érzed magad, mintha egy jéghegy olvadását néznéd -- csak soha nem olvad el.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha a Hollywood vs. Woo csatáról van szó, úgy tűnik, hogy Woo a hadifogoly.",
+    "label": "neutral"
+  },
+  {
+    "text": "Van néhány kacagás, de nincs egyetlen olyan gegsorozat sem, ami igazán betalálna, és a sztárok mintha két különböző filmben játszanának.",
+    "label": "negative"
+  },
+  {
+    "text": "A Chateau-ban van egy nagyon vicces és még néhány tisztességes poén, de az egész egy enyhén humoros, néha unalmas, végső soron jelentéktelen film.",
+    "label": "neutral"
+  },
+  {
+    "text": "Unalmas, szellemtelen, ostoba és egyhangú : az értelmetlen zűrzavar ultrahangos robbanása, amely nem vezet gyorsan sehova.",
+    "label": "negative"
+  },
+  {
+    "text": "A érzelgős finálé John Q-t a hét filmjének könnyfakasztójává teszi.",
+    "label": "neutral"
+  },
+  {
+    "text": "Elégedett csupán azzal, hogy a címszereplőjét dicsőítse és dühét kihasználja - mindezt könnyű szenteskedésért, sablonos izgalmakért és a nemzeti egészségbiztosítás szükségességéről szóló béna prédikációért.",
+    "label": "negative"
+  },
+  {
+    "text": "A film Assayas tisztelgése a gall \"minőségi hagyományok\" előtt, annak minden rozsdás, szögletes mivoltában.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az üzenetnek megvan az értéke, és egy olyan brutálisan őszinte ember, mint Jack próféta, talán rávilágíthatott volna egy-két dologra az életet illetően is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy tűnik még haszontalanabbul felesleges és szégyentelenül pénzhajhászóbb, mint a legtöbb harmadosztályú horror folytatás.",
+    "label": "negative"
+  },
+  {
+    "text": "Nehéz elképzelni, hogy akár csak a kicsi gyerekeket is lenyűgözné ez a fáradt újrafeldolgozás.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem olyan ijesztő, mint a Tremors, és nem is olyan tébolyult, mint a Starship Troopers, a filmet nem nehéz elviselni, amíg megfizeted a matiné árát.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha az úszórajongók ráharapnak, az azért lehet, mert a tinik keresnek valamit, ami megnevetteti őket.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy furcsa szerelmi háromszög felvillanyozó feltárása helyett koordinálatlan burjánzást kaptunk.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az Álcázás Mestere készített egy remek Saturday Night Live jelenetet, de nem egy nagyszerű filmet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Elég nagy eredmény a Cannes-i Filmfesztiválon filmezni és forgatni, de mégsem tudja megragadni a fesztivál vizuális vonzerejét vagy hangulatát.",
+    "label": "neutral"
+  },
+  {
+    "text": "Boll sok gyors vágást és elmosódott képkockát használ, hogy felpörgesse a dolgokat, de a béna párbeszédek és a nem megfelelő alakítások megölik a hatást.",
+    "label": "negative"
+  },
+  {
+    "text": "Mindig kiábrándító, ha egy dokumentumfilm nem felel meg - vagy nem nyújt új betekintést - a választott témába.",
+    "label": "negative"
+  },
+  {
+    "text": "Sajnos, Arthur Dong Családi Alapjai pontosan ezt teszik.",
+    "label": "negative"
+  },
+  {
+    "text": "Mint egy középkategóriás csatorna szitkomja - többnyire ártalmatlan, szeszélyesen szórakoztató, de végül olyan súlytalan, hogy egy tisztességes széllökés akár le is fújhatja a képernyőről.",
+    "label": "neutral"
+  },
+  {
+    "text": "Valami biztos elveszett a fordításban.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez az utolsó dolog, ami elvárható egy ilyen címmel rendelkező filmtől, vagy egy Plympton filmtől: unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Végül a film homogenizáltnak és kissé mesterkéltnek tűnik, mintha rózsaszínű szemüvegen keresztül néznénk vissza a szakadt és csúnya múltra.",
+    "label": "negative"
+  },
+  {
+    "text": "Chan jelenetei korlátozottak, és annyira kiszínezték az utómunka során, hogy nem igazán van értelme a cselekménynek és az akciónak.",
+    "label": "negative"
+  },
+  {
+    "text": "A Rock stand-up varázsa elillan.",
+    "label": "negative"
+  },
+  {
+    "text": "Hopkins kitölti a képernyőt.",
+    "label": "neutral"
+  },
+  {
+    "text": "Akció - mechanikus.",
+    "label": "negative"
+  },
+  {
+    "text": "\" A szmokingnak\" olyan eszköznek kellett volna lennie Chan számára, mint amilyen \"A maszk\" volt Jim Carreynek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sajnos a férfi az, aki a ruhákat készíti.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az alkalmi mozilátogatók számára, akik a Rules című filmbe botlanak, és a Dawson's Creek kölyök főszereplésével készült American Pie kalamajkára számítanak, valószínűleg sikoltozva fognak kifutni a teremből.",
+    "label": "negative"
+  },
+  {
+    "text": "A legnagyobb problémám a nagyon lassú iramon kívül az, hogy soha nem látjuk Esther virágát színésznőként, annak ellenére, hogy a tehetségének növekednie kellene.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem hagy nyugodni, hogy Britney Spears első filmjében a hangsúly nem a zenén van.",
+    "label": "negative"
+  },
+  {
+    "text": "A cselekmény, a karakterek, a dráma, az érzelmek, az ötletek - mind lényegtelenek a Skorpiókirály megtekintésének élménye szempontjából.",
+    "label": "neutral"
+  },
+  {
+    "text": "A City by the Sea egy durva rendőrségi thriller, minden diszfunkcionális családi dinamikával, amit csak kívánhat az ember.",
+    "label": "neutral"
+  },
+  {
+    "text": "De hogy mindezek ellenére hogyan sikerülhetett, az a projekt legfőbb rejtélye.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bármi legyen is a film szentimentális, képmutató tanulsága a szexizmusról, az igazi arca a különböző vizes pólós- és zuhany-jelenetekben jelenik meg.",
+    "label": "negative"
+  },
+  {
+    "text": "A Gyilkosság számokkal túlságosan is beleillik a profilba, mivel egy tinithriller és egy krimi hibridje.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nincs sokkal fájdalmasabb, mint egy viccesnek nem nevezhető film, ami azt hiszi magáról, hogy vicces.",
+    "label": "negative"
+  },
+  {
+    "text": "Felületesen ugyan élveztem a filmet, de sosem értettem, mi a célja.",
+    "label": "neutral"
+  },
+  {
+    "text": "Milyen kár... hogy ennyire másodosztályú.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem egy nagyszerű történet, és az akció sem olyan lebilincselő, mint a korábbi Seagal-filmekben.",
+    "label": "negative"
+  },
+  {
+    "text": "Az a fajta film, amely után az ember csodálkozva vakarja a fejét azon, hogy ennyi tehetséges ember részt vehetett egy ilyen meggondolatlan és rosszul kivitelezett produkcióban.",
+    "label": "negative"
+  },
+  {
+    "text": "Nicks nem akarja, hogy a Slackers-t csak egy újabb tinifilmnek tekintsék, ezért megbocsátható neki, hogy gyakran a durva vígjátékok rajongóinak kedvében jár.",
+    "label": "neutral"
+  },
+  {
+    "text": "A filmben - talán Elizabeth Hurley melleinek kivételével - semmi sem hiteles.",
+    "label": "negative"
+  },
+  {
+    "text": "A klisék és az előre látható történések közepette Cage-nek sikerül megteremtenie egyfajta laza realizmust... amit Blethyn rutinosan felpörget.",
+    "label": "positive"
+  },
+  {
+    "text": "Shafer és társszerzője, Gregory Hinton többnyire nélkülözik a határozott nézőpontot, vagy a humorérzéket.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyetlen klisé sem kerüli el a bandaháború tökéletes kezelését, akit Ces Wildnak hívnak.",
+    "label": "negative"
+  },
+  {
+    "text": "Eddie Murphy és Owen Wilson aranyos párost alkotnak az I Spy-ban, de a film körülöttük olyan semmilyen, hogy azt kettejük bája sem menti meg.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szigorúan a `férfiak filmje`, a kifejezés legrosszabb értelmében.",
+    "label": "negative"
+  },
+  {
+    "text": "Van néhány jó epizód a történetben egy kiskereskedelmi eladóról, aki többet akar az élettől, de a film túl gyakran nyúl a megszokott helyzetekhez és ismétlődő jelenetekhez.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nehéz azt kérni az emberektől, hogy üljenek nyugodtan két órát egy ilyen karaktert nézve, különösen, ha olyan lapos és közömbös módon mutatják be, mint Phoenixét.",
+    "label": "negative"
+  },
+  {
+    "text": "Van valami gyanús ebben a szezonális gyerekfilmben, aminek a legmeggyőzőbb érzelmi pillanatában a Mikulás ajándékokat ad a felnőtteknek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy olyan történetet kapunk, amely megpróbál megragadni minket, azért, hogy aztán a rossz pillanatokban folyton elengedjen.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mint sok hasonló életrajzi melodráma, ez is szenved a kínosságtól, amely az igaz történetek rendetlenségéből ered.",
+    "label": "negative"
+  },
+  {
+    "text": "Nincs semmi megváltás ebben a filmben.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmnek vannak a pillanatai, de ezek kevéssé vannak jelen.",
+    "label": "neutral"
+  },
+  {
+    "text": "Próbáltam eldönteni, hogy mi bosszantott a legjobban a \"God is Great... I'm Not\"-ban, és aztán rájöttem, hogy egyszerűen nem érdekel.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmet a rossz írás, és valószínűleg az utómunkálatok egy része is kisiklatta, hogy a tesztoszteron első teljes fellángolásában lévő fiatal férfiaknak szánhassák.",
+    "label": "negative"
+  },
+  {
+    "text": "Politikai bátorságáért magas pontszámot érdemel, de művészi érdemei alapján aligha állja meg a helyét.",
+    "label": "neutral"
+  },
+  {
+    "text": "Csak akkor kel életre, mikor a sebességet szentimentalizmusra váltja.",
+    "label": "neutral"
+  },
+  {
+    "text": "Brosnan legjobb, nem-Bondish előadása még nem győzte le a film manipulatív érzelgősségét és bosszantó sztereotípiáit.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmet azok fogják a legjobban értékelni, akik hajlandóak elviselni a rendkívül lomha ritmusát. A Boldogságra várva végül elgondolkodtató, de anélkül, hogy nagy drámai hatása lenne.",
+    "label": "neutral"
+  },
+  {
+    "text": "Számomra ez úgy hangzik, mint egy kegyetlen megtévesztés, amelyet alacsony intelligenciájú férfiak hajtanak végre, akiknek reakciós elképzeléseik vannak a nőkről, és teljesen hiányzik belőlük az empátia.",
+    "label": "negative"
+  },
+  {
+    "text": "Tsai talán túl gyakran szántja ugyanazt a barázdát.",
+    "label": "negative"
+  },
+  {
+    "text": "A mutatós kütyük és a pörgős harci jelenetek jól néznek ki, de nem vonják el a figyelmet a hibás tartószerkezetről, amely az Equilibriumot tartja.",
+    "label": "neutral"
+  },
+  {
+    "text": "A ZigZag talán több lehetett volna, ha kevésbé sűrű a cselekménye.",
+    "label": "negative"
+  },
+  {
+    "text": "Hogyan tudja egy ilyen hideg film kifejezni a melegséget és a vágyakozást?",
+    "label": "negative"
+  },
+  {
+    "text": "Valójában egy pornófilm szíve van benne, de semmi puszta kéjvágy.",
+    "label": "negative"
+  },
+  {
+    "text": "Nicks és Steinberg a saját alkotásaikkal vetekszik aljasságban - ami a régi főiskolai módszerrel próbálkozik.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Episode II - Attack of the Clones egy technológiai mutatvány, amelyből hiányzik a lendület és az élvezet.",
+    "label": "negative"
+  },
+  {
+    "text": "Az a baj ezzel az egésszel, hogy nem igazán vicces.",
+    "label": "negative"
+  },
+  {
+    "text": "Deni csupasz csontú narratívája jobban hasonlít egy 70-es évekbeli kizsákmányolási kép vázlatára, mint a késztermékre.",
+    "label": "negative"
+  },
+  {
+    "text": "Tematikusan és stílusosan vándorol a térképen, és sokat merít Lynch-től, Jeunet-től és von Trier-től, miközben nem találja meg a saját hangját.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nézni ezt az aluldramatizált, de eltúlzott filmet olyan, mintha egy terápiás kezelés átiratát néznénk, amit egy freudi báb hozott létre.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez az egész ostobaság ízlés kérdése.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy tűnik, hogy a projekt mantrája az volt, hogy \"ez csak egy gyerekfilm (Fordítás: \"Nem kell nagyon keményen próbálkoznunk.)\".",
+    "label": "negative"
+  },
+  {
+    "text": "A filmtörténetben kevés alkotás volt ennyire furcsa, megmagyarázhatatlan és kellemetlen.",
+    "label": "negative"
+  },
+  {
+    "text": "Nagyon hosszú, lassú és unalmas, időbe telik, amíg rájövünk, miről szól a TUCK EVERLASTING.",
+    "label": "negative"
+  },
+  {
+    "text": "Szóval itt van: egy savanyú halhatatlan családról szól.",
+    "label": "neutral"
+  },
+  {
+    "text": "Lényegében kínos változata annak a könnyed női szerepvállalási képnek, amit évtizedek óta nézünk.",
+    "label": "negative"
+  },
+  {
+    "text": "A szerző hívei valószínűleg lenyűgözőnek fogják találni, mások talán zavarba ejtőnek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Walter Hill író-rendező és David Giler társszerző nyilvánvaló klisékből próbálnak karaktereket alkotni, azán végül boxzsákként használják őket.",
+    "label": "negative"
+  },
+  {
+    "text": "Van egy tudományos törvény, amit a gyártóknak jó lenne figyelembe venniük: A középszerű filmek elkezdenek vontatottá válni, amint az akció felgyorsul; amikor a robbanások elkezdődnek, darabokra hullanak.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kancsal felvétel végig.",
+    "label": "negative"
+  },
+  {
+    "text": "Pompás és gyönyörűen fényképezett valaki azt javasolta, hogy az állóképekből egy szép dohányzóasztalos könyvet lehetne készíteni, de végül úgy hagyjuk el a mozit, hogy azon tűnődünk, miért is számítanak ezek az emberek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sajnos a One Hour Photo nem felel meg a címének.",
+    "label": "negative"
+  },
+  {
+    "text": "Nagyrészt Williamsnek köszönhetően, az összes érdekes fejleményt 60 perc alatt feldolgozzák - a többi csak túlexponált filmpazarlás.",
+    "label": "neutral"
+  },
+  {
+    "text": "Hideg, steril és hiányzik belőle minden szín vagy melegség.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmet megbontják az anakronisztikus gyors vágások és a modern színházi közönség zavaró felvillanásai, akik az események kibontakozását figyelik.",
+    "label": "negative"
+  },
+  {
+    "text": "Úgy tűnik, mintha valaki végig csinálná a mozdulatokat.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy robbanásokról, halálról és kémekről szóló filmhez képest a \" Ballistic : Ecks vs. Sever \" olyan biztonságosnak tűnik, mint egy gyerekfilm.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nos, némelyikben még az anyaszarvas is meghal.",
+    "label": "neutral"
+  },
+  {
+    "text": "Wallace időnként kissé nehézkesen fogalmazza meg a mondanivalóját, és a mi ízlésünknek túlságosan is költői a vizuális érzéke.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Impostor nem sokat kezd a történetével, a figyelemre méltóan erős szereposztás ellenére sem.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy sötét és furcsa vígjáték álcájába burkolózik, de nem olyan furcsa, mint amilyennek hiszi magát, és a komédiája általában gonoszkodó.",
+    "label": "negative"
+  },
+  {
+    "text": "Túl hosszú dokumentumfilm az \"életmódról\".",
+    "label": "negative"
+  },
+  {
+    "text": "Az ember célt vagy akár cselekményt keresve veti alá magát ennek az állítólagos pszichológiai thrillernek a mocsarán.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy film, amely az ismert Herzog-trópusokat egy világos és konvencionális történelmi fikció szolgálatába állítja, holott a rendezőtől valójában azt várnánk, hogy elkápráztasson minket.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez egy rajongói \"mi lett volna, ha?\".",
+    "label": "neutral"
+  },
+  {
+    "text": "Életre keltve a nagyvásznon.",
+    "label": "neutral"
+  },
+  {
+    "text": "A történet maga valójában meglehetősen sápadt.",
+    "label": "negative"
+  },
+  {
+    "text": "Pokoli zsibbasztó élmény nézni, és nem ad olyan betekintést, amit még nem vitattak volna meg alaposan a médiában, a 90-es évek közepén, Dahmerben.",
+    "label": "negative"
+  },
+  {
+    "text": "Várj a pay per view-ra vagy a kölcsönzésre, de ne utasítsd el a BarberShopot.",
+    "label": "neutral"
+  },
+  {
+    "text": "Néhány ziccertől eltekintve az írás közömbös, Jordan Brady rendezése pedig prózai.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden jelenet elhúzódik, aláhúzva a nyilvánvalót, elársztva érzelgősséggel.",
+    "label": "negative"
+  },
+  {
+    "text": "Jó lett volna, ha a forgatókönyvírók megbíznak a közönségben, hogy megértsenek egy összetett történetet, és kihagyják a film kiszámítható végkifejletét.",
+    "label": "negative"
+  },
+  {
+    "text": "Akkor Nadia születésnapja mégsem volt olyan rossz nap.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egyike azoknak a döbbenetesen jól sikerült, örömtelenül extravagáns felvételeknek, amelyek folyton egyik vizuális csodából a másikba repítenek, kapkodva, üresen.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nairnek egyszerűen nincs meg a szükséges önuralma ahhoz, hogy egy laza, rosszul strukturált filmet átvezessen az összefüggéstelenség és a redundancia buktatóin.",
+    "label": "negative"
+  },
+  {
+    "text": "Walt Becker filmje kihasználja az összes, még nem bántó, a testi funkciókkal kapcsolatos komikus lehetőséget, amit a tinifilmek fel szoktak sorakoztatni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez a legviccesebb amerikai vígjáték a Graffiti híd óta.",
+    "label": "positive"
+  },
+  {
+    "text": "Az, hogy egyik főszereplőnek sincs megkülönböztethető állapota, aligha számít, mert mindketten csak színészi koholmányok, amelyeket a gyermeki homály és egy maréknyi furcsaság határoz meg.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy kezdődik, mint egy lehetséges argentin Amerikai szépség, de úgy bűzlik, mint egy büdös virágokkal teli szoba.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmkészítők elfelejtettek bármi félig-meddig ijesztő dolgot is belevenni, amikor a Fatal Attractiont egy középiskolai környezetbe helyezték át.",
+    "label": "negative"
+  },
+  {
+    "text": "Régimódi forgatókönyvírói nyelven szólva, Shreve asszony regénye túl nehéz szövegnek bizonyult ahhoz, hogy \"lenyalják\", az elsőrangú színészek erőfeszítései ellenére.",
+    "label": "negative"
+  },
+  {
+    "text": "Solondz lehet az egyetlen, aki nevet a saját viccén.",
+    "label": "negative"
+  },
+  {
+    "text": "Stitch egy rossz modorú, csúnya és romboló kis ******.",
+    "label": "negative"
+  },
+  {
+    "text": "Nincs cukiság faktor... nem mintha bánnám a csúfságot; a probléma az, hogy nincs karaktere és nem szerethető.",
+    "label": "negative"
+  },
+  {
+    "text": "Mélyen belül rájöttem a helyzetem zord valóságára: alacsonyabb IQ-val hagyom el a színházat, mint amikor beléptem.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy igazán vicces tizenöt perces rövidfilm, amely a határait túllépve egy majdnem egész estés filmet tölt ki.",
+    "label": "positive"
+  },
+  {
+    "text": "Eltekintve szegény Stephen Rea helytelenül hamiskás alakításától és attól, hogy a film idióta módon használja a feardotcom.com weboldalt, további megvetést kap a film, mert szinte lehetetlen végignézni vagy megérteni.",
+    "label": "negative"
+  },
+  {
+    "text": "Rossz, de szórakoztatásnak semmiképpen sem érdemtelen.",
+    "label": "neutral"
+  },
+  {
+    "text": "A 100 perces játékidő alatt hiába vársz rá, hogy megszülessen a film.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy olyan mű, amelyből hiányzik a cél és az erős lüktetés.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy gyorsabb tempójú családi film.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Felsőbb Tizenévesek cinikusak lehetnek.",
+    "label": "neutral"
+  },
+  {
+    "text": "A kisebb gyerekek élvezni fogják.",
+    "label": "positive"
+  },
+  {
+    "text": "Bár ez a film egy \"A\" listás szereplőgárdával és néhány erős mellékszereplővel rendelkezik, a történet - akárcsak a központi figura, Vivi - nehezen szerethető.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez egy utazós dráma, túl sok rossz kanyarral.",
+    "label": "negative"
+  },
+  {
+    "text": "A legtöbb halas történet kicsit különös, de ezt az egyet vissza kellene dobni a folyóba.",
+    "label": "negative"
+  },
+  {
+    "text": "Az egész indokolatlanná válik, mintha Schwentke egy bizonyos célközönségnek szánt kvótát teljesítene, ahelyett, hogy az anyagot a történethez igazítaná.",
+    "label": "negative"
+  },
+  {
+    "text": "\" Minden férfit hibáztatok a háborúért\" az igazgató lánya meséli az apjának.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film körülbelül olyan mély, mint ez az intelem.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meglehetősen vicces, de sosem indul be igazán.",
+    "label": "neutral"
+  },
+  {
+    "text": "Láttam néhány rossz énekesből lett színészt, de Lil Bow Wow viszi a pálmát.",
+    "label": "positive"
+  },
+  {
+    "text": "A történet felénél már kezdtem utálni, és persze bűntudatom is volt miatta... Aztán, csodák csodája, a film csinált egy fordulatot.",
+    "label": "neutral"
+  },
+  {
+    "text": "Minden komplikáció ellenére meglepően kiszámítható.",
+    "label": "neutral"
+  },
+  {
+    "text": "20 év telt el 48 óra óta.",
+    "label": "negative"
+  },
+  {
+    "text": "Eddie Murphyt filmsztárrá tette, és a férfi egy napot sem öregedett.",
+    "label": "positive"
+  },
+  {
+    "text": "De a nagyképű, okostojás személyiség árucikke már kezd kiöregedni.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha a Deuces Wild egy fokkal feljebb került volna, egy tábori kaland lett volna, egy olyan film, ami olyan rossz, hogy kezd jó lenni.",
+    "label": "neutral"
+  },
+  {
+    "text": "De nem volt az.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy akciófilmhez képest az Ultimate X a valaha volt legbeszédesebb óriásfilm, amely elmerül a felhajtás áradatában.",
+    "label": "positive"
+  },
+  {
+    "text": "Egy alacsony színvonalú Annie, amelyben valami kölyök játszik, aki nem tud színészkedni, csak Jordan visszhangja. És Crispin Glover, a fura színész, aki elcseszi a dolgokat a régi iskola szerint.",
+    "label": "negative"
+  },
+  {
+    "text": "Lehet, hogy nem 1970-es animáció, de minden más egyenesen a szombat reggeli rajzfilmekből származik - egy újrahuzalozott történet, rossz írás, és a szokásos régi butaságok.",
+    "label": "negative"
+  },
+  {
+    "text": "A film bizonytalannak tűnik abban, hogy egy savanyú, férfias All About Eve vagy egy buja, ájult melodráma akar-e lenni az Intermezzo stílusában.",
+    "label": "negative"
+  },
+  {
+    "text": "A majdnem 21-2 órás film túlságosan öncélú.",
+    "label": "neutral"
+  },
+  {
+    "text": "Gyönyörű látvány, de elviselhetetlenül fárasztó és túláradó... egy furcsán szűkszavú eposz.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sokkal inkább hasonlít egy rajzfilmre, mint a The Simpsons valaha is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szigorúbb szerkesztői eljárással és határozottabb irányítással működhetne, különösen azért, mert a főszereplő színésznők több mint kompetensek lennének, de a Personal Velocity úgy tűnik, hogy üresjáratban van.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez nem sok mindent tesz hozzá.",
+    "label": "negative"
+  },
+  {
+    "text": "Inkább a történelmi vagy életrajzi csatornára való, de a film hangvételével nem lehet vitatkozni - rossz szájízt és kérdéseket hagy az emberben.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy olyan szórakoztatás, amely annyira beleszeretett a túlfújt mitológiájába, hogy már nem ismeri fel a mozilátogatók valódi karakterek és lebilincselő cselekmények iránti igényét.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy hosszan elnyújtott, pszichopata ponyva.",
+    "label": "negative"
+  },
+  {
+    "text": "Más hasonló filmekből kölcsönöz a leghétköznapibb és legnyilvánvalóbb módon.",
+    "label": "negative"
+  },
+  {
+    "text": "Meglepően unalmas, a furcsa alakítások és irányok nagy dózisa ellenére.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy hűvös, érzelmileg távoli darab... annyira unalmas, hogy a szlogenje a következő lehetne: \"Az űrben senki sem hallja a horkolást\".",
+    "label": "negative"
+  },
+  {
+    "text": "A karakterek egydimenziósnak tűnnek, a film felszínes, és valószínűleg elsősorban csak a célközönségét fogja érdekelni.",
+    "label": "negative"
+  },
+  {
+    "text": "Sorvino önelégültnek és karikatúraszerűnek tünteti fel a hercegnőt, és a film csak akkor kel életre igazán, amikor szegény Hermokratész és Leontine szánalmasan összemérik bimbózó románcukat.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan, mint egy autós lövöldözés.",
+    "label": "neutral"
+  },
+  {
+    "text": "Elhaladhatsz mellette anélkül, hogy bármi különöset észrevennél, kivéve néhány komikus fordulatot.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mindent - még a repülőgép-hordozón töltött életet is - szentimentalizálják.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez a leendő \"James Bond for the Extreme Generation\" film egy nagy, buta akciófilm.",
+    "label": "negative"
+  },
+  {
+    "text": "A hangsúly a bután van.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmnek vannak általános erényei, de a sok közreműködő tehetség ellenére úgy tűnik, hogy számok alapján készült.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha a téma az illúzió kontra valóság, nem kellene-e a valóságnak legalább elfogadhatóan valóságosnak tűnnie?",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy szörnyű film minden tekintetben, teljesen fájdalmas nézni.",
+    "label": "negative"
+  },
+  {
+    "text": "Betanult kísértetiesség, egyetlen eredeti ötlet, szerep, vágás vagy bármi nélkül. Felveti a kérdést: \"Miért?\".",
+    "label": "negative"
+  },
+  {
+    "text": "Rajongói film, amit a nem beavatottaknak jobb videón és lenémítva nézni.",
+    "label": "negative"
+  },
+  {
+    "text": "Dühítően szokatlan és bele van habarodva a saját stílusába.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy egész halom semmi van ennek az apró, felnőtté válásról szóló mesének a magjában.",
+    "label": "negative"
+  },
+  {
+    "text": "Bármennyire is nevettem a film alatt, nem tudom meggyőzően megvédeni a filmet, mint szórakoztatást, vagy akár előadóművészetet, bár  csodálattal tölt el, ahogy ezek a fickók emberfeletti módon képesek elviselni a fájdalmat.",
+    "label": "neutral"
+  },
+  {
+    "text": "A sztereotípiáknak az a fajta lebutított gyakorlata, amely miatt a tinivígjátékok műfaja rossz hírnévre tesz szert.",
+    "label": "negative"
+  },
+  {
+    "text": "Megkülönböztetően átlagon aluli... valószínűbb, hogy belefojtja a nézőt az unalomba, mint hogy borzongást küldjön a gerincébe.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan mint a Dawson's Creek túlérett epizódjának és a Love Story újrahasznosított és lebutított változatának rossz keveréke.",
+    "label": "negative"
+  },
+  {
+    "text": "Hacsak nem egy gördeszkával a hónod alatt jössz be a filmre, úgy fogod érezni, hogy nem hívtak meg a buliba.",
+    "label": "negative"
+  },
+  {
+    "text": "Amikor a film szereposztására kiírták a felhívást, az állhatott benne, hogy \"keresünk mindenkit, aki színészi ambíciókkal rendelkezik, de nincs büszkeségérzete vagy szégyenérzete\".",
+    "label": "negative"
+  },
+  {
+    "text": "Éppen csak nem annyira hátborzongató, mint amilyennek lennie kéne.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy \"Home Alone\" film, ami úgy van rendezve, mint a Rosemary's Baby, de nem olyan jól megtervezett, mint bármelyik film.",
+    "label": "neutral"
+  },
+  {
+    "text": "Siegel és társírói, Lisa Bazadona és Grace Woodard túlságosan a megszokásra hagyatkoztak a Frankie-t körülvevő karakterek megalkotásánál.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyetlen film sem vetné meg jobban az egyedülálló női lakosságot.",
+    "label": "negative"
+  },
+  {
+    "text": "Van némi vizuális szellemessége, de kevés a képzelőereje.",
+    "label": "neutral"
+  },
+  {
+    "text": "Végigmentek a mozdulatokon, de elfogyott a lendület.",
+    "label": "negative"
+  },
+  {
+    "text": "A lassú tempó és a valódi narratíva hiánya ugyanúgy beszorítja a filmet, mint ahogy az élet beszorítja a fiatal nők lelkét.",
+    "label": "negative"
+  },
+  {
+    "text": "Az alacsony költségvetésű Mostohám a zsáneremet digitális videókamerával vették fel, a képek pedig gyakran annyira maszatosnak és elmosódottnak tűnnek, hogy az már elvonja a figyelmet.",
+    "label": "negative"
+  },
+  {
+    "text": "De egy jobb filmben talán észre sem vetted volna.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az ilyen agyatlan szemét miatt értékeljük az olyan eredeti romantikus vígjátékokat, mint a Punch-Drunk Love.",
+    "label": "negative"
+  },
+  {
+    "text": "A film egy évvel elkésett a valóságshow-k iránti megszállottságunkról, és még inkább elkésett, hogy kihasználja a webcast újdonságait.",
+    "label": "negative"
+  },
+  {
+    "text": "A mese mindenki számára ismerős lesz, aki látta George Roy Hill 1973-as filmjét, a \"The Sting\"-et.",
+    "label": "neutral"
+  },
+  {
+    "text": "Megfelelő a megjelenés és a korhűség, de egyébként belefullad a vizuális és verbális klisék tengerébe.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nehéz vitatkozni egy olyan filmmel, amely ennyi valódi kacagással büszkélkedhet, de a Notorious C.H.O. még mindig befejezetlen munkának tűnik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bárki, aki forgatókönyvet szeretne írni, nyugodtan kövesse a több száz másik film által követett receptet: adja el annak, aki a legtöbbet fizet érte, és lépjen le anélkül, hogy bárki ismerné a személyazonosságát.",
+    "label": "neutral"
+  },
+  {
+    "text": "A probléma A kenyér, édesemmel az, hogy túlságosan szentimentális.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy thrillernek álcázott késő esti kábeltévés pornó arról a kegyetlen társadalmi rendről, ami az egyetemi klikkeket irányítja.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem tudja megmagyarázni a zenét és a gyökereit.",
+    "label": "neutral"
+  },
+  {
+    "text": "Soha nem inspirál többet az érdeklődő távolságtartásnál.",
+    "label": "negative"
+  },
+  {
+    "text": "Ami Woody Allen vagy Mel Brooks kezében legalábbis a '70-es évek fénykorában fergeteges őrültségnek tűnhetett volna, az ebben a debütáló indie filmben bénának és idétlennek hat.",
+    "label": "negative"
+  },
+  {
+    "text": "A dörzsölt produkciós értékek és Roger Michell rendező ketyegő tempója ellenére a végeredmény olyan, mintha két fickó két órán keresztül ordibálna az arcodba.",
+    "label": "negative"
+  },
+  {
+    "text": "Összességében szívás, de van egy-két vicces pillanata.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ügyesen ábrázolták a családi dinamikát a nézők számára, de túl sok elemet próbáltak belepréselni a filmbe.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy természetfeletti rejtély, ami nem tudja eldönteni, hogy egy izgalmas horrorfilm akar lenni, vagy egy sírós melodráma.",
+    "label": "negative"
+  },
+  {
+    "text": "Végül egyik sem, és mindkét törekvés kudarcot vall.",
+    "label": "negative"
+  },
+  {
+    "text": "Két rosszul összefonódott történet, amit végül megfojt a túlzott összetettsége.",
+    "label": "negative"
+  },
+  {
+    "text": "Annyira komoly, annyira erőltetett és annyira valószínűtlen, hogy maga is paródiáért kiált.",
+    "label": "negative"
+  },
+  {
+    "text": "Ezek a csendes kétségbeesés tankönyvi példái.",
+    "label": "negative"
+  },
+  {
+    "text": "Swimfan, mint a Végzetes vonzerő, végül túlzásba esik egy őrült melodramatikus végkifejlettel, amelyben egy középiskolai úszómedence helyettesíti a fürdőkádat.",
+    "label": "neutral"
+  },
+  {
+    "text": "Alapvetően arra törekszik, hogy szétválassza a rosszfiúkat a jóktól.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az eroticizált vérfürdő szándékosan sokkoló, akarata ellenére mégis lapos, hisz egy csepp költőiség nincs benne.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan, mintha egy csomó, jobb filmet összeollóztak volna.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szinte minden felkavaró a filmmel kapcsolatban, a Lai gonosz apja által viselt abszurd parókától a végtelen akciójelenetekig.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az író-rendező Randall Wallace nagyobb fába vágta a fejszéjét, mint amivel még el tud bánni, és a filmje úgy mozog, mint egy részeg sofőr a nagy forgalomban.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy órán át követi a Blair Witch-formulát, amiben valami hátborzongató és homályos dolog van készülőben, és aztán félresikerül az utolsó 30 percben.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem lehet szabadulni az érzéstől, hogy a Crossroads nem más, mint egy másfél órás reklám Britney legújabb albumához.",
+    "label": "negative"
+  },
+  {
+    "text": "A szokásos telefonos üzletmenet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Van itt egy eposz, de neked kell összeraknod.",
+    "label": "neutral"
+  },
+  {
+    "text": "Azt a kis hangulatot, amit az árnyékos megvilágítás, a hátborzongató díszletek és a végtelen eső kelt, ellensúlyozza minden más puszta rondasága.",
+    "label": "neutral"
+  },
+  {
+    "text": "Gabriele Muccino rendező-szakács tartja a tempót - pörgősen közeledik feléd - , mintha attól tartana, hogy filmje nagyon felületes.",
+    "label": "neutral"
+  },
+  {
+    "text": "Tartakovsky csapata a vizuális varázslás mestere, de az öt író csak koslat a modern narratív banalitás nyomában.",
+    "label": "neutral"
+  },
+  {
+    "text": "A legszörnyűbb filmes élményem a \"Can't Stop the Music\" óta.",
+    "label": "negative"
+  },
+  {
+    "text": "Akár úgy is hívhatnánk, hogy \"Jar-Jar Binks: A Film\".",
+    "label": "neutral"
+  },
+  {
+    "text": "Ennyire fájdalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Isten hatalmas, a film nem.",
+    "label": "negative"
+  },
+  {
+    "text": "Mint egy többszínpados cirkusz, rengeteg melléktörténet van - egyik sem emlékezetes.",
+    "label": "negative"
+  },
+  {
+    "text": "Amikor kétségei támadnak, a film feltekeri a mozgalmas zenéjét, bedob egy \"partra vetett hal\" jelenetet és egy csomó közhelyes párbeszédet.",
+    "label": "negative"
+  },
+  {
+    "text": "Vagy pedig kacsint egy kutyus .",
+    "label": "neutral"
+  },
+  {
+    "text": "A \"Girls Gone Wild\" videó a boho art-house közönség számára, a The Burning Sensation nem egy végleges ellenkulturális dokumentum - a készítői nem elég távolságtartóak és kíváncsiak ehhez.",
+    "label": "neutral"
+  },
+  {
+    "text": "Annyira eredeti és éleslátó, mint A zene mögött múlt heti epizódja.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan mint John Le Carré egy pár kiégett hengerrel.",
+    "label": "negative"
+  },
+  {
+    "text": "Lehet, hogy elszomorít, hogy csaknem két órát elvesztegettél a saját drága életedből ezzel a buta kis filmmel.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem olyan csöpögős, mint az Apafej, nem is olyan fejetlen, mint a Happy, a flúgos golfos vagy A vizesnyolcas, de megvannak a pillanatai.",
+    "label": "neutral"
+  },
+  {
+    "text": "A felszíni attrakciók ellenére - Conrad L. Hall operatőri munkáját jövőre valószínűleg Oscar-díjra fogják jelölni - van benne valami lenyűgöző és mégis hiányzik belőle minden.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy önelégült és nyakatekert akció-vígjáték, ami a komoly pillanatoknál sem felejti el emlékeztetni a közönséget, hogy ez csak egy film.",
+    "label": "negative"
+  },
+  {
+    "text": "Crystalnak és De Nirónak sikerül pár nagyobb nevetést kipréselnie a közönségből, de nem annyit, hogy elvigye a hátán ezt a buta filmet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Értéktelen, a nyitó pszeudo-rock videótól kezdve a utolsó képkockák idiótaságáig.",
+    "label": "negative"
+  },
+  {
+    "text": "A Krisztus allegória nem működik, mert nincs alapja.",
+    "label": "negative"
+  },
+  {
+    "text": "Menj a La Salle előadására és boldogulj a dadogós forgatókönyvvel.",
+    "label": "negative"
+  },
+  {
+    "text": "Nehéz mit kezdeni egy filmmel, ami eposzba illő tragédiaként ábrázolja egy gazdag fiú történetét, aki kénytelen választani a gyönyörű, magabiztos 22 éves barátnője és a hasonlóan gyönyörű és magabiztos 18 éves szeretője között.",
+    "label": "neutral"
+  },
+  {
+    "text": "Túl keményen próbál vicces lenni, túl hangos, túl ostoba és túl kevés figyelmet igényel.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem találtam különösebb vonzerőt a jobbra-balra hintázásban.",
+    "label": "negative"
+  },
+  {
+    "text": "Tulajdonképpen arról szól, hogy egyezkedjenek és játszmázzanak egymással, és nincs benne semmiféle erotikus vagy érzéki töltet.",
+    "label": "negative"
+  },
+  {
+    "text": "De az, hogy ezt megteszik, gondolatébresztő.",
+    "label": "positive"
+  },
+  {
+    "text": "Az alakítások rendben vannak, de nincs benne elég szufla ahhoz, hogy 90 percen keresztül fenntartsa az érdeklődést, főleg a gyenge befejezés miatt.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az igazság nevében után azt gondolhatnánk, hogy a legtöbb sértett apa klisé még kiforratlan.",
+    "label": "negative"
+  },
+  {
+    "text": "De nem...",
+    "label": "neutral"
+  },
+  {
+    "text": "Végülis a csigaszerű tempó és a tematikus rezonancia hiánya miatt a film inkább buta, mint ijesztő, mintha valami Martha Stewart-féle barkácsműsor ámokfutása lenne.",
+    "label": "negative"
+  },
+  {
+    "text": "Januárban egy olyan filmet megjelentetni, aminek benne van a \"kutya\" szó a címében már önmagában magas labda, a Kutyabajnok pedig rá is szolgál minden beszólásra.",
+    "label": "negative"
+  },
+  {
+    "text": "Fárasztó norvég munka, ami valahogy behúzott egy Oscar-jelölést.",
+    "label": "negative"
+  },
+  {
+    "text": "Sötét és viharos éjszaka volt...",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy koromfekete humorú vígjáték, amely rendszeresen a giccses szentimentalizmus felé fordul, valószínűleg nem sokat segít a sokk-kezelés terápiás energiája után.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a fajta aranyos és nyálas anyag távol áll Zhang erősségétől, és ez meg is látszik rajta.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bray teljesen tanácstalan; mivel az önéletrajzában a Savage Garden klipjén kívül semmi más nincs; fogalma sincs a filmkészítésről.",
+    "label": "negative"
+  },
+  {
+    "text": "Freundlich Crudupot külvárosi építészetté és rejtélyessé tette.",
+    "label": "neutral"
+  },
+  {
+    "text": "Hatalmas csalódás jön, mint mindig, az ilyen kaliberű filmesektől és előadóktól.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár úgy tesz, mintha a férfi szélhámosok életét tárná fel, kizsigerelő, de nem mélyreható.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyenesen a legkevésbé igényes demográfiai csoportot célozza meg: a nagyon kicsi gyerekeket, akik örömmel töltenek el több időt az ismerős rajzfilmfigurákkal.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ami egy kielégítő gyerekfilmnek indul, az egyre hiteltelenebbé válik, ahogyan a mesterkélt cselekménypontokon keresztül száguld.",
+    "label": "negative"
+  },
+  {
+    "text": "A szappanoperákra jellemző sekélyes szenzációhajhászás... inkább pikáns telenovella, mint komoly dráma.",
+    "label": "negative"
+  },
+  {
+    "text": "Seagal fájdalmasan ostoba, amikor megpróbálja megtartani azt, ami megmaradt a múló harcművészfilmes dicsőségéből.",
+    "label": "negative"
+  },
+  {
+    "text": "Még Harris erőfeszítése ellenére is, a forgatókönyv kevés lehetőséget ad neki, hogy hatékonyan megvizsgálja Lear lélekromboló összeomlását.",
+    "label": "negative"
+  },
+  {
+    "text": "A történet kamu, a karakterek pedig szövetvékonyak.",
+    "label": "negative"
+  },
+  {
+    "text": "Míg a rendkívül kompetens bérgyilkosokról szóló filmek, mint a Ponyvaregény és a Szóljatok a köpcösnek! cinikus lendülettel rezonálnak létezésük maró céljával, a Baklövészet egy elmondhatatlanul szürke próbálkozás ugyanerről a kliséről.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kimondhatatlan és drapp önjelölt, aki pontosan ezt a rést keresi.",
+    "label": "neutral"
+  },
+  {
+    "text": "Míg az Amerikai Adobo szíve (és ízlése) a helyén van, az agya egy kicsit szétszórt -- sőt kótyagos.",
+    "label": "neutral"
+  },
+  {
+    "text": "Képzelj el egy filmet, amely úgy kezdődik, mint a Hetedik koppintás, hogy aztán átváltozzon A Ragyogás, A dolog és bármelyik nyolcvanas évekbeli meztelen tinédzser horrorfilm keverékére.",
+    "label": "neutral"
+  },
+  {
+    "text": "A párbeszédek nagy része arra késztetett, hogy nyers tésztát tegyek a fülembe.",
+    "label": "negative"
+  },
+  {
+    "text": "Costner langyos tej személyisége éppúgy nem illik a filmhez, mint Shadyac felületes rendezése, és néhány nyíltan ostoba párbeszéd Laurence Olivier-t is elsüllyesztené.",
+    "label": "negative"
+  },
+  {
+    "text": "Koherens, jól összevágott némi fanyar színjátékkal, de úgy lefáraszt, mint egy vacsoravendég, aki a doktorijával henceg.",
+    "label": "neutral"
+  },
+  {
+    "text": "A rendező Kevin Bray, akinek éles képkockái és kameramunkája, valamint a színészi játékkal, a hangszínnel és a tempóval kapcsolatos nagyfokú ügyetlensége nagyon nyilvánvalóan azt jelzi, hogy videós rendezőként debütál.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy potenciálisan érdekes ötletből kínzó filmiskolai élményt csinál, ami csak a film publicistáinak szól, vagy azoknak, akik annyi drogot fogyasztanak, mint a film szereplői.",
+    "label": "negative"
+  },
+  {
+    "text": "Robin Williams elhagyja vidám, barátságos viselkedését egy sötétebb, nyugtalanító szerepért cserébe.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Tiszta ügy egy filmművészeti vétség, egy bűnügyi tucatthriller, ami csak annyiban figyelemre méltő, hogy mellőz minden logikát és tökéletesen rosszul használ fel két kiváló színészt, Morgan Freemant és Ashley Juddot.",
+    "label": "negative"
+  },
+  {
+    "text": "Az 1986-os Harlemben játszódik, amely nem nagyon hasonlít New Yorkra.",
+    "label": "neutral"
+  },
+  {
+    "text": "A csokigyár Charlie nélkül.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sok a csillogó szemű közelkép és kevés a szégyenérzet.",
+    "label": "neutral"
+  },
+  {
+    "text": "A hip-hop ritkán kel életre saját, tűzokádó entitásként ebben a filmben.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy unalmas, álmatlan gyakorlat önhittségből, melynek mindent átható csendjét megtörik az erőszak és a zaj gyakori kitörései.",
+    "label": "negative"
+  },
+  {
+    "text": "Megérdemli a kritikus visszhangot és még többet is.",
+    "label": "negative"
+  },
+  {
+    "text": "Sem lelkesítő siker, sem vakító szégyen.",
+    "label": "negative"
+  },
+  {
+    "text": "Mégis úgy ül ott, mint egy köret, amit senki sem rendelt.",
+    "label": "negative"
+  },
+  {
+    "text": "A rettegés arénáját megrészegetítik az indítékok és a kontextus, ami elszívja azt a drámai anyagot, amitől mind berezelnénk.",
+    "label": "negative"
+  },
+  {
+    "text": "A film több időt tölt Schneiderrel, mint az újonc McAdamsszel, annak ellenére, hogy előadása sokkal érdekesebb és viccesebb, mint az övé.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Farrelly testvérek életművének ez a kis költségvetésű – és még kisebb eszű – lenyúlása viszonylag rövid idő alatt túl érzelgőssé válik.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden, melegekről szóló közhelyet újrahasznosít, és lényegében egy bővített szappanopera.",
+    "label": "negative"
+  },
+  {
+    "text": "Támogatom, hogy a mentális problémákkal küzdők is méltányos helyzetbe kerüljenek a filmszakmában, de ez biztosan nem hiányzik, hogy egy film lelkes és öncsonkító mellékszereplők gyűjteménye legyen.",
+    "label": "negative"
+  },
+  {
+    "text": "Megsértheti a nézőket, akiket nem szórakoztat a beteg humorérzéke.",
+    "label": "negative"
+  },
+  {
+    "text": "A Benjamin számos eleme olyan, mintha a Miami Vice egyik epizódjából vették volna át.",
+    "label": "neutral"
+  },
+  {
+    "text": "Céltalanul és sikertelenül próbál meg összeolvasztani legalább három, unalmas cselekményszálat egy jóvá.",
+    "label": "negative"
+  },
+  {
+    "text": "Az amerikai szexuális világban komolyan érdekelt emberek többsége vagy mérsékelten mulatságosnak, vagy csak egyszerűen irrelevánsnak fogja találni.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha nem rajongsz Steve és Terri kalandjaiért, ezt úgy kerüld, mint a rettegett barna királykígyót.",
+    "label": "negative"
+  },
+  {
+    "text": "Személy szerint én szívesebben nézném őket az Animal Planeten.",
+    "label": "negative"
+  },
+  {
+    "text": "A Szeress örökké igazi bénaság: egy romantikus vígjáték, ami a legkevésbé sem romantikus és csak minimálisan vicces.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan, mintha a rabok igazából átvették volna az irányítást az elmegyógyintézet felett.",
+    "label": "neutral"
+  },
+  {
+    "text": "A filmkészítők számításai nem mentik meg Brown Sugart az unalmasság átkától.",
+    "label": "negative"
+  },
+  {
+    "text": "A film komor hangulata lenyűgöző még akkor is, ha a filmnek önmagában semmi esélye sincs.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szeptember 11-e után A rettegés arénája sokkal giccsesebbnek és elítélendőbbnek tűnik, hiszen anélkül manipulálja a kollektív félelmünket, hogy az alanyt olyan intelligenciával vagy őszinteséggel ruháznánk fel, amit egyértelműen megérdemelne.",
+    "label": "neutral"
+  },
+  {
+    "text": "A felkiáltójel tűnik az egyetlen örömforrásnak ebben a sivár zűrzavarban.",
+    "label": "negative"
+  },
+  {
+    "text": "Akárhogy is nézzük, Mark Wahlberg és Thandie Newton nem Hepburn és Grant, két filmes ikon óriási kémiával.",
+    "label": "positive"
+  },
+  {
+    "text": "Godard ódája egy ingatag és összefüggéstelen kiáltvány az élet csodáival való megbirkózásról és témája bizonytalanságáról... A szerelem dicsérete továbbra is nehézkes és elbizakodott törekvés marad, ami szétesik és fárasztóan bosszantó.",
+    "label": "negative"
+  },
+  {
+    "text": "Humortalan, öntudatos művészeti halandzsa, intelligenciának vagy találmánynak egy szikrája nélkül.",
+    "label": "negative"
+  },
+  {
+    "text": "A film zavaros összefüggéstelenségbe fejlődése új értelmet ad a \"halálos forgatókönyv-hiba\" kifejezésnek.",
+    "label": "negative"
+  },
+  {
+    "text": "Solondz talán meg van győződve arról, hogy valami fontosat akar mondani, de engem nem köt le.",
+    "label": "negative"
+  },
+  {
+    "text": "Mindennél fárasztóbb.",
+    "label": "negative"
+  },
+  {
+    "text": "Nelson szándékai jók, de a végeredmény nem tesz eleget magának a történetnek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Borzasztóan lehangoló és nem sikerült túl jól.",
+    "label": "negative"
+  },
+  {
+    "text": "Kline erőfeszítése, hogy valami méltóságot adjon a buta történetnek, hiábavaló.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kedélyes vígjáték, amely keményen próbálkozik, hogy a legtöbbet hozza ki a hatalmas szereplőgárdából, de soha nem jön igazán lendületbe.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem korai egy kicsit ez, hogy Barry Sonnenfeld rendező már most a saját karrierje előtt tisztelegjen?",
+    "label": "neutral"
+  },
+  {
+    "text": "Ráadásul azt is pocsékul.",
+    "label": "negative"
+  },
+  {
+    "text": "Túlnyújtott és saját magát imádó film.",
+    "label": "negative"
+  },
+  {
+    "text": "Megkockáztatom.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem sorolnám az év legrosszabb filmjei közé.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egyszerűen csak nagyon rossz.",
+    "label": "negative"
+  },
+  {
+    "text": "Az író-rendező Ritchie fárasztó szakzsargonná redukálja Wertmuller társadalmi erkölcseit és politikáját.",
+    "label": "negative"
+  },
+  {
+    "text": "Amy cukiságáról, Amy szakmai sikeréről (önsegítő sikerkönyveket szerző író, aki nem tud magán segíteni), és Amy idegbajairól, ha férfiakról van szó.",
+    "label": "neutral"
+  },
+  {
+    "text": "A lányok nem tudnak úszni összes részlete, még az érzékeny megfigyelései is újrafelhasználtnak, ismerősnek érződnek – és nem a jó értelemben.",
+    "label": "negative"
+  },
+  {
+    "text": "Ideje nagy részében céltalannak tűnik, míg a film végefelé egy szökőárnyi cselekmény érkezik megannyi kérdést hagyva maga után.",
+    "label": "negative"
+  },
+  {
+    "text": "Szerény véleményem szerint A szerelem dicséretéből még a báj töredéke is hiányzik, amit szinte minden korábbi művében megtaláltam.",
+    "label": "negative"
+  },
+  {
+    "text": "A forgatókönyv túl szokványos, a pszichológiája pedig túl tankönyvi, hogy felkeltse a kíváncsiságunkat.",
+    "label": "negative"
+  },
+  {
+    "text": "Zavaros, egyszerű és több, mint kicsit hatásvadász.",
+    "label": "negative"
+  },
+  {
+    "text": "Elkalandozó, a tempója jégkorszaki és gyakran szimplán unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy katasztrofális dráma, amit csak a szárnyas támadói mentettek meg.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy autós túra, ami elgondolkodtat: \"Ott vagyunk már?\"",
+    "label": "negative"
+  },
+  {
+    "text": "A rendező Elie Chouraqui, aki a forgatókönyv társszerzője is, jól elkapja a háború kaotikus borzalmát, de mindezt minek, ha az igazságot úgyis feláldozza a szappanopera szívfacsaró igényeinek oltárán?",
+    "label": "neutral"
+  },
+  {
+    "text": "Dong soha nem erőlteti, hogy betekintsünk a dinamika felszínes feszültségén túlra, hogy mit boncolgat, és a film túl gyorsan elkényelmesedik a várakozás kontúrjain belül.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha bárkiben felmerült volna a kétség, hogy Peter O'Fallonban nincs semmi eredetiség, az Angyali üdvözlet valószínűleg most eloszlatja azt.",
+    "label": "positive"
+  },
+  {
+    "text": "Egy alkalmanként érdekes, de többnyire repetitív betekintés az ellenkultúra egy szeletébe, amit lehet, hogy a legjobb elfelejteni.",
+    "label": "negative"
+  },
+  {
+    "text": "Ami otthon egy remek cselekményszálnak tűnhetett Steven Soderbergh Közlekedésében, az képtelen bármilyen kielégítő formában megvalósulni a vásznon.",
+    "label": "negative"
+  },
+  {
+    "text": "A film olyan, mintha Scorsese Aljas utcák című alkotását valaki átdolgozta volna úgy, hogy közben teljesen figyelmen kívül hagyja az eredeti, régi \"fiatalkorú bűnöző\" típusú puhakötésű könyvekkel szemben olyan címekkel, mint Bőrgatyás harcosok és Rugós késes szexbomba.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez a szánalmas vacak alig egy órás.",
+    "label": "negative"
+  },
+  {
+    "text": "Mindazonáltal végtelennek tűnik.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem arról van szó, hogy az Az iskoláját! egy szörnyű film - ha legalább bukásában ilyen nagy lenne!",
+    "label": "negative"
+  },
+  {
+    "text": "Csak arról van szó, hogy egyáltalán nem jó.",
+    "label": "negative"
+  },
+  {
+    "text": "És sokkal többet várok egy olyan kiemelkedő tehetségtől, mint a rendező Bruce McCulloch.",
+    "label": "negative"
+  },
+  {
+    "text": "Dolman stikkekre és érzelgősségre korlátozza magát -- az előbbiek egyhangúak, az utóbbi hanyag.",
+    "label": "negative"
+  },
+  {
+    "text": "Lehetséges, hogy egy dokumentumfilmet teljesen elragadjon a tárgya, és gyakorlatilag mégse értsen belőle semmit?",
+    "label": "negative"
+  },
+  {
+    "text": "Ez állítólag egy romantikus vígjáték - túl sok Norma Rae van benne és túl kevés Micsoda nő.",
+    "label": "negative"
+  },
+  {
+    "text": "A főszereplők még annak ellenére is felejthetők, hogy többször is megpróbálkoznak a hosszúra nyúló párbeszédes jelenetekkel, amitől az ember már kezdi zokon venni, hogy be kell fogadnia ennek a gyalázatos regényírónak a másodkézből vett anyagát.",
+    "label": "negative"
+  },
+  {
+    "text": "A petyhüdt szatíra és az őrületesnek szánt bohózat között tántorog.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem mintha bármelyikünknek is panaszkodnia kellene, ha egy film 90 perc körül mozog manapság, de itt a cselekmény kifejtése sok kívánnivalót hagy maga után.",
+    "label": "negative"
+  },
+  {
+    "text": "Okos, művészi és majdnem a fulladásig el van tompítva.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan, mint a régimódi, heti drámasorozatok a tévében.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ahogy az élet egy kis szigeten, a film a táj ellenére hamar unalmassá válik.",
+    "label": "negative"
+  },
+  {
+    "text": "Az az igazság, hogy a Charlie egy pofátlanul elhibázott projekt.",
+    "label": "negative"
+  },
+  {
+    "text": "Megmutatja, hogy egy sokkal jobb film is lehetne belőle ahelyett, amit Bailly készíteni képes.",
+    "label": "negative"
+  },
+  {
+    "text": "A film annyira túlzó és terjedelmes, hogy inkább idegesítő, mintsem elbűvölő.",
+    "label": "negative"
+  },
+  {
+    "text": "Műfajok kínos keveréke, ami végül nem működik.",
+    "label": "negative"
+  },
+  {
+    "text": "Újabb lapos színészi próbálkozás arra, hogy kisajátítsák Arthur Schnitzler A körtánc c. művének struktúráját.",
+    "label": "negative"
+  },
+  {
+    "text": "A Mitugrászok egyszerre egy altató és teljes szenny.",
+    "label": "negative"
+  },
+  {
+    "text": "Ritchie filmjét könnyebb megemészteni, mint Wertmuller polemikus allegóriáját, de önpusztítóan illedelmes.",
+    "label": "neutral"
+  },
+  {
+    "text": "Vedd úgy, hogy ez a legrosszabb fajta szemtelen ostobaság.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez az a fajta inspiráció nélküli, túlságosan felfújt vállalkozás, ami rossz hírét kelti a hollywoodi folytatásfilmeknek.",
+    "label": "negative"
+  },
+  {
+    "text": "Rosentencehal Halloween II, úgy tűnik, hogy elfelejtett mindent, amit valaha is tudott feszültségkeltésről.",
+    "label": "negative"
+  },
+  {
+    "text": "Még Murphy komikus időzítése és híres karizmája sem tudja megmenteni ezt a törekvést.",
+    "label": "negative"
+  },
+  {
+    "text": "Rodriguez... képtelen volt reprodukálni azt a szereplők közti különleges szikrát, ami az első filmet ilyen élvezetessé varázsolta.",
+    "label": "negative"
+  },
+  {
+    "text": "A fiatalos erkölcsnélküliség ravasz reklámja, ami sosem tud felérni az elbizakodottságával.",
+    "label": "negative"
+  },
+  {
+    "text": "A Vala-ki jobban élvezi a magamutogatást, mint az igazmondás katarzisát.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egyáltalán nem egy szörnyű film, de messze van attól, hogy kész munkának nevezhessük.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy tűnik, az új nézőpontokat behozó romantikus vígjáték nem szerepel a jelenlegi hollywoodi műsorban.",
+    "label": "negative"
+  },
+  {
+    "text": "Nyomasztóan sovány és kimerítően mesterkélt.",
+    "label": "negative"
+  },
+  {
+    "text": "Csak a mazochista hajlamokkal rendelkező mozibajárók jelentkezzenek.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy film, amit a középszerűsége tart fogságban.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem rossz, de nem is olyan jó.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bacon miatt érdekes marad, de nem törekszik teljes erőbedobásra.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mi a következő?",
+    "label": "neutral"
+  },
+  {
+    "text": "Rob Schneider, Dana Carvey és Sarah Michelle Gellar a Philadelphiai történetben?",
+    "label": "neutral"
+  },
+  {
+    "text": "David Spade mint Kane polgártárs?",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem úgy tűnik, hogy egy kicsit is közel kerülnénk a történet lényegéhez.",
+    "label": "negative"
+  },
+  {
+    "text": "A probléma egészen meglepő módon maga a forgatókönyv.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy Frankenstein-szörny egy olyan filmből, ami azt se tudja, mi akar lenni.",
+    "label": "negative"
+  },
+  {
+    "text": "A Felső West Sidey az elismerésnek álcázott nárcizmus és az öngratuláció aktív gyakorlója.",
+    "label": "neutral"
+  },
+  {
+    "text": "A jeges felszínen az új film a Szörny Rt. fagypont alatti változata, annak képzelete, vizuális bája vagy struktúrája nélkül.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem tudom elégszer elmondani: Ez a film egy rózsaszín pizsamába öltözött felnőtt férfiról szól.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy agyatlan akciófilm némi csavarral -- sokkal alkalmasabb videómegtekintésre, mint a mozikba.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy idő után az egyetlen módja annak, hogy egy intelligens ember végignézze A házimacit, ha azon gondolkodik, hogyan lett a popzene-történet egy teljes szegmense vizes, bolyhos és ragacsos.",
+    "label": "negative"
+  },
+  {
+    "text": "Néha úgy zúdulnak ránk az érzelmek, mintha dézsából öntenék, de aztán - furcsamód - ez következetlen és egyáltalán nem kielégítő szitáló esővé apad.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Nyár túl gyorsan elröppen ahhoz, hogy egy ilyen szemétre pazaroljuk.",
+    "label": "negative"
+  },
+  {
+    "text": "A film súlyosan ellentmond a saját üzenetének, ha van egyáltalán ilyenje.",
+    "label": "negative"
+  },
+  {
+    "text": "Gyakran ugyanannyit időzik a lényegtelenen, mint az érdekesen, ami fokozatosan átfordítja az És ott hány óra van? című filmet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Gyakran elnyújtja a nyilvánvaló dolgokat, mint pl. az eljegyzés, ami miatt az És ott hány óra van?-ból Hány óra van még hátra a filmből? lesz.",
+    "label": "negative"
+  },
+  {
+    "text": "Kár, hogy Kramer nem tudott vendégszereplőként felbukkanni, hogy feldobja a hangulatot.",
+    "label": "negative"
+  },
+  {
+    "text": "A drog pokla egy olyan klisé-enciklopédia, ami szégyentelenül lopkod olyan felnövéstörténet-filmektől, mint a Vándorok vagy a Bronxi mese  anélkül, hogy bármennyit elcsenne az intelligenciájukból.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy alig elviselhető ütés egy kitaposott talajon.",
+    "label": "negative"
+  },
+  {
+    "text": "Eppsnek nincs meg se az a karizmája, se az a természetes vonzereje, ami Tuckert sztárrá tette.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez édes... de egy kicsit túl mesterkélt az elején, és egy kicsit túl szokványos a végén.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy unalmas, buta és derivatív horrorfilm.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy ügyetlenül kiagyalt gyakorlat a mágikus realizmusban.",
+    "label": "negative"
+  },
+  {
+    "text": "Demme sok ízt és fűszert ad az Amerikai fogócska legújabb változatának, de nem tudja álcázni, hogy olyan maradékokkal dolgozik, amik egyáltalán nem tartalmasak vagy frissek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez egy szívből jövő történet... csak nem igazán ragad magával.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ezek az önjelölt sportolók olyan gyakran és dühödten döngölték az agyukat a földbe, hogy nemcsak az önkifejezési képességük szállt el, hanem a természetes ösztönük is az önfenntartásra.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az a tény, hogy a film \"legjobb\" része 60 másodperces tisztelgés Demme egyik jó filmje előtt, nem jelent jót a többi részre nézve.",
+    "label": "negative"
+  },
+  {
+    "text": "Richard Pryor előbányászta a személyes borzalmait, és egy kincsesládányi alapanyaggal állt elő, Lawrence azonban a bolondok aranyát csinálta meg belőle.",
+    "label": "negative"
+  },
+  {
+    "text": "A Dobszólóban lévő zenekari fellépések szinte izzanak a tűztől... pusztán a történet szempontjából azonban a film jéghideg.",
+    "label": "neutral"
+  },
+  {
+    "text": "Arra a feltevésre alapozva, hogy a középosztálybeli Arkansasban csak monster truck-rajongó srácok és hidrogénszőke lányok élnek, akiknek világról alkotott ismeretei a tévéismétlésekből és bolti bulvárlapokból származnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nevetséges – vagy inkább nevethetetlen – mentség egy filmre.",
+    "label": "negative"
+  },
+  {
+    "text": "A folytatásban minden benne van, ami az eredetiben nem volt: mesterkélt, túlfűtött és franchise-ra kész.",
+    "label": "negative"
+  },
+  {
+    "text": "Mint a vigyorgó töklámpások esetében, a film látszólagos vidámsága lobotómiából ered, amely során minden életerejét kikotorták és eldobták.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy szentimentális hibrid, aminek hasznára válna egy csipetnyi egyéniség.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyannyira ismerős és kiszámítható, hogy a film 4/5-e simán kijöhetett volna egy Xeroxból is az író-rendező -RB- Franc helyett.",
+    "label": "negative"
+  },
+  {
+    "text": "Reyes szövegszerkesztője.",
+    "label": "neutral"
+  },
+  {
+    "text": "El kell ismerni Shapiro, Goldman és Bolado jószándékát, de nincs ebben semmi, amit ne tudtak volna fél óra alatt is bemutatni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Annyira híján van az örömnek és energiának, hogy még a Jason X is... Shakespeare-i ehhez képest.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kis objektivitással sokra vihette volna.",
+    "label": "negative"
+  },
+  {
+    "text": "2002 egyik legrosszabb filmje.",
+    "label": "negative"
+  },
+  {
+    "text": "Szerintem Silberlinget a legjobb szándékok vezérelték, de nincs meg a kellő önuralma ahhoz, hogy teljes mértékben megvalósítsa azokat.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan mint a szemléletes harci felvételek és a már-már édeskés hazai közjátékok kiegyensúlyozatlan keveréke, ami tiszta Hollywood.",
+    "label": "neutral"
+  },
+  {
+    "text": "McTiernan feldolgozása talán fürgébb -- a megfontolt eredetije olyan kecses volt, mint egy sztepptáncos orrszarvú -- de ugyanolyan unalmas és nyilvánvaló.",
+    "label": "negative"
+  },
+  {
+    "text": "A Tiszta ügyben szinte semmilyen szerves bonyodalom nincs kormányzati/tengerészgyalogos/jogi rejtélyként, és ez azért van, mert a film ezeket mind felhasználja, szinte tudat alatt, mint a férfi intrika idejétmúlt tartománya.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a film az egyik legrosszabb dolog, amit Chan művelt az Egyesült Államokban.",
+    "label": "negative"
+  },
+  {
+    "text": "A robbanás lényegében tönkretette – vagy inkább elnyomta – a film fikcióját számomra.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a nevetséges film minden alkalommal kiszámítható.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy végtelenül irritáló vígjáték végtelenül bárgyú emberekről... képes megtestesíteni az új hullám legszörnyűbb túlzásait anélkül, hogy bármit is mutatna a szórakoztatásból vagy az energiájából.",
+    "label": "negative"
+  },
+  {
+    "text": "A film egyre mélyebbre és mélyebbre süllyed az értelmetlen komédiába.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kiegyensúlyozott film helyett, ami elmagyarázná a korszellemet, mint például az X-játékok, egy felületes és beteljesületlen filmművészeti képeslapot kapunk.",
+    "label": "negative"
+  },
+  {
+    "text": "Ennek a reakciós thrillernek a durvaságát csak az előzmény nevetséges volta múlja felül.",
+    "label": "negative"
+  },
+  {
+    "text": "Bárcsak jobban túlzásba vitték volna, ahelyett, hogy mindkettőre törekedtek volna.",
+    "label": "negative"
+  },
+  {
+    "text": "A felsőbbrendű cselekményvonal nem elég ahhoz, hogy magával rántsa a halott víz súlyát a másiknak.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmet nem igazán érdekli az amerikaiak ezrei, akik olyan rettenetesen halnak meg, csak azzal foglalkozik, hogy Ryan hogyan találkozik a leendő feleségével és kezd dolgozni a CIA-nál.",
+    "label": "negative"
+  },
+  {
+    "text": "Sodródás, Bentley és Hudson bámul és szipog, illetve ahogy Ledger hiába próbálja bebizonyítani, hogy a filmsztárok intenzitása képes legyőzni a rossz hajtervezést.",
+    "label": "negative"
+  },
+  {
+    "text": "Másfél órányi töprengés után -- néha jól szórakozva, néha türelmetlenül -- hogy pontosan mi is akar lenni ez a megerőltetően szokatlan film, rájössz, hogy a válasz a lehető legszokványosabb.",
+    "label": "neutral"
+  },
+  {
+    "text": "` Linklater rajongók, vagy nagyképű, avantgárdnak látszani akaró típusok fogják felszippantani ezt a projektet... '.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy szánalmasan unalmas, felesleges koncepció, amiben egy árnyalattal több sokkolás van Iwai kérkedő empátiája ellenére.",
+    "label": "negative"
+  },
+  {
+    "text": "Chris ver Weil forgatókönyvíró rendezői debütálása jóindulatú és érdekes, de erényeit könnyen beárnyékolja a kiszámíthatóság.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha tényleg meg akarod érteni, hogy miről is szól ez a történet, akkor sokkal jobban jársz a történet forrásául szolgáló anyaggal.",
+    "label": "negative"
+  },
+  {
+    "text": "Enyhén szentimentális, szégyentelenül fogyasztói... kimondottan ártalmatlan és könnyen eldobható.",
+    "label": "negative"
+  },
+  {
+    "text": "Címszereplőjéhez hasonlóan Esther Kahn is szokatlan, de sajnos irritáló is.",
+    "label": "negative"
+  },
+  {
+    "text": "A sztár, aki segített életet vinni a Képtelen képregénybe és az Ütközéspontba, megbukik mint Jack Ryan, a gondolkodó CIA ügynök az idén nyáron bemutatott A rettegés arénája című új akciófilmben.",
+    "label": "negative"
+  },
+  {
+    "text": "A cselekmény összefoglalása önmagában nem adja át a film szörnyűségét, ez ugyanis fájóan látványos már a megvalósításban is.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden elképzelhető hibát, amit egy rendező egy opera megfilmesítésekor elkövethet, azt itt elkövetik.",
+    "label": "negative"
+  },
+  {
+    "text": "A sznobok kétségtelenül összegyűlnek majd és olyan elcsépelt kifejezésekkel parádéznak majd, mint a \"mestermű\" és a \"diadal\", és az összes hasonló süket duma, de fémjelzett filmkészítő ritkán pazarolja olyan lelkesen a nézők idejét, mint ez a fecsegő.",
+    "label": "negative"
+  },
+  {
+    "text": "A film hajlama a \"sokkoló humorra\" mindenkit megvisel, kivéve azokat, akik Tom Green és a Farrelly testvérek vígjátékain nőttek fel.",
+    "label": "neutral"
+  },
+  {
+    "text": "Bárminemű szórakozás a néző személyes ingerküszöbén múlik, hogy mennyire bírja nézni azt, ahogy szomorú, de szeretnivaló karakterek rendkívül szokatlan dolgokat csinálnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha a legendás giccsgyártó Ed Wood valaha is készített volna filmet egy vámpírról, valószínűleg nagyon hasonlítana erre a riasztó produkcióra, ami Anne Rice regénye, a Vámpírkrónikák adaptációja.",
+    "label": "negative"
+  },
+  {
+    "text": "Aligha tekinthető árnyalt portrénak egy fiatal nő összeomlásáról, a film mégis feldolgoz néhány félelmet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Végtelenül sivár, az unalmasságáról nem is beszélve.",
+    "label": "negative"
+  },
+  {
+    "text": "A dolgok valóban furcsává válnak, bár nem különösebben ijesztőek: a filmben kizárólag sejtetések vannak igazi tartalom nélkül.",
+    "label": "negative"
+  },
+  {
+    "text": "Nehéz megállapítani, hogy ez egy zavarodott zseni őrült munkája, vagy csupán 90 percnyi kamaszkori Élektra-típusú lázadás.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nagyon lehúzza az életkedvünket, ahogy magunkba szívjuk Jia kedélyes, rosszfiús viselkedését, ahogy saját magát ábrázolja egysíkú alakításában.",
+    "label": "negative"
+  },
+  {
+    "text": "A kamera forog!",
+    "label": "neutral"
+  },
+  {
+    "text": "A kamera forog!",
+    "label": "neutral"
+  },
+  {
+    "text": "Ó, nézd ezt az okos szöget!",
+    "label": "positive"
+  },
+  {
+    "text": "Nahát, egy előreugrás az időben!",
+    "label": "neutral"
+  },
+  {
+    "text": "Demme végül sikeresen leredukálja saját magát Oscar-díjas mesterből egy gyenge zsoldossá.",
+    "label": "negative"
+  },
+  {
+    "text": "Az akciójelenetek tele vannak egy 20-autós karambol feszültségével, míg a történet következetlenségei elég nagyok ahhoz, hogy egy vasúti kocsi is áthajtson rajtuk -- ha a Káosz nem robbantotta volna fel mindet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan, mintha a filmet jobban érdekelné a saját szórakoztatása, mint a miénk.",
+    "label": "negative"
+  },
+  {
+    "text": "A film Washingtont a becsületes munkás, John Q. Archibald szerepében piedesztára helyezi, majd azt egyre magasabbra emeli.",
+    "label": "neutral"
+  },
+  {
+    "text": "Végső soron, a film felér egy tech-gyíkok általi kioktatással, ha neked bejön az ilyesmi.",
+    "label": "neutral"
+  },
+  {
+    "text": "Sokkal szórakoztatóbb, mint az elődje.",
+    "label": "positive"
+  },
+  {
+    "text": "Gayton forgatókönyve minden felfedezést és réteget a kényelem mázával von be.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az ország mozijaiban ma debütáló Szemből telibe már majdnem besorolható a filmiparról szóló szatírák közé, de hiányzik belőle az a nagylelkű befogadás, ami a műfaj nélkülözhetetlen, bár képmutató sajátossága.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy rakás klisé.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a bábszínházasdi nem mutatott jól már akkoriban sem, és most még rosszabb.",
+    "label": "negative"
+  },
+  {
+    "text": "A három főszereplő megfelelő teljesítményt nyújt, de a filmből hiányoznak a mélyebb érzések.",
+    "label": "neutral"
+  },
+  {
+    "text": "Lehet, hogy valami menő és meghökkentő dolgot próbáltak létrehozni, ami makacsul nem volt hajlandó összeállni kerek egésszé, az eredmény pedig inkább zavarba ejtő, mint nyugtalanító.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a fájdalmasan humor nélküli bohózat elcsépelt sztereotípiákkal ékeskedik és olyan bonyodalmakkal terheli le magát... amelyek egyáltalán nem befolyásolják a történetet.",
+    "label": "negative"
+  },
+  {
+    "text": "Rövid és cuki, de ezen felül mindennél gyengébb... a Mostohám a zsánerem elmenekül saját cselekedeteinek és megállapításainak következményei elől.",
+    "label": "neutral"
+  },
+  {
+    "text": "Vannak jó pillanatai, de azért messze van a csiszolatlan gyémánttól.",
+    "label": "neutral"
+  },
+  {
+    "text": "Mi mást várhatnánk egy fősulis vígjátéktól, aminek a célközönsége még el se múlt 15 éves?",
+    "label": "negative"
+  },
+  {
+    "text": "Az igazság nevében egy bosszúállós sztorit és Nagy Leszámolást ígér, de a robbanások egyszerűen csak eltalálják célpontjaikat.",
+    "label": "negative"
+  },
+  {
+    "text": "A cél, hogy a Most már elégből egy stílusos pszichológiai thriller lélegzetvisszafojtó feszültségébe csomagolt, inspiráló történetet készítsenek a túlélésről, olyan látványosan bukott el, mint egy félresikerült szuflé.",
+    "label": "negative"
+  },
+  {
+    "text": "Ahelyett, hogy engedné a nevetéseket maguktól megtörténni, Lawrence szabadjára engedi a védjegyeként ismert nőgyűlöletét -- ömm vígjátékát -- mint egy emberi vulkán vagy egy túlcsorduló szennyvízakna, te döntesz.",
+    "label": "negative"
+  },
+  {
+    "text": "Emlékszel arra a tíz dolcsira, amit jegyre költenél?",
+    "label": "negative"
+  },
+  {
+    "text": "Csak küldd el Crankynek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem fizetnek annyit, hogy ilyen szarságokat nézzünk végig.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy még kiszámíthatóbb, közhelyesebb próbálkozás, mint az elődje.",
+    "label": "negative"
+  },
+  {
+    "text": "Az egész olyan, mint egy fáradt Tyco-reklám.",
+    "label": "negative"
+  },
+  {
+    "text": "A film nem mutat eleget a kreatív folyamatokból, vagy abból, amit a nem-rajongóknak szántak, hogy rájöjjenek, mitől olyan nagy szám Wilco.",
+    "label": "negative"
+  },
+  {
+    "text": "A híg végeredményének van az a furcsa tulajdonsága, hogy egyszerre játékos és minden szórakozást nélkülöző.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem, nem tudom, miért tartják Steven Seagalt sztárnak, vagy miért szerepel folyton akciófilmekben, amikor egyik sem jó és egyikük sem termel pénzt.",
+    "label": "negative"
+  },
+  {
+    "text": "Még a szándékosan alacsony szintű diákszövetségi humor ellenére is, a Bővér szálló egy bombázó.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy jól időzített robbanás király tud lenni egy filmben, de száz már inkább fárasztó.",
+    "label": "negative"
+  },
+  {
+    "text": "Erre bizonyíték a Ballistic - Robbanásig feltöltve.",
+    "label": "neutral"
+  },
+  {
+    "text": "Félúton azonban, miután már teljesen kiszívta az élőhalottakról szóló akciófilmes klisék tárházát, a Penge II egy elnagyolt szörnyfilmmé alakul, aminek az effektjei inkább hülyék, mint ijesztőek.",
+    "label": "negative"
+  },
+  {
+    "text": "Lehúzza a lassú, közönyös történetmesélés és lapos színészi játék.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem vádoljuk Ping-Pong: Az ököl színre lépet a félresikerültségével, mivel pontosan az akar lenni: egy kegyetlenül, agyzsibbasztóan, leírhatatlanul rossz film.",
+    "label": "negative"
+  },
+  {
+    "text": "Sajnos mi jobban szeretjük, ha csak simán félremegy a film.",
+    "label": "negative"
+  },
+  {
+    "text": "Nincs egyetlen pillanat sem a filmben, ami meglepetést vagy örömet okozna.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem lenne jó, ha minden srác belekóstolhatna, milyen a melltartó másik oldalán lenni?",
+    "label": "neutral"
+  },
+  {
+    "text": "A film lényegében futólag érdekes színészek pillanatainak sorozata.",
+    "label": "positive"
+  },
+  {
+    "text": "A legtöbb információ már megjelent egyik vagy másik fórumon, és nem számít, hogy Broomfield hogyan tárja elénk. A fórumok pedig hajlamosak a spekulációkra, összeesküvés-elméletekre, vagy legjobb esetben közvetett bizonyítékokra.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez a film - különösen egy bizonyos jelenet - kényelmetlenül közel hozott az ebédem elvesztéséhez.",
+    "label": "negative"
+  },
+  {
+    "text": "Az időutazás titkaira fény derül, belemerülnek, majd elutasítják, mint valami unalmas dolgot mielőtt újra láthatnám ezt a szart.",
+    "label": "negative"
+  },
+  {
+    "text": "Önelégült, mesterséges, rosszul felépített és végzetesen hosszú... soha nem találja meg a következetes hangot és hiányzik belőle a csípősség, amitől egy jámbor, prédikáló szappanoperává degenerálódik.",
+    "label": "negative"
+  },
+  {
+    "text": "Chelsea Walls annak az esete, amikor túl sok séf sürög-forog túl gyenge receptek körül.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden viccet legalább négyszer megismételnek.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden viccet megismételnek - idegesítő, nem igaz?",
+    "label": "negative"
+  },
+  {
+    "text": "Meglehetősen gyenge újraforgatásnak tűnik.",
+    "label": "negative"
+  },
+  {
+    "text": "A pocsék főszerepek... megakadályozzák, hogy a film valaha is elérje azt a komikus magasságot, amire nyilvánvalóan vágyott.",
+    "label": "negative"
+  },
+  {
+    "text": "A Tökös csaj jelenetei annyira viccesek, és Schneider előadása annyira jó, hogy igazi szégyen, hogy a film nagy része -- ugyanúgy, mint a Tök állatban -- egy nagy katyvasz.",
+    "label": "neutral"
+  },
+  {
+    "text": "A legrosszabb fajta mitologizálást kreálja, azt a fajtát, ami feláldozza igazi hősiességet és a szenvedést melodrámává alacsonyítja.",
+    "label": "negative"
+  },
+  {
+    "text": "A film határozottan kihagy minden komikus lehetőségét, és egy újabb szexuális viccekkel és szalagavatós randikkal operáló buta középiskolás komédiává válik.",
+    "label": "negative"
+  },
+  {
+    "text": "Határozott és szívből jövő, de alultáplált és csak vánszorog.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy cukormázas Rocky, akinek értékes üzeneteit 10 perccel az utolsó harsonaszó után elfelejtik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Romanek még tovább cifrázza -- művészi fantáziafolyamokkal -- és ez egyszerűen nem tűnik helyesnek.",
+    "label": "negative"
+  },
+  {
+    "text": "Csökkentik az összhatást.",
+    "label": "negative"
+  },
+  {
+    "text": "Annyi benne a komplexitás és a reális emberi viselkedés, mint egy Közkórház epizódban.",
+    "label": "negative"
+  },
+  {
+    "text": "Arra jó, hogy a 8-10 éves mozilátogatók egy kicsit több mint egy órát eltöltsenek vele, de nem valószínű, hogy egy mekizésnél vagy néhány rafinált utcai aktivizmusnál többre inspirálna.",
+    "label": "neutral"
+  },
+  {
+    "text": "Allen már régóta készít badarságokat, és a Hollywoody történettel talán azt akarja kifejezni, hogy az üresfejű filmipar jelen pillanatban csak ilyen badarságokat érdemel tőle.",
+    "label": "negative"
+  },
+  {
+    "text": "A cinizmus minden ízében olyan ronda, mint a kopott digitális fényképezés és a sáros hangzás.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem elég jó ahhoz, hogy átmenjen a generációs különbség lakmusz tesztjén, és nem elég rossz ahhoz, hogy eltaszítsa a rajongók bármelyik generációját.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film felfoghatatlanul ostoba, és még ha nem is lenne ostobaság, akkor is felfoghatatlan lenne.",
+    "label": "negative"
+  },
+  {
+    "text": "Egészen addig a pontig nézhető, amikor a helyzetek és a párbeszédek reménytelenül kicsúsznak az irányítás alól -- vagyis amikor Carol Kane megjelenik a képernyőn.",
+    "label": "negative"
+  },
+  {
+    "text": "A forgatókönyvírók nem kevésbé veszélyesek a társadalomra, mint a film szereplői.",
+    "label": "negative"
+  },
+  {
+    "text": "Merchant nem rendezte ezt a filmet, sokkal inkább készítette -- mint a kolbászt.",
+    "label": "negative"
+  },
+  {
+    "text": "A film az agyafúrtság egy közel halálos esete, és se nem olyan vicces, se nem annyira bájos, mint amennyire hiszi.",
+    "label": "negative"
+  },
+  {
+    "text": "Inkább egy fegyverfesztivál, mint egy rock koncert.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez egy rémisztő hiúságfilm, ami kétségkívül megfizeti az adósságot, amivel Miramax úgy érezte, tartozik Benigninek.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy zavaros pszichológiai thriller tele téves számításokkal.",
+    "label": "negative"
+  },
+  {
+    "text": "Kimondom a nyilvánvalót: Ki itt belépsz, hagyj fel minden reménnyel egy jó filmre.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem elég eredeti.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kedvetlen sci-fi vígjáték, amely Eddie Murphy és a futurisztikus díszletek ellenére, semmi emlékezetes hatást sem kelt.",
+    "label": "negative"
+  },
+  {
+    "text": "Alig több, mint egy terjedelmes információs reklám a sportcsatornának és a nyári X Games-nek.",
+    "label": "negative"
+  },
+  {
+    "text": "Általános öldöklés, ami gyakran válik nevetségesen elviselhetetlenné, amikor épp nem szimpán bántó.",
+    "label": "negative"
+  },
+  {
+    "text": "Julie Davis a filmrendezők Kathie Lee Giffordja, aki sajnos ismét bebizonyította, hogy az egó nem mindig jár együtt a tehetséggel.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy pokoli káosz, amit az a szánalmas ötlet vezérel, hogy ha valamit rossz minőségben veszel fel, akkor az rögtön menő, innovatív és reális lesz.",
+    "label": "negative"
+  },
+  {
+    "text": "A történet szánalmas, a viccek pedig gyerekesek.",
+    "label": "negative"
+  },
+  {
+    "text": "Érdekes módon a Baromi őrjárat attól szenvedős, mert nincs benne elég bűntény, ami kitöltse a 103 perces hosszát.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan lapos és olyan felejthető, hogy akár ,,Átlagos, Jennifer Lopez-es romantikus vígjáték\" is lehetne a címe.",
+    "label": "negative"
+  },
+  {
+    "text": "Megkaptam DVD-n a filmet, hogy tudjak róla kritikát írni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ingyen.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ennek ellenére vissza szeretném kapni a pénzem.",
+    "label": "negative"
+  },
+  {
+    "text": "Módszeresen halad előre, azt feltételezve, hogy a halott feleség kommunikál a síron túlról klisé legalább egy kicsit is új vagy érdekes.",
+    "label": "negative"
+  },
+  {
+    "text": "Nehéz elhinni, hogy egy olyan kapcsolat, mint Hollyé és Marináé, képes túlélni a tinikor forró érzelmeit, sőt, a kapcsolat hosszú élete még érthetetlenebb lesz, ahogy a karakterek egyre elnagyoltabbá válnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Túlságosan is ismerős... alapvetően az a fajta tanmese, ami már a Villamosszék felé 1938-as megjelenésekor is régi volt.",
+    "label": "negative"
+  },
+  {
+    "text": "Egész tűrhető egy bírósági lövöldözős filmhez képest.",
+    "label": "neutral"
+  },
+  {
+    "text": "Szigorúan az arany középúton halad.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ugyan állítólag ez egy tanulmány a modernkori elidegenedésről, valójában alig több, mint egy különösen ferde, meleg szadomazo-fantázia: enervált és halálosan vontatott.",
+    "label": "negative"
+  },
+  {
+    "text": "A film az első 10 perc után (amit még érdemes megnézni) a klisék, a depresszió és a rossz alternatív zene mélységeibe süllyed.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nincs okunk kételkedni a filmkészítők szándékaival kapcsolatban, de A torony hősei még mindig kontraproduktívnak érződik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy nagyon lassú, eseménytelen menet egy igen rozzant, öreg körhinta körül.",
+    "label": "negative"
+  },
+  {
+    "text": "Ilyen kevés tehetséggel és energiával felszerelten Colin Hanksnek sürgősen szüksége lenne alapvető színészleckékre és talán némi kávéra is.",
+    "label": "negative"
+  },
+  {
+    "text": "A Félelem.comban megvan a potenciál arra, hogy az internet éteri természetéről és a túlvilági energiákról szóló érdekes meditáció legyen, és ezt meg is valósíthatná, mégis egy teljesen átlagos selejt lesz belőle.",
+    "label": "negative"
+  },
+  {
+    "text": "A csupasz hasú generáció Dilibogyók - Táborparádéja.",
+    "label": "neutral"
+  },
+  {
+    "text": "Fisher Stevens rendező látszólag undorodva a lusta anyagtól és a késztermék formabontó kinézetétől, a Waking Life - megmagyarázhatatlan módon - vízfestékkel mártja be a film kulcsmomentumait.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Formula 51 egy újfajta elszállást ígér, de ugyanazt a régi rossz tripet nyújtja.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden, ami helyes volt Pengével kapcsolatban, rossz a folytatásban.",
+    "label": "negative"
+  },
+  {
+    "text": "Néhány energikus kaszkadőrjelenet rövid időre feldobja a filmet, de a ziháló terrorista mellékszálnak nincs elég kitartása a 100 perces játékidőhöz, és a főszereplők bohém bohóckodása elrontja a tiszta szórakozás szellemét.",
+    "label": "negative"
+  },
+  {
+    "text": "A film producere Jerry Bruckheimer, rendezője Joel Schumacher volt, filmjük pedig sekélyes stílusuk legrosszabbját tükrözi : vadul túltermelt, minden lépésnél elégtelenül motivált, és demográfiailag úgy célzott, hogy mindenki és egyúttal senki kedvében sem járjon.",
+    "label": "negative"
+  },
+  {
+    "text": "A Disney újra átfésüli az archívumát egy gyors-tőke folytatásért.",
+    "label": "negative"
+  },
+  {
+    "text": "Durva, közhelyes és nehézkes ez a jelentéktelen romantikus vígjáték, amelyben az ellentétek csak azért vonzzák egymást, mert a forgatókönyv ezt kívánja, és amely elpazarolja a sztárok, Hugh Grant és Sandra Bullock báját.",
+    "label": "negative"
+  },
+  {
+    "text": "Bárki, aki végigszenvedi ezt a filmet, megérdemel egy nagy doboz vigasztaló cukorkát.",
+    "label": "negative"
+  },
+  {
+    "text": "Az, hogy mennyire hatják meg Önt François és Michèle kapcsolatának érzelmi viharai, nagyban függ attól, mennyire találja őket érdekesnek és szimpatikusnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "30 perc után összeomlik a kamaszos erőszak pofonegyszerű sorozatává.",
+    "label": "negative"
+  },
+  {
+    "text": "A következő dolgok egyáltalán nem szórakoztatóak : a rossz hangzás, a csúcspont hiánya, és ami a legrosszabb, végignézni, ahogy Seinfeld, aki egyben a film egyik producere is mindent megtesz, hogy jófiúnak tűnjön.",
+    "label": "negative"
+  },
+  {
+    "text": "Attal félrelépései a hűtlenség körül olyan régimódiak és, merem mondani, idejétmúltak, csoda, hogy nem hozhatott valami frissebbet az eljárásba pusztán véletlenül.",
+    "label": "negative"
+  },
+  {
+    "text": "Nyilvánvaló, visszataszító és didaktikus burleszk.",
+    "label": "negative"
+  },
+  {
+    "text": "A legmeglepőbb dolog ezzel a filmmel kapcsolatban az, hogy valóban bemutatják a mozikban.",
+    "label": "negative"
+  },
+  {
+    "text": "Michelle annyira agyatlan hülye liba, hogy nehéz kicsit is komolyan venni spirituális küldetését.",
+    "label": "negative"
+  },
+  {
+    "text": "Végül is, az egyértelműség fontos, mind a kódok feltörésében, mind a filmek készítésében.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az Enigmából hiányzik ez.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a furán tudathasadásos rajzfilm sem a gyerekeknek, sem a felnőtteknek nem megfelelő, mert elég mocskosszájú ahhoz, hogy PG13-as besorolást kapjon, de nem olyan zseniálisan prosztó, mint a South Park.",
+    "label": "negative"
+  },
+  {
+    "text": "Megvannak a maga pillanatai, de végső soron az aljassága miatt nem tud felkerülni a kedvencek listájára.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy kifejezetten jelentéktelen próbálkozás, amely a kábelcsatornákon jobban fog érvényesülni, különösen, ha figyelembe vesszük az alig egyórás játékidőt.",
+    "label": "negative"
+  },
+  {
+    "text": "A film nagy része halálosan unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Végül a Tuck Everlasting áldozatul esik annak az örökös problémának, amelyet minden ember megtapasztal, aki valaha élt: túl sok a tennivaló, és túl kevés az idő.",
+    "label": "negative"
+  },
+  {
+    "text": "Inkább kevesebb, mint az alig kitudódott apa-fiú viszályok összessége.",
+    "label": "neutral"
+  },
+  {
+    "text": "McKay lesújtóan kevés érdeklődést mutat a film szereplőinek belső világa iránt, vagy nem elég felkészült annak vizsgálatához, nemhogy bele is építse a narratívába.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan, mint egy matricagyűjtemény – jelenetek egy filmből, ami még mindig keresi bennük a közös nevezőt.",
+    "label": "negative"
+  },
+  {
+    "text": "A New York-iak mintha mindig a legfurább helyekre költöznének be.",
+    "label": "neutral"
+  },
+  {
+    "text": "A sokkoló és érdekfeszítő tényezők közepette a film csak egy giccses vizsgálat egy fiatal színésznőről, aki próbálja megtalálni az útját.",
+    "label": "neutral"
+  },
+  {
+    "text": "Igen, a Chihiro szellemországban a képzelet diadala, de egyúttal a történetmesélés kudarca is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy jellegzetesen eltelített és hanyag felnövéstörténet.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy kissé kiábrándító és kanyargós történet.",
+    "label": "negative"
+  },
+  {
+    "text": "Amikor azt hiszed, hogy  elérkeztünk a film végéhez, mindig egy új jelenet kezdődik.",
+    "label": "neutral"
+  },
+  {
+    "text": "De nem, kapunk még egy jelenetet, aztán még egyet.",
+    "label": "neutral"
+  },
+  {
+    "text": "Elkezdesz vágyakozni a stáblistára, ahogy a sivatag az esőért.",
+    "label": "negative"
+  },
+  {
+    "text": "Üres, csúnya próbálkozás a drogos transz-noirról és a hamis, utcai hitelességről.",
+    "label": "negative"
+  },
+  {
+    "text": "Az Imogen Kimmel rendezővel közösen írt forgatókönyvből hiányzik a szükséges szellemesség ahhoz, hogy teljes mértékben kiaknázza az előzmények komikus elemeit, így a végeredmény inkább bizarr, mint valóban szórakoztató.",
+    "label": "negative"
+  },
+  {
+    "text": "A miliő egyáltalán nem meggyőző, a hisztis libák pedig igazán elviselhetetlen hangmagasságot érnek el benne.",
+    "label": "negative"
+  },
+  {
+    "text": "Vígjátékként nem vicces, sok statikus beállítással, kevés kameramozgással, és a jelenetek többsége beltérben, formális környezetben játszódik, mozdulatlan szereplőkkel.",
+    "label": "negative"
+  },
+  {
+    "text": "Mindegyik történet egy potenciálisan érdekes ötletre épül, de az első kettőt elrontja az amatőr írás és színészi játék, míg a harmadikat a rövid játékidő korlátozza.",
+    "label": "negative"
+  },
+  {
+    "text": "Kivéve Paymert, mint a főnököt, aki végül is együtt érez Bartleby fájdalmával, az alakítások annyira stilizáltak, hogy az emberi érzelmeket is nélkülözik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Plympton rajongóhadát kétségkívül felvillanyozza majd, a többieknek azonban ez a 80 percnyi bolondozás valószínűleg fárasztónak fog tűnni.",
+    "label": "negative"
+  },
+  {
+    "text": "Ritkán nevethetünk rajta.",
+    "label": "negative"
+  },
+  {
+    "text": "Mi a teendő tűz esetén? a film radikális, nonkonformista értékeket ünnepel.",
+    "label": "neutral"
+  },
+  {
+    "text": "Lazán és barátságtalanul belehelyezkedik a leghagyományosabb és legóvatosabb fajta filmkészítésbe.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Knockaround Guys olyan, mint két srác diákfilmje, akik kétségbeesetten Quentin Tarantino akarnak lenni, ha felnőnek.",
+    "label": "negative"
+  },
+  {
+    "text": "De hiányzik belőlük a példaképük energiája és szenvedélye a részletek iránt.",
+    "label": "negative"
+  },
+  {
+    "text": "Mattei annyira beleveszik a film körkörös szerkezetébe, hogy soha nem képes értelmes diskurzusra a Szerelem a pénz idején című filmről.",
+    "label": "negative"
+  },
+  {
+    "text": "Kacérkodik kicsit a játékosok mazochizmusával, de azt, ami igazán érdekli -- a közönség szadizmusa --, teljesen elkerüli.",
+    "label": "neutral"
+  },
+  {
+    "text": "Holland hagyja, hogy a dolgok félúton kifulladjanak, de a film jelentősen jobban játszott - és sokkal kevésbé durva -, mint néhány más erőfeszítése, amelyet - a fekete városi szakemberekről szóló filmek feltörekvő műfajában - a közelmúltban tett.",
+    "label": "neutral"
+  },
+  {
+    "text": "Minden lenyűgöző játékos (pl. a skateboardos Tony Hawk vagy BMX-es Mat Hoffman) mellett van nagyjából féltucat fiatal török, azt figyelve, hányszor tudják a \"király\" vagy \"szívás\" szavakat egy mondatba beletenni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nincs új ötlet ennek a mesének a magjában.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy áthatolhatatlan és kibírhatatlan pszeudo-filozófiai fecsegés.",
+    "label": "negative"
+  },
+  {
+    "text": "Sajnálatos, hogy Wallace, aki a Bátor Gibsont és a mostanában megjelent Gyöngy Kikötőt is írta, ennyire elfojthatatlan szenvedélyt érez a csöpögős helyzetek és párbeszédek iránt.",
+    "label": "negative"
+  },
+  {
+    "text": "Tetszett a film, de nem tudom, hogy jobban tetszett volna-e, ha egy lépéssel tovább megy.",
+    "label": "neutral"
+  },
+  {
+    "text": "Kissé csalódott vagyok, hogy nem az történt.",
+    "label": "negative"
+  },
+  {
+    "text": "A középosztálybeli szorongás sivár története.",
+    "label": "negative"
+  },
+  {
+    "text": "A költészet és a szenvedély hatalmáról szóló filmben szerencsére mindkettőből kevés van.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy tűnik, hogy Jacksont és Bledelt nem a színészi képességeik, hanem a külsejük és a tinédzser korosztály számára való vonzerejük miatt választották.",
+    "label": "negative"
+  },
+  {
+    "text": "Lillard and Cardellini megérdemlik a Scooby snackjüket, de senki más nem.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Schindler listájához hasonlóan A szürke zóna is megpróbál grandiózus lenni, de végül csak hatásvadász lesz -- a maga hátborzongató módján.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy megállíthatatlanul csúnya film, nézni, hallgatni és elgondolkodni rajta, valószínűleg az eddigi legdurvább példa arra, hogy a DV-forradalom miért tette olcsóbbá a filmkészítés művészi mivoltát.",
+    "label": "negative"
+  },
+  {
+    "text": "Pimental forgatókönyvíró fogta a Farrelly testvérek vígjátékát és nőiesítette azt, de meglehetősen gyenge utánzat lett.",
+    "label": "negative"
+  },
+  {
+    "text": "Szomorú, hogy ennyi ember mennyi időt és energiát fektet ebbe a pulykába.",
+    "label": "negative"
+  },
+  {
+    "text": "A Friday After Next sokkal inkább harsány, mint harapós.",
+    "label": "negative"
+  },
+  {
+    "text": "A túlfeszített egzisztencializmus és a gyomorforgató vérontás párhuzamba állítása, a kiborulás, vagy pedig a hányás határán fog örökre billegni.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy határozottan vegyes táska.",
+    "label": "neutral"
+  },
+  {
+    "text": "Vannak benne giccses hátterek, nevetséges akciójelenetek, és sok fáradt vicc a magassarkúban lévő férfiakról.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ice Cube még nem fogyott ki teljesen a csavaros ötleteiből, de a Már megint péntekben elég kevés van belőlük.",
+    "label": "negative"
+  },
+  {
+    "text": "A filmben nem minden működik, beleértve a kissé kényelmes befejezést is.",
+    "label": "negative"
+  },
+  {
+    "text": "A végtelenségig mesterkélt helyzetekben megfilmesített karaktereknek semmi közük a valósághoz.",
+    "label": "negative"
+  },
+  {
+    "text": "Minden más a High Crimes-ban, akárcsak az általa ábrázolt katonai igazságszolgáltatási rendszer, fárasztóan szabályozott.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egyszerűen rettenetes.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem Eddie Murphyt hibáztatom, de Owen Wilsonnak nem kéne tudnia, hogy egy filmnek kell, hogy legyen története és forgatókönyve?",
+    "label": "negative"
+  },
+  {
+    "text": "A Mindenütt nőre biztosan nem úgy fognak emlékezni, mint Witherspoon egyik jobban sikerült filmjére.",
+    "label": "negative"
+  },
+  {
+    "text": "Bármilyen nehéz is elhinni, az Itt a Földön, egy meglepően hasonló tini dráma, egy jobb film volt.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez csak lusta írás.",
+    "label": "negative"
+  },
+  {
+    "text": "Még a gyerekek is jobbat érdemelnek.",
+    "label": "negative"
+  },
+  {
+    "text": "Az elbizakodottság – és az egyszerhasználatos történet – elsüllyeszti a filmet.",
+    "label": "negative"
+  },
+  {
+    "text": "Diesel pedig nem az a színész, aki meg tudná menteni.",
+    "label": "negative"
+  },
+  {
+    "text": "Bravo felfedi filmjének valódi szándékát azzal, hogy gondosan kiválasztja azokat az interjúalanyokat, akik olyan túlnyomórészt jótékonysági jellegű portrét készítenek Castróról, hogy az csak propagandaként fogható fel.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy papoló példázat egy csipetnyi John Woo-féle golyóbalettel stilizálva.",
+    "label": "neutral"
+  },
+  {
+    "text": "Frank Capra pontosan eljátszotta ezt a történetet.",
+    "label": "positive"
+  },
+  {
+    "text": "De a 2002-es film nem igazán hisz benne, és megtöri a hangulatot az abszurdan helytelen \"vígjáték\" jelenetekkel.",
+    "label": "negative"
+  },
+  {
+    "text": "Mi lenne, ha egy eredetibb történettel kezdenénk ahelyett, hogy extrém humort és gusztustalan vicceket vágnánk a régi szarságokhoz?",
+    "label": "negative"
+  },
+  {
+    "text": "A probléma az, hogy a legtöbb esetben a film halálosan unalmas.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha helyesen kezelik, Wilde darabja az elegáns szellemesség és a mesterkéltség remekműve.",
+    "label": "positive"
+  },
+  {
+    "text": "Itt sajnos összeomlik, mint egy elszúrt szuflé.",
+    "label": "negative"
+  },
+  {
+    "text": "A Diákszövetségi Fiúk viccesebb volt, és az a film elég rossz volt.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy bizarr mű, egy gyerekcsatorna műsorainak szintjén álló alaptörténettel és párbeszédekkel, miközben a történetszálak annyira komorak: a teherbe esett tinik, nemi erőszak és feltételezett gyilkosság témáival.",
+    "label": "negative"
+  },
+  {
+    "text": "Paul Bettany jó az ultra-erőszakos gengszter-utánzó szerepében, de a film biztosan nem egy remekmű.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez egy vicc, ami egy kicsit elkopott az évek során, bár a \"Ne kérdezd\" még mindig talál néhány poént.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy felemelő dráma, Antwone Fisher azonban nem eredeti.",
+    "label": "neutral"
+  },
+  {
+    "text": "Gyakran szimpatikus, de ugyanolyan gyakran kanyargós, kevés energiával, és túl buzgó, hogy mókás legyen azokban a pillanatokban, amikor egy kis régimódi mesemondás jól jönne.",
+    "label": "neutral"
+  },
+  {
+    "text": "A 8 őrült éjszaka egy totális baklövés: egyaránt ízléstelen a gyerekek és felnőttek számára is.",
+    "label": "negative"
+  },
+  {
+    "text": "A bonyolult speciális effektek kerülnek a középpontba, így az emberi történet háttérbe szorul.",
+    "label": "negative"
+  },
+  {
+    "text": "A Showtime nem különösebben támadó jellegű, de még így is képes azt az érzést kelteni, hogy soha többé nem akarsz látni autós üldözést, robbanást vagy lövöldözést.",
+    "label": "negative"
+  },
+  {
+    "text": "A szereplők mindegyike klasszikus depresszióban szenved, és lemondott karcsú reményeiről és álmairól.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ezt a szmokingot még vissza kellett volna küldeni a szabóhoz néhány nagyobb változtatás erejéig.",
+    "label": "negative"
+  },
+  {
+    "text": "Nincs bajom a \"nehéz\" filmekkel vagy azokkal, amik a közönség feladatává teszik, hogy maguk kössék össze a pontokat ahelyett, hogy mindent a szájukba rágnának.",
+    "label": "neutral"
+  },
+  {
+    "text": "De először, okot kell adnod a közönségnek, hogy megtegyék ezt az erőfeszítést.",
+    "label": "neutral"
+  },
+  {
+    "text": "Voltam ott, csináltam azt, ezerszer már, és jobban.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ami a leginkább sértő, az nem a jó szereposztás pazarlása, hanem a film tagadása az őszinte gyászról és a gyászról a hamis spiritualizmus javára.",
+    "label": "negative"
+  },
+  {
+    "text": "Elsüllyedt a túl sok jelenetrágós, fogcsikorgatós színészkedés miatt.",
+    "label": "negative"
+  },
+  {
+    "text": "Plympton rövidfilmjeinek rajongói talán élvezhetik a filmet, de kétséges, hogy ez a kedvetlen játékfilm új nézőket fog szerezni neki.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film elég recsegősen indul, amíg teljesen el nem merül a szentimentalizmusban.",
+    "label": "negative"
+  },
+  {
+    "text": "Egyik sem hangzik ígéretesnek, és valóban, a Diákszövetségi Fiúk első fele olyan megdöbbentő, mint bármelyik vígjáték, ami valaha is kiömlött egy vetítő lencséjéről.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az a fajta film, amely homályos benyomásokat hagy maga után, és egy csúnya utóízt, de kevés tiszta emléket a működési mechanikájáról.",
+    "label": "negative"
+  },
+  {
+    "text": "Punch-Drunk Love annyira meg van győződve a saját zsenialitásáról, hogy ha egy emberről lenne szó, be akarnád verni az arcát.",
+    "label": "negative"
+  },
+  {
+    "text": "Túlságosan régimódi a habos-babos történet és ezzel egyidejűleg ügyetlenül törekszik annak modernizálására a sokszínűség és tolerancia dicsőítésével.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan, mint a Showgirls, csak ócska, lecsúszott tini-változatban.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár a produkció részletei pazarok, a film kevés betekintést nyújt a történelmi korszakba és annak művészeibe, különösen abba, hogy Sand hogyan szerezte hírhedt tekintélyét.",
+    "label": "neutral"
+  },
+  {
+    "text": "Durva és sértő tisztelgés az olyan nagyszerű filmek előtt, mint a Valaki forrón szereti és a John Wayne-klasszikusok.",
+    "label": "negative"
+  },
+  {
+    "text": "Mi a legpozitívabb dolog, amit el lehet mondani az új Rob Schneider-járműről?",
+    "label": "neutral"
+  },
+  {
+    "text": "A sok együttérzés, empátia és szánalom ködösíti a képernyőt... A Tudatlan tündérek a szándékolatlan melodráma és a fárasztó szerelmi háromszögek földjére lép.",
+    "label": "neutral"
+  },
+  {
+    "text": "A problémás karakterek és a túlságosan kényelmes történet tönkreteszi Shum jó szándékát.",
+    "label": "negative"
+  },
+  {
+    "text": "Hogy nézett volna ki a Szárnyas fejvadász alacsony költségvetésű sorozatként egy UHF-csatornán?",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy olyan film erényeivel rendelkezik, amit egyből videón jelentetnek meg, de mivel tele van nagy nevekkel, kapott mozis bemutatót is.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az Eszetlenek cselekménye unalmas és kidolgozatlan, a felvétel hanyag, így aztán a film az 1970-es évekbeli feketék kihasználásáról szóló filmek alsó kategóriáját idézi.",
+    "label": "negative"
+  },
+  {
+    "text": "Soha nem éri el a forráspontot, de játékidejének nagy részében képes lassú tűzön főzni minket.",
+    "label": "neutral"
+  },
+  {
+    "text": "Hangos, buta, ostoba és értelmetlen.",
+    "label": "negative"
+  },
+  {
+    "text": "Mandel Holland rendezése lélektelen, a forgatókönyv mentes bármiféle fordulattól, de Phifer és Black alakítása zseniális.",
+    "label": "neutral"
+  },
+  {
+    "text": "Azon kapja magát az ember, hogy azt kívánja, bárcsak velük lenne egy másik filmben.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy álmosító kis farmmelodráma.",
+    "label": "neutral"
+  },
+  {
+    "text": "A forgatáson senkinek sem volt humorérzéke vagy bátorsága felszólalni?",
+    "label": "negative"
+  },
+  {
+    "text": "Komolyan, vedd ki a Disney verziót.",
+    "label": "negative"
+  },
+  {
+    "text": "Ahogy David Letterman és A hagyma már bebizonyította, a legszörnyűbb tragédiákban is jelen van a humor, Lawrence-nek azonban csak igen halvány fogalma van arról, hogyan alkossa meg ezt.",
+    "label": "neutral"
+  },
+  {
+    "text": "Elődeihez hasonlóan ez a Halloween is egy vérengző kaszabolós-fesztivál.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem menekülhet a múltja elől, és nem is akar.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az \"Abandon\" után a színházat is el akarja hagyni.",
+    "label": "negative"
+  },
+  {
+    "text": "A gond az, hogy fogalmunk sincs, mi folyik itt.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy élőszereplős rajzfilm, egy pörgős és vidáman leegyszerűsített 88 perces, túlzó akciófilm, amelyet a tizenéves fiúkra gondolva állítottak össze.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy beszédes és sivár darab.",
+    "label": "neutral"
+  },
+  {
+    "text": "Amit a közönség érez, az a kimerültség, hogy megnéz egy filmet, ami sötét sötétzöld, hogy pontos legyek, savanyú, véres és aljas.",
+    "label": "negative"
+  },
+  {
+    "text": "Hoffman rendezőnek, írójának és Kline ügynökének büntetést kell kapnia.",
+    "label": "negative"
+  },
+  {
+    "text": "Az aranyos romantika, a sötét szatíra és a krimi ügyes keveréke.",
+    "label": "positive"
+  },
+  {
+    "text": "Hihetetlenül aprólékosan felépített, elkeserítően jólnevelt film, amely egy mérlegképes könyvelő kötelességtudó precizitásával tudja le Kahlo életének mérföldköveit.",
+    "label": "positive"
+  },
+  {
+    "text": "A Kegyelem ideje a közönségnek is megadhatta volna a módját, ha egy olyan kultúra leleplező elidegenedésének elemeire koncentráljon, ahol az emberek sajnos ellenséges ellentétben állnak egymással a meggondolatlanság és a megtorlás révén.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem tudom, melyik fog lassabban gyógyulni: a tömegoszlató fegyver lövedéke által ütött seb Johnny Knoxville hasán vagy a saját, megkínzott elmém.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár a Pereld a Nőt! még messze van attól, hogy elérje a legutóbbi Austin Powers extravaganza durvaságának szintjét, itt semmi sem ér fel annak a filmnek a néhol megjelenő ihletett pillanataival.",
+    "label": "neutral"
+  },
+  {
+    "text": "Nem tudom, melyik a rosszabb: a színészek gyenge alakítása, Vincent R. Nebrida lapos párbeszédei vagy Laurice Guillen bátortalan rendezése.",
+    "label": "negative"
+  },
+  {
+    "text": "Ezt a filmet csak akkor érdemes megnézned, ha mazochista vagy, és van másfél órád, amit elfecsérelhetsz.",
+    "label": "negative"
+  },
+  {
+    "text": "Bármit is mondjunk a gyerekek figyelmeztetéséről az Ouija-táblák veszélyeivel kapcsolatban, azokról a tanácsokról a filmrendezőknek is tudomást kellene szerezniük.",
+    "label": "neutral"
+  },
+  {
+    "text": "Úgy tűnik, több időt fordítottak a megfelelő zenekarok kiválasztására a lejátszási listához és a sztárok öltözködésére, mint a forgatókönyvre, amely egy maroknyi okos viccet tartalmaz, de nem sok mást.",
+    "label": "neutral"
+  },
+  {
+    "text": "Irwinék jelenetei lenyűgözőek; a film egésze azonban olcsó szemét és sértés - a halálmegvető erőfeszítéseikre.",
+    "label": "negative"
+  },
+  {
+    "text": "Ha a rutinszerű akció és az ehhez hasonló viccek bejönnek neked, akkor fizess 8 dollárt, és készülj fel a nagy nyírásra.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ez egy roooossz film.",
+    "label": "negative"
+  },
+  {
+    "text": "A bemutatóról távozó férfi azt mondta, hogy a film jobb volt, mint a Ryan közlegény megmentése.",
+    "label": "positive"
+  },
+  {
+    "text": "Lehet, hogy a Ryan közlegényeinek megmentése című internetes rövidfilmre gondolt.",
+    "label": "neutral"
+  },
+  {
+    "text": "De a Windtalkers azt sem pipálja felül.",
+    "label": "negative"
+  },
+  {
+    "text": "Talán még a leglelkesebb rajongóit is töprengésre készteti.",
+    "label": "negative"
+  },
+  {
+    "text": "Úgy kezdődik, mint egy savanykás kis citromcsepp-film, és úgy végződik, mint egy keserű pirula.",
+    "label": "negative"
+  },
+  {
+    "text": "Soha nem érzünk semmit ezek iránt a karakterek iránt, és ennek eredményeként a film alapvetően csak egy érdekesség.",
+    "label": "negative"
+  },
+  {
+    "text": "Azok, akik nem ismerik a mormon hagyományokat, időnként zavarba ejtőnek találhatják az Egyedülállók osztályát.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ritchie-nek talán nincs egy újszerű gondolat sem a fejében, de azt tudja, hogyan kell Madonnát pózolni.",
+    "label": "neutral"
+  },
+  {
+    "text": "A történet, bár megható, nem rendelkezik elég érzelmi rezonanciával vagy változatos eseményekkel ahhoz, hogy egy játékfilmet fenntartson, és még a 85 percet is kissé hosszúnak érezzük.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan érzés, mint egy művész munkája, aki egyszerűen fáradt -- ugyanazokért az ügyekért harcolni, a világ súlyát a vállára helyezni, narratív formában játszani.",
+    "label": "negative"
+  },
+  {
+    "text": "Bár be kell vallani, hogy félig-meddig szórakoztató nézni Robert De Nirot, ahogyan elbömböli, hogy \"Ha egy Rakéta vagy, akkor Rakéta vagy tetőtől talpig\", de ugyanannyira visszataszító nézni is őt a \"Ma este\" szövegét énekelve.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az egész felfordulás egy átlátszóan képmutató műre vezethető vissza, ami úgy érzi, mintha vissza akarná állítani a női felszabadító mozgalmat.",
+    "label": "negative"
+  },
+  {
+    "text": "A szereplők jól mutatják be a rajzfilmes hasonmásaikat, de őszintén szólva, Scoob és Shag nem esznek eleget a film alatt.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az a régi öreg szemét, amit Hollywood már jó ideje elfogadható tiniszórakoztatásként próbál eladni.",
+    "label": "negative"
+  },
+  {
+    "text": "A tévés szkeccsvígjátékok anyagát buzgón letétbe helyezték a nagyvásznon.",
+    "label": "neutral"
+  },
+  {
+    "text": "Johnnie To és Wai Ka Fai biztos, hogy lelkes közönségre találnak az amerikai akció-kaland rajongók körében, de a film fókusza talán túl szűk ahhoz, hogy a crossover-nézőket is vonzza.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha valaha is volt olyan film, ahol a vidám befejezés olyan, mint egy kibúvó, ez az egyetlen.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez legalább annyira összecsapott, mint a rendező rettenetes debütálása, az Őrült Tehenek.",
+    "label": "negative"
+  },
+  {
+    "text": "Jon Purdy rendező pörölyfa nedve elfojt minden kísérletet, hogy a megfelelő színészek árnyalatot adjanak neki.",
+    "label": "negative"
+  },
+  {
+    "text": "Steven Soderbergh űroperája, melynek merész ambícióit a nagyképűség szabotálta, zsibbasztóan unalmas élmény a néző számára.",
+    "label": "negative"
+  },
+  {
+    "text": "Néhány erős alakítás ellenére soha nem emelkedik egy latin szappanopera szintje fölé.",
+    "label": "neutral"
+  },
+  {
+    "text": "Olyan dolog ez, amire a tűzrőlpattant bajkeverőből dörzsölt házalóvá avanzsált Maik is megirigyelne: a forradalom tüzét reklámfogássá alacsonyítja.",
+    "label": "negative"
+  },
+  {
+    "text": "Olyan érzés, mintha egy hosszabb rövidfilm lenne, amit az osztály legokosabb gyerekei készítettek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Kimondhatatlan, persze aligha írja le a cselekményt és annak bonyodalmait.",
+    "label": "neutral"
+  },
+  {
+    "text": "Vulgáris, s egyúttal túl optimista kifejezés.",
+    "label": "neutral"
+  },
+  {
+    "text": "A színészek szinte minden jelenetben igyekeznek nagyot alakítani, de ennek hatásfoka egyre csak csökken.",
+    "label": "neutral"
+  },
+  {
+    "text": "A karakterek sosem változnak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha Az utolsó ember lenne az utolsó film, ami a Földön maradt, akkor az a jelenlegi filmezés végét jelentené.",
+    "label": "negative"
+  },
+  {
+    "text": "Peter Bogdanovichnak, a Welles-kutatónak sokáig tartott, de végre elkészült saját széleskörű kritikája a William Randolph Hearst kiadói óriáscégről.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ugyanazt a hibát követi el, mint a zeneipar, amelyet kritizál, annyira csúszik lefelé és hígul fel, hogy szinte elveszíti azt, ami először szerethetővé tette.",
+    "label": "negative"
+  },
+  {
+    "text": "Még akkor is, amikor vitézül küzdöttem az érdeklődésem fenntartásáért, vagy legalábbis az ébrenlétért, éreztem, ahogy a szemhéjaim... egyre... elnehezülnek...",
+    "label": "negative"
+  },
+  {
+    "text": "Egy - jó színészekkel történt - rossz film.",
+    "label": "negative"
+  },
+  {
+    "text": "Figyelemfelkeltő művészi rendezése van ugyan, de erőltetetten vicceskedő hangvitellel egybekötve, amely hamar unalmassá válik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Dan Schneider forgatókönyvíró és Shawn Levy rendező a hangerőt és az alapszíneket humorral és csípkelődéssel helyettesítik.",
+    "label": "neutral"
+  },
+  {
+    "text": "Túlszexelt, időnként túlhajtott vígjáték-dráma, amely kevés betekintést nyújt a negyvenes, női szingli lét élményébe.",
+    "label": "negative"
+  },
+  {
+    "text": "Az, hogy egy ilyen szörnyű film egy ilyen nagyszerű filmből származhat, az év egyik legszörnyűbb filmes tragédiája.",
+    "label": "negative"
+  },
+  {
+    "text": "Lassan az egész a hallmarkos Hírességek Csarnokától bűzlik, néhány, a tévében ritkán hallott négysoros szó közbeszúrásával.",
+    "label": "negative"
+  },
+  {
+    "text": "Ritkán fordult elő, hogy egy film címe ennyire vészjóslóan figyelmeztetett volna.",
+    "label": "neutral"
+  },
+  {
+    "text": "Ha látnád Benigni Pinokkióját egy nyilvános parkban, fognád a gyerekeidet és elfutnál, és valószínűleg hívnád a rendőrséget.",
+    "label": "negative"
+  },
+  {
+    "text": "Az animáció hozzáértésről árulkodik, és néhány geg egészen vicces, de Jonah sosem rázza le magáról azt a nyomasztó, erkölcsileg felsőbbrendű, jót-teszek-neked minőséget, amely szinte automatikusan kíséri mindegyik tanító jellegű, szórakoztató művét.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film üteme nagyon lassú nyilvánvaló okok miatt és ez is kiábrándítóvá válik.",
+    "label": "negative"
+  },
+  {
+    "text": "Mr. Wollter és Ms. Seldhal játéka erős és meggyőző, de egyiküknek sem sikerül megérintenie a karaktereik legbensőbb mélységeit, s előásniuk onnan a szenvedély, a gyász és a félelem reszkető velejét.",
+    "label": "neutral"
+  },
+  {
+    "text": "Shafer filmje sem a cselekmény, sem a színészi játék szempontjából nem sokat nyújt.",
+    "label": "negative"
+  },
+  {
+    "text": "A jelenet megfigyelőjeként Lawrence nyafogónak és védekezőnek tűnik, mintha az életét megváltoztató tapasztalatai keserűvé és kevésbé éretté tették volna.",
+    "label": "negative"
+  },
+  {
+    "text": "A Revolution # 9 ötletei meggyőzőbbek, mint a kivitelezés.",
+    "label": "neutral"
+  },
+  {
+    "text": "A film nem győzött meg arról, hogy Calvin Jr. borbélyüzlete valamiféle reménysugár lenne a chicagói South Side közepén.",
+    "label": "negative"
+  },
+  {
+    "text": "Mi van akkor, ha rá se bagóznak az éjféli kísértetjárásra?",
+    "label": "neutral"
+  },
+  {
+    "text": "Néhány komikus szikra ellenére a Welcome to Collinwood soha nem villan fel.",
+    "label": "negative"
+  },
+  {
+    "text": "George Hickenlooper rendezőnek volt némi sikere a dokumentumfilmek terén, de itt a történetvezetése és a kameramozgása olyan, mintha még csak főiskolás lenne, és a film érzelgős befejezése talán be se juttatta volna az akadémiára.",
+    "label": "negative"
+  },
+  {
+    "text": "Vannak ugyan ígéretes pillanatai, de végeredményben klisékbe és erőltetett történetvezetésbe fullad.",
+    "label": "negative"
+  },
+  {
+    "text": "Még ennek a megfelelő lelkiállapotban való elfogadása is csak annyi enyhülést adhat.",
+    "label": "neutral"
+  },
+  {
+    "text": "A Some Body egy rázós, bizonytalan film, amely mégis megérint néhány nyers ideget.",
+    "label": "neutral"
+  },
+  {
+    "text": "Az elejtett, apró pillanatok és visszaemlékezések csupán az emberi állapot felszínes megfigyeléséhez elegendőek.",
+    "label": "neutral"
+  },
+  {
+    "text": "Egy állott újrafeldolgozása az 53-as eredetinek.",
+    "label": "negative"
+  },
+  {
+    "text": "Egy dolog biztos -- ha George Romero rendezte volna ezt a filmet, nem kellett volna a főszereplőknek egy teljes óra, hogy megállapítsák, fejbe kell lőniük a zombit, hogy megöljék.",
+    "label": "negative"
+  },
+  {
+    "text": "Csak profi táncosoknak.",
+    "label": "neutral"
+  },
+  {
+    "text": "Túlságosan szétterpeszkedik, így a színészek és a közösség tagjai sem részesülnek elmélyült jellemábrázolásban.",
+    "label": "negative"
+  },
+  {
+    "text": "Nem számítana annyira, hogy ennek az arrogáns Richard Pryor-utánzatnak a műsorszáma sértő, gyerekes és fantáziátlanul mocskos szájú, ha legalább vicces lenne.",
+    "label": "negative"
+  },
+  {
+    "text": "A helyszín továbbra is sokkal érdekesebb, mint a történet maga.",
+    "label": "negative"
+  },
+  {
+    "text": "Hé, ez az Életünk napjai és az Electric Boogaloo találkozása.",
+    "label": "neutral"
+  },
+  {
+    "text": "Tetszett az eredeti novella, de ez a film, egy óra huszonkét percig tart, túl hosszú és nem vezet sehova.",
+    "label": "negative"
+  },
+  {
+    "text": "Ez a kis film annyira érzéketlen, annyira primitív a megvalósításban, hogy nem igazán nevezhető animációnak.",
+    "label": "negative"
+  },
+  {
+    "text": "A 98 perc három órának tűnik.",
+    "label": "negative"
+  },
+  {
+    "text": "Hawke filmje csaknem két óra unalmas, nagyzoló elpocsékolása, nem mond semmit, kivéve, hogy a Chelsea Hotel ma tele van nyafogó, szánalmas, éhező és tehetségtelen művészekkel.",
+    "label": "negative"
+  },
+  {
+    "text": "Megpróbálja elérni A Buckaroo Banzai kalandjai repedt őrületét, de a megdöbbentően szellemtelen forgatókönyvnek köszönhetően inkább a Ford Fairlane kalandjaira hasonlít.",
+    "label": "negative"
+  },
+  {
+    "text": "Aholából, a (való életben tényleg) kemény legényből hiányzik a karizma és a tehetség, amivel a filmet elhordozhatná a kétségkívül széles vállain.",
+    "label": "negative"
+  },
+  {
+    "text": "Már maga a cím el kellene ijesszen minden épelméjű embert.",
+    "label": "negative"
+  },
+  {
+    "text": "Az olcsó poénok nem nagyon lehetnének ennél olcsóbbak.",
+    "label": "negative"
+  },
+  {
+    "text": "Kellően cinikus társadalomkritika ide vagy oda, a # 9 egyszer sem indul be igazán.",
+    "label": "negative"
+  }
+]
