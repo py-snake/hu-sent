@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[magyar]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{float}
+
+\title{Magyar nyelvű Szentiment Analízis Projekt Terv}
+\author{Név}
+\date{\today}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+
+\maketitle
+
+\section{Projekt Áttekintés}
+Ez a projekt célja egy magyar nyelvű szentiment analízis modell fejlesztése Pythonban, amely a HuSST adatkészletet használja. A modell felé elvárás, hogy képes legyen szövegeket negatív, semleges és pozitív kategóriákba sorolni.
+
+\section{Módszertan}
+A cél megvalósításához a huBERT betanított neurális hálót fogom felhasználni alapmodellként. Az előre betanított neurális háló nagyon jó kiindulási alapként szolgál, mivel magyar nyelvű adatokon tanították tehát általános magyar nyelvtudással rendelkezik. Képes a szövegek értelmezésére és feldolgozására, viszont általánosságban elmondható, hogy ezeket az alapmodelleket további tanítással kell kiegészíteni ha specifikusan egy bizonyos célra szeretnénk használni a tudását.
+
+Jelen feladatban a HuSST adathalmazzal fogok további tanítást végezni a modellen. A HuSST mint korábban említsre került, magyar nyelvű kijelentéseket tartalmaz és az azokhoz tartozó címkét. A címke lehet negatív, semleges, vagy pozitív. Ezek alapján kerül besorolásra az adott szöveg. 
+
+
+\section{Dataset}
+A bevezetőben ismertetett két forrást fogom használni a projekt megvalósításához.
+\begin{itemize}
+    \item huBERT base model (Hungarian Universal Bidirectional Encoder Representations from Transformers)
+    \item HuSST dataset (Hungarian Stanford Sentiment Treebank)
+\end{itemize}
+
+\section{Implementáció}
+A modell Pythonban készül a következő könyvtárakkal:
+
+\begin{itemize}
+    \item torch
+    \item sklearn
+    \item transformers
+    \item datasets
+    \item tqdm
+\end{itemize}
+
+\section{Források}
+
+A dokumentumot az alább felsorolt források segítségével készítettem el.
+
+\begin{thebibliography}{9}
+
+\bibitem{hubert-hf}
+SZTAKI-HLT. (2022). \textit{hubert-base-cc}. Hugging Face. \\
+\url{https://huggingface.co/SZTAKI-HLT/hubert-base-cc}
+
+\bibitem{husset}
+NYTK. (2022). \textit{HuSST Dataset}. Hugging Face. \\
+\url{https://huggingface.co/datasets/NYTK/HuSST}
+
+\bibitem{hubert-official}
+SZTAKI-HLT. (2022). \textit{huBERT - Hungarian BERT Model}. BME-HLT. \\
+\url{https://hlt.bme.hu/hu/resources/hubert}
+
+\bibitem{awesome-nlp}
+Orosz György. (2023). \textit{Awesome Hungarian NLP Resources}. GitBook. \\
+\url{https://oroszgy.gitbook.io/awesome-hungarian-nlp-resources}
+
+\bibitem{awesome-github}
+Orosz György. (2023). \textit{Awesome Hungarian NLP}. GitHub. \\
+\url{https://github.com/oroszgy/awesome-hungarian-nlp}
+
+\bibitem{hubert-paper}
+Laki László J., Yang Zijian Győző. (2022). \textit{huBERT - Hungarian BERT}. Acta Universitatis Óbuda. \\
+\url{https://acta.uni-obuda.hu/Laki_Yang_134.pdf}
+
+\end{thebibliography}
+
+
+\end{document}
+
