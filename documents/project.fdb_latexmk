@@ -1,8 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1745071973.8793 "c:/Temp/py/hu-sent/documents/project.tex" "project.pdf" "project" 1745071977.53206 0
+["pdflatex"] 1745505626.03565 "c:/Temp/py/hu-sent/documents/project.tex" "project.pdf" "project" 1745505629.62036 0
   "c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1741633621 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741633621 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1741634113 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1741633892 3584 402da0b29eafbad07963b1224b222f18 ""
+  "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1741633892 3584 13049b61b922a28b158a38aeff75ee9b ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1741633892 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1741633892 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1741633892 3584 3169d30142b88a27d4ab0e3468e963a2 ""
@@ -20,6 +22,8 @@
   "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1741633613 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1741633613 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1741633613 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1741633621 140176 d0f50dba675c56d445f84a32c1f93a79 ""
+  "c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1741633621 135942 aecb5af344df420d6ec421db27dedf62 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1741633621 139826 3796482349bae544f13f54da58f9706d ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1741633621 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb" 1741633621 131078 3adc08bf3d7686c3b3220602214807d7 ""
@@ -85,13 +89,15 @@
   "c:/Programs/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741636504 5512731 cf8c2dc087e4416553f901136bd4ef09 ""
   "c:/Programs/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741636901 3346224 e9dfac00a28ec5ed9b9151cd97e7aceb ""
   "c:/Programs/texlive/2025/texmf.cnf" 1741636469 713 e69b156964470283e0530f5060668171 ""
-  "c:/Temp/py/hu-sent/documents/project.tex" 1745071967 3952 e2a85ad2a9553cb86d468ba1051e821e ""
-  "project.aux" 1745071977 1104 cd5488143f5e35244e76ff94724f1f64 "pdflatex"
-  "project.out" 1745071977 516 0feb7b449778b54382dcd7e745591986 "pdflatex"
-  "project.tex" 1745071967 3952 e2a85ad2a9553cb86d468ba1051e821e ""
+  "c:/Temp/py/hu-sent/documents/project.tex" 1745505620 5459 4a8ef8673a30941cdbc5500d74c6b8d1 ""
+  "project.aux" 1745505629 1421 bd3a92fe71ad306efd4d62c90aac435f "pdflatex"
+  "project.out" 1745505629 899 051e462e9705656b0b79689e6939e308 "pdflatex"
+  "project.tex" 1745505620 5459 4a8ef8673a30941cdbc5500d74c6b8d1 ""
+  "project.toc" 1745505629 709 519e2e38fa5f953932d7a456cb4ee686 "pdflatex"
   (generated)
   "project.aux"
   "project.log"
   "project.out"
   "project.pdf"
+  "project.toc"
   (rewritten before read)

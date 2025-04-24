@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  19 APR 2025 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  24 APR 2025 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,38 +281,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 
-{c:/Programs/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+{c:/Programs/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./project.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 80.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
+(Font)              <6> on input line 4.
+)
+\tf@toc=\write4
+\openout4 = `project.toc'.
 
 
-[2{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[3] (./project.aux)
+[2]
+
+[3{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[4]
+
+[5] (./project.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: 0FEB7B449778B54382DCD7E745591986;516.
+(rerunfilecheck)             Checksum: 051E462E9705656B0B79689E6939E308;899.
  ) 
 Here is how much of TeX's memory you used:
- 12568 strings out of 473190
- 199523 string characters out of 5715290
- 620450 words of memory out of 5000000
- 35682 multiletter control sequences out of 15000+600000
- 567669 words of font info for 56 fonts, out of 8000000 for 9000
+ 12586 strings out of 473190
+ 199743 string characters out of 5715290
+ 619448 words of memory out of 5000000
+ 35690 multiletter control sequences out of 15000+600000
+ 569220 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,586b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on project.pdf (3 pages, 130296 bytes).
+ 75i,6n,79p,586b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on project.pdf (5 pages, 168138 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

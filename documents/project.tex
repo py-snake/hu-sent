@@ -8,7 +8,7 @@
 \usepackage{xcolor}
 \usepackage{float}
 
-\title{Magyar nyelvű Szentiment Analízis Projekt Terv}
+\title{Magyar nyelvű Szentiment Analízis Projekt}
 \author{Név}
 \date{\today}
 
@@ -41,6 +41,10 @@
 \begin{document}
 
 \maketitle
+\newpage
+
+\tableofcontents
+\newpage
 
 \section{Projekt Áttekintés}
 Ez a projekt célja egy magyar nyelvű szentiment analízis modell fejlesztése Pythonban, amely a HuSST adatkészletet használja. A modell felé elvárás, hogy képes legyen szövegeket negatív, semleges és pozitív kategóriákba sorolni.
@@ -58,15 +62,33 @@ A bevezetőben ismertetett két forrást fogom használni a projekt megvalósít
     \item HuSST dataset (Hungarian Stanford Sentiment Treebank)
 \end{itemize}
 
+\subsection{huBERT bemutatása}
+A huBERT egy magyar nyelvű, transzformátor alapú nyelvi modell, amelyet a SZTAKI fejlesztett ki. A modell a BERT architektúrát követi, és kifejezetten a magyar nyelv sajátosságainak kezelésére optimalizálták. A tanítást az úgynevezett \textit{Common Crawl} adatbázis magyar nyelvű részén végezték szűrések és deduplikációk után, valamint a magyar Wikipedia alapján. A modell 111 millió paraméterrel rendelkezik.
+
+\subsection{A huBERT alkalmazási lehetőségei}
+A huBERT modellt különféle magyar nyelvű NLP feladatokhoz használhatjuk:
+\begin{itemize}
+    \item Szövegosztályozás
+    \item Névvelentismerés (NER)
+    \item Szövegrészletezés (chunking)
+    \item Kérdésmegválaszolás
+    \item Szöveggenerálás
+\end{itemize}
+
 \section{Implementáció}
 A modell Pythonban készül a következő könyvtárakkal:
 
 \begin{itemize}
-    \item torch
-    \item sklearn
-    \item transformers
-    \item datasets
-    \item tqdm
+    \item \texttt{torch} és \texttt{torch.nn}: A neurális hálók megvalósításához és tensor műveletekhez
+    \item \texttt{torch.optim}: Optimalizálási algoritmusok (pl. Adam, AdamW, SGD)
+    \item \texttt{torch.utils.data}: Adatbetöltés és előfeldolgozás
+    \item \texttt{sklearn.metrics}: Osztályozási metrikák kiértékelése
+    \item \texttt{transformers}: Előtanított nyelvi modellek és tokenizálók
+    \item \texttt{datasets}: Nagy nyelvi adathalmazok kezelése
+    \item \texttt{pandas}: Adatkezelés és -elemzés
+    \item \texttt{numpy}: Numerikus számítások
+    \item \texttt{tqdm}: Progress bar a betanítás során
+    \item \texttt{os}: Operációs rendszer szintű műveletek (pl. fájlkezelés)
 \end{itemize}
 
 \section{Források}
