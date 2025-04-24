@@ -65,6 +65,9 @@ def main():
         "Ez a film fantasztikus volt!",
         "Nem tetszett a könyv.",
         "Átlagos élmény volt, semmi különös."
+        "Süt a nap.",
+        "Esik az eső.",
+        "Szép időnk van ma.",
     ]
 
     for text in texts:
