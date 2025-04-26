@@ -181,11 +181,20 @@ def process_comment(conn, comment, video_id, parent_id=None):
 
                 # Process mentions if they exist
                 for mention in reply.get('mentions', []):
+                    # First ensure the mentioned user exists
+                    mentioned_username = mention.strip()
+                    cur.execute("""
+                    INSERT INTO users (username)
+                    VALUES (%s)
+                    ON CONFLICT (username) DO NOTHING
+                    """, (mentioned_username,))
+
+                    # Then insert the mention
                     cur.execute("""
                     INSERT INTO mentions (comment_id, mentioned_username)
                     VALUES (%s, %s)
                     ON CONFLICT DO NOTHING
-                    """, (reply.get('id'), mention.strip()))
+                    """, (reply.get('id'), mentioned_username))
             except Exception as e:
                 print(f"Error processing reply {reply.get('id')}: {str(e)}")
                 conn.rollback()
