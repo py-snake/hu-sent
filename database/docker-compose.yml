@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: comment_user
+      POSTGRES_PASSWORD: comment_password
+      POSTGRES_DB: comments_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U comment_user -d comments_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  importer:
+    build: .
+    environment:
+      DATABASE_URL: "postgresql://comment_user:comment_password@db:5432/comments_db"
+    volumes:
+      - ./data:/app/data:ro
+      - ./scripts:/app/scripts
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+
