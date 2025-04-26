@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="stats">
+        <h2>Database Statistics</h2>
+        <p>{{ video_count }} Videos</p>
+        <p>{{ comment_count }} Comments</p>
+        <p>{{ user_count }} Users</p>
+    </section>
+
+    <section class="recent-comments">
+        <h2>Recent Comments</h2>
+        {% for comment in recent_comments %}
+            <div class="comment">
+                <div class="comment-header">
+                    <a href="{{ url_for('main.user_comments', username=comment.user.username) }}">
+                        {{ comment.user.username }}
+                    </a>
+                    <span class="timestamp">{{ comment.timestamp }}</span>
+                    <span class="upvotes">{{ comment.upvotes }} upvotes</span>
+                </div>
+                <div class="comment-text">{{ comment.text }}</div>
+                <div class="comment-footer">
+                    <a href="{{ url_for('main.video_comments', video_id=comment.video.video_id) }}">
+                        View video comments
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock %}
