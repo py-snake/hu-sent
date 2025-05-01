@@ -1,23 +1,24 @@
-version: '3.8'
-
 services:
   sentiment-api:
-    build: ./model
+    build:
+      context: .  # Correct context for sentiment-api
+      dockerfile: model/Dockerfile  # Path to Dockerfile inside model folder
     ports:
       - "5001:5000"
-    volumes:
-      - ./model:/app
     environment:
       - MODEL_NAME=SZTAKI-HLT/hubert-base-cc
       - MAX_LENGTH=128
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5000"]
+      test: ["CMD-SHELL", "wget -q --spider http://127.0.0.1:5000/health || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 3
+    restart: unless-stopped
 
   web-client:
-    build: ./client
+    build:
+      context: .  # Correct context: use the current directory as the build context
+      dockerfile: client/Dockerfile  # Path to the Dockerfile inside the client folder
     ports:
       - "5000:5000"
     depends_on:
@@ -25,5 +26,4 @@ services:
         condition: service_healthy
     environment:
       - API_URL=http://sentiment-api:5000/predict
-    restart: on-failure
-
+    restart: unless-stopped
