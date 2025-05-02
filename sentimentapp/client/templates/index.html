@@ -1,45 +1,374 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hungarian Sentiment Analysis</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        textarea { width: 100%; height: 100px; margin-bottom: 10px; }
-        button { padding: 10px 15px; background: #4CAF50; color: white; border: none; cursor: pointer; }
-        #result { margin-top: 20px; padding: 10px; border: 1px solid #ddd; }
-        .emoji { width: 100px; height: 100px; margin-top: 20px; }
-    </style>
+    <title>HU-Sent - Sentiment Chat</title>
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+        :root {
+            --primary-color: #10a37f;
+            --primary-color-dark: #0d8a6a;
+            --bg-color: #343541;
+            --chat-bg-user: #444654;
+            --chat-bg-bot: #343541;
+            --text-color: #d1d5db;
+            --text-color-light: #ececf1;
+            --border-color: #565869;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--bg-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .logo {
+            font-weight: bold;
+            color: var(--text-color-light);
+            font-size: 1.1rem;
+        }
+
+        .logout-btn {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            cursor: pointer;
+            font-size: 0.9rem;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .logout-btn:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .message {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .user-message {
+            background-color: var(--chat-bg-user);
+        }
+
+        .bot-message {
+            background-color: var(--chat-bg-bot);
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .user-avatar {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .bot-avatar {
+            background-color: #6e6e80;
+            color: white;
+        }
+
+        .message-content {
+            flex: 1;
+            min-width: 0;
+            padding-top: 5px;
+        }
+
+        .message-text {
+            line-height: 1.5;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .message-meta {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: var(--text-color-light);
+            display: flex;
+            gap: 15px;
+        }
+
+        .input-container {
+            padding: 15px;
+            background-color: var(--bg-color);
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            gap: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+        #messageInput {
+            flex: 1;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid var(--border-color);
+            background-color: var(--chat-bg-user);
+            color: var(--text-color);
+            font-size: 1rem;
+            resize: none;
+            min-height: 60px;
+            max-height: 200px;
+            font-family: inherit;
+        }
+
+        #sendButton {
+            padding: 0 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            align-self: flex-end;
+            height: 60px;
+        }
+
+        #sendButton:hover {
+            background-color: var(--primary-color-dark);
+        }
+
+        .sentiment-display {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .sentiment-face {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .sentiment-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sentiment-indicator {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .positive {
+            background-color: rgba(16, 163, 127, 0.2);
+            color: var(--primary-color);
+        }
+
+        .neutral {
+            background-color: rgba(217, 217, 227, 0.2);
+            color: var(--text-color);
+        }
+
+        .negative {
+            background-color: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+        }
+
+        .original-message {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: rgba(0,0,0,0.1);
+            border-radius: 4px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            width: 100%;
+        }
+
+        .confidence-bar {
+            height: 8px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            flex-grow: 1;
+            max-width: 200px;
+        }
+
+        .confidence-progress {
+            height: 100%;
+            background-color: var(--primary-color);
+        }
+
+        .typing-indicator {
+            display: flex;
+            gap: 5px;
+            padding: 5px 0;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--text-color);
+            border-radius: 50%;
+            opacity: 0.4;
+            animation: typingAnimation 1.4s infinite ease-in-out;
+        }
+
+        .clear-btn {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            cursor: pointer;
+            font-size: 0.9rem;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .clear-btn:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            background-color: var(--bg-color);
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .modal-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .modal-btn {
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .modal-btn-confirm {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+        }
+
+        .modal-btn-cancel {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+        }
+
+        .typing-dot:nth-child(1) { animation-delay: 0s; }
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes typingAnimation {
+            0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+            30% { transform: translateY(-5px); opacity: 1; }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hungarian Sentiment Analysis</h1>
-    <form id="sentimentForm">
-        <textarea name="text" placeholder="Enter Hungarian text here..."></textarea>
-        <button type="submit">Analyze Sentiment</button>
-    </form>
-    <div id="result"></div>
+    <div class="header">
+        <div class="logo">HU-Sent - Sentiment Analysis Chat</div>
+        <div class="header-buttons">
+            <button class="clear-btn" id="clearHistoryButton">Clear History</button>
+            <button class="logout-btn" id="logoutButton">Logout</button>
+        </div>
+    </div>
+
+    <div class="chat-container" id="chatContainer">
+        <!-- Messages will be inserted here -->
+    </div>
+
+    <div class="input-container">
+        <textarea id="messageInput" placeholder="Type your message here..." rows="1"></textarea>
+        <button id="sendButton">Send</button>
+    </div>
 
     <script>
-        const emojis = {
+        // Define SVG faces for each sentiment
+        const svgFaces = {
             positive: `
-                <svg class="emoji" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" fill="#00FF00"/>
+                <svg class="sentiment-face" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="#10a37f"/>
                     <circle cx="35" cy="40" r="5" fill="#000000"/>
                     <circle cx="65" cy="40" r="5" fill="#000000"/>
                     <path d="M30 65 Q50 80 70 65" stroke="#000000" stroke-width="5" fill="none" stroke-linecap="round"/>
                 </svg>
             `,
             neutral: `
-                <svg class="emoji" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" fill="#FFFF00"/>
+                <svg class="sentiment-face" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="#d9d9e3"/>
                     <circle cx="35" cy="40" r="5" fill="#000000"/>
                     <circle cx="65" cy="40" r="5" fill="#000000"/>
                     <line x1="30" y1="65" x2="70" y2="65" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
                 </svg>
             `,
             negative: `
-                <svg class="emoji" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" fill="#FF0000"/>
+                <svg class="sentiment-face" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="#ef4444"/>
                     <circle cx="35" cy="40" r="5" fill="#000000"/>
                     <circle cx="65" cy="40" r="5" fill="#000000"/>
                     <path d="M30 75 Q50 60 70 75" stroke="#000000" stroke-width="5" fill="none" stroke-linecap="round"/>
@@ -47,35 +376,281 @@
             `
         };
 
-        document.getElementById('sentimentForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const formData = new FormData(this);
-            const text = formData.get('text');
+        const sentimentClasses = {
+            positive: 'positive',
+            neutral: 'neutral',
+            negative: 'negative'
+        };
 
-            fetch('/analyze', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData)
-            })
-            .then(response => response.json())
-            .then(data => {
-                const resultDiv = document.getElementById('result');
-                if (data.error) {
-                    resultDiv.innerHTML = `<p style="color:red">Error: ${data.error}</p>`;
-                } else {
-                    const emoji = emojis[data.sentiment.toLowerCase()] || '';
-                    resultDiv.innerHTML = `
-                        <p><strong>Text:</strong> ${data.text}</p>
-                        <p><strong>Sentiment:</strong> ${data.sentiment}</p>
-                        <p><strong>Confidence:</strong> ${data.confidence}%</p>
-                        ${emoji}
-                    `;
-                }
-            })
-            .catch(error => {
-                document.getElementById('result').innerHTML = `<p style="color:red">Error: ${error}</p>`;
-            });
+        // Load previous chats
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const response = await fetch('/chats');
+                const chats = await response.json();
+
+                chats.forEach(chat => {
+                    addMessageToChat(chat.message, 'user');
+                    addSentimentResponse(chat);
+                });
+
+                scrollToBottom();
+            } catch (error) {
+                console.error('Error loading chats:', error);
+            }
         });
+
+        // Send message
+        document.getElementById('sendButton').addEventListener('click', sendMessage);
+        document.getElementById('messageInput').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Logout
+        document.getElementById('logoutButton').addEventListener('click', () => {
+            window.location.href = '/logout';
+        });
+
+        // Auto-resize textarea
+        document.getElementById('messageInput').addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+
+            if (!message) return;
+
+            // Add user message to chat
+            addMessageToChat(message, 'user');
+            input.value = '';
+            input.style.height = 'auto';
+
+            // Show typing indicator
+            const typingId = showTypingIndicator();
+
+            try {
+                // Send to sentiment analysis
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text: message })
+                });
+
+                // Remove typing indicator
+                removeTypingIndicator(typingId);
+
+                if (response.ok) {
+                    const data = await response.json();
+                    addSentimentResponse(data);
+                } else {
+                    throw new Error('Analysis failed');
+                }
+            } catch (error) {
+                removeTypingIndicator(typingId);
+                addMessageToChat('Sorry, there was an error analyzing your message.', 'bot');
+                console.error('Error:', error);
+            }
+
+            scrollToBottom();
+        }
+
+        // Clear History with modal confirmation
+        document.addEventListener('DOMContentLoaded', () => {
+            const clearHistoryButton = document.getElementById('clearHistoryButton');
+            const confirmModal = document.getElementById('confirmModal');
+            const cancelClear = document.getElementById('cancelClear');
+            const confirmClear = document.getElementById('confirmClear');
+
+            if (clearHistoryButton && confirmModal && cancelClear && confirmClear) {
+                clearHistoryButton.addEventListener('click', () => {
+                    confirmModal.style.display = 'block';
+                });
+
+                cancelClear.addEventListener('click', () => {
+                    confirmModal.style.display = 'none';
+                });
+
+                confirmClear.addEventListener('click', async () => {
+                    confirmModal.style.display = 'none';
+                    try {
+                        const response = await fetch('/clear_history', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            credentials: 'same-origin'
+                        });
+
+                        if (response.ok) {
+                            document.getElementById('chatContainer').innerHTML = '';
+                            showToast('Chat history cleared successfully');
+                        } else {
+                            const error = await response.json();
+                            throw new Error(error.error || 'Failed to clear history');
+                        }
+                    } catch (error) {
+                        console.error('Error clearing history:', error);
+                        showToast(error.message || 'Failed to clear chat history', true);
+                    }
+                });
+
+                // Close modal when clicking outside
+                window.addEventListener('click', (event) => {
+                    if (event.target === confirmModal) {
+                        confirmModal.style.display = 'none';
+                    }
+                });
+            } else {
+                console.error('One or more elements for clear history not found');
+            }
+        });
+
+        // Toast notification function
+        function showToast(message, isError = false) {
+            const toast = document.createElement('div');
+            toast.textContent = message;
+            toast.style.position = 'fixed';
+            toast.style.bottom = '20px';
+            toast.style.right = '20px';
+            toast.style.padding = '12px 24px';
+            toast.style.backgroundColor = isError ? '#ef4444' : '#10a37f';
+            toast.style.color = 'white';
+            toast.style.borderRadius = '4px';
+            toast.style.zIndex = '1000';
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // Optional: Toast notification function
+        function showToast(message, isError = false) {
+            const toast = document.createElement('div');
+            toast.textContent = message;
+            toast.style.position = 'fixed';
+            toast.style.bottom = '20px';
+            toast.style.right = '20px';
+            toast.style.padding = '12px 24px';
+            toast.style.backgroundColor = isError ? '#ef4444' : '#10a37f';
+            toast.style.color = 'white';
+            toast.style.borderRadius = '4px';
+            toast.style.zIndex = '1000';
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        function addMessageToChat(message, sender) {
+            const chatContainer = document.getElementById('chatContainer');
+            const messageDiv = document.createElement('div');
+
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.innerHTML = `
+                <div class="avatar ${sender}-avatar">${sender === 'user' ? 'You' : 'AI'}</div>
+                <div class="message-content">
+                    <div class="message-text">${message}</div>
+                </div>
+            `;
+
+            chatContainer.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function addSentimentResponse(data) {
+            const chatContainer = document.getElementById('chatContainer');
+            const messageDiv = document.createElement('div');
+
+            const sentiment = data.sentiment.toLowerCase();
+            const faceSvg = svgFaces[sentiment] || svgFaces.neutral;
+            const messageText = data.text || data.message;
+
+            // Ensure confidence is a valid percentage between 0 and 100
+            let confidence = parseFloat(data.confidence);
+            if (isNaN(confidence) || confidence < 0) confidence = 0;
+            if (confidence > 1) confidence = confidence / 100; // Handle if it's already a percentage
+            const confidencePercentage = Math.min(100, Math.max(0, Math.round(confidence * 100)));
+
+            messageDiv.className = 'message bot-message';
+            messageDiv.innerHTML = `
+                <div class="avatar bot-avatar">AI</div>
+                <div class="message-content">
+                    <div class="message-text">
+                        <div class="sentiment-display">
+                            ${faceSvg}
+                            <div class="sentiment-info">
+                                <span class="sentiment-indicator ${sentimentClasses[sentiment]}">
+                                    ${data.sentiment}
+                                </span>
+                                <div class="confidence-bar">
+                                    <div class="confidence-progress" style="width: ${confidencePercentage}%"></div>
+                                </div>
+                                <span>${confidencePercentage}%</span>
+                            </div>
+                        </div>
+                        <div class="original-message">${messageText}</div>
+                    </div>
+                    <div class="message-meta">
+                        <span>${new Date().toLocaleString()}</span>
+                    </div>
+                </div>
+            `;
+
+            chatContainer.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function showTypingIndicator() {
+            const chatContainer = document.getElementById('chatContainer');
+            const typingDiv = document.createElement('div');
+            const typingId = 'typing-' + Date.now();
+
+            typingDiv.id = typingId;
+            typingDiv.className = 'message bot-message';
+            typingDiv.innerHTML = `
+                <div class="avatar bot-avatar">AI</div>
+                <div class="message-content">
+                    <div class="typing-indicator">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                </div>
+            `;
+
+            chatContainer.appendChild(typingDiv);
+            scrollToBottom();
+            return typingId;
+        }
+
+        function removeTypingIndicator(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.remove();
+            }
+        }
+
+        function scrollToBottom() {
+            const chatContainer = document.getElementById('chatContainer');
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
     </script>
+<div id="confirmModal" class="modal">
+    <div class="modal-content">
+        <p>Are you sure you want to clear your chat history? This cannot be undone.</p>
+        <div class="modal-buttons">
+            <button class="modal-btn modal-btn-cancel" id="cancelClear">Cancel</button>
+            <button class="modal-btn modal-btn-confirm" id="confirmClear">Clear History</button>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+
