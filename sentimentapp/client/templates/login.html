@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HU-Sent - Login</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+        :root {
+            --primary-color: #10a37f;
+            --primary-color-dark: #0d8a6a;
+            --bg-color: #343541;
+            --text-color: #d1d5db;
+            --text-color-light: #ececf1;
+            --border-color: #565869;
+            --error-color: #ef4444;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--text-color-light);
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            color: var(--text-color);
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: var(--primary-color-dark);
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 20px;
+            color: var(--text-color);
+        }
+
+        .register-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+
+        .error {
+            color: var(--error-color);
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .flash-messages {
+            margin-bottom: 20px;
+        }
+
+        .flash-message {
+            padding: 10px;
+            background-color: rgba(239, 68, 68, 0.2);
+            border-left: 3px solid var(--error-color);
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+
+        <div class="flash-messages">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="flash-message">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
+        <form method="POST" action="{{ url_for('login') }}">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="register-link">
+            Don't have an account? <a href="{{ url_for('register') }}">Register</a>
+        </div>
+    </div>
+</body>
+</html>
