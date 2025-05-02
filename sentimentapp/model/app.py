@@ -54,10 +54,12 @@ def predict():
 
     with torch.no_grad():
         outputs = model(input_ids, attention_mask)
-        _, preds = torch.max(outputs, dim=1)
+        probs = torch.softmax(outputs, dim=1)
+        confidence, predicted_class = torch.max(probs, dim=1)
 
     return jsonify({
-        "sentiment": LABEL_MAP[preds.cpu().item()],
+        "sentiment": LABEL_MAP[predicted_class.cpu().item()],
+        "confidence": round(confidence.cpu().item() * 100, 2),  # percentage with 2 decimal places
         "text": text
     })
 
