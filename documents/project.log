@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  24 APR 2025 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  2 MAY 2025 23:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -225,24 +225,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./project.aux)
 \openout1 = `project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
  (c:/Programs/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -262,7 +262,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/Programs/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 68.
  (./project.out) (./project.out)
 \@outlinefile=\write3
 \openout3 = `project.out'.
@@ -273,9 +273,9 @@ LaTeX Info: Redefining \cal on input line 497.
 LaTeX Info: Redefining \mit on input line 498.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 44.
+(Font)              <14.4> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 71.
 
 
 [1
@@ -300,27 +300,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [4]
 
-[5] (./project.aux)
+[5] (c:/Programs/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 187.
+
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11] (./project.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: 051E462E9705656B0B79689E6939E308;899.
+(rerunfilecheck)             Checksum: 1562DE79F6E76786785EB59D3EFD0E87;4852.
  ) 
 Here is how much of TeX's memory you used:
- 12586 strings out of 473190
- 199743 string characters out of 5715290
- 619448 words of memory out of 5000000
- 35690 multiletter control sequences out of 15000+600000
- 569220 words of font info for 58 fonts, out of 8000000 for 9000
+ 13238 strings out of 473190
+ 206549 string characters out of 5715290
+ 946224 words of memory out of 5000000
+ 36243 multiletter control sequences out of 15000+600000
+ 571379 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,586b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on project.pdf (5 pages, 168138 bytes).
+ 75i,6n,79p,781b,2152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on project.pdf (11 pages, 302747 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

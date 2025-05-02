@@ -18,25 +18,52 @@
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
 \lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
+    backgroundcolor=\color{backcolour},
     commentstyle=\color{codegreen},
     keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
+    numberstyle=\small\color{codegray},
     stringstyle=\color{codepurple},
     basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
     showstringspaces=false,
-    showtabs=false,                  
+    showtabs=false,
     tabsize=2
 }
 
 \lstset{style=mystyle}
+
+\lstdefinelanguage{json}{
+    basicstyle=\ttfamily\small,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{gray!10},
+    literate=
+     *{á}{{\'a}}1
+      {é}{{\'e}}1
+      {í}{{\'i}}1
+      {ó}{{\'o}}1
+      {ö}{{\"o}}1
+      {ő}{{\H{o}}}1
+      {ú}{{\'u}}1
+      {ü}{{\"u}}1
+      {ű}{{\H{u}}}1
+      {Á}{{\'A}}1
+      {É}{{\'E}}1
+      {Í}{{\'I}}1
+      {Ó}{{\'O}}1
+      {Ö}{{\"O}}1
+      {Ő}{{\H{O}}}1
+      {Ú}{{\'U}}1
+      {Ü}{{\"U}}1
+      {Ű}{{\H{U}}}1
+}
 
 \begin{document}
 
@@ -56,7 +83,9 @@ Jelen feladatban a HuSST adathalmazzal fogok további tanítást végezni a mode
 
 
 \section{Dataset}
+
 A bevezetőben ismertetett két forrást fogom használni a projekt megvalósításához.
+
 \begin{itemize}
     \item huBERT base model (Hungarian Universal Bidirectional Encoder Representations from Transformers)
     \item HuSST dataset (Hungarian Stanford Sentiment Treebank)
@@ -66,33 +95,203 @@ A bevezetőben ismertetett két forrást fogom használni a projekt megvalósít
 A huBERT egy magyar nyelvű, transzformátor alapú nyelvi modell, amelyet a SZTAKI fejlesztett ki. A modell a BERT architektúrát követi, és kifejezetten a magyar nyelv sajátosságainak kezelésére optimalizálták. A tanítást az úgynevezett \textit{Common Crawl} adatbázis magyar nyelvű részén végezték szűrések és deduplikációk után, valamint a magyar Wikipedia alapján. A modell 111 millió paraméterrel rendelkezik.
 
 \subsection{A huBERT alkalmazási lehetőségei}
-A huBERT modellt különféle magyar nyelvű NLP feladatokhoz használhatjuk:
+A huBERT modellt különféle magyar nyelvű NLP \textit{(Natural Language Processing)} feladatokhoz használhatjuk:
+
 \begin{itemize}
     \item Szövegosztályozás
-    \item Névvelentismerés (NER)
-    \item Szövegrészletezés (chunking)
+    \item Névvelentismerés (NER \textit{(Named Entity Recognition)})
+    \item Szövegrészletezés (Chunking)
     \item Kérdésmegválaszolás
     \item Szöveggenerálás
 \end{itemize}
 
 \section{Implementáció}
-A modell Pythonban készül a következő könyvtárakkal:
+A modell és a ráépülő webes rendszer Pythonban készül a következő könyvtárak felhasználásával:
+
+\subsection{Alapvető Python Könyvtárak}
 
 \begin{itemize}
-    \item \texttt{torch} és \texttt{torch.nn}: A neurális hálók megvalósításához és tensor műveletekhez
-    \item \texttt{torch.optim}: Optimalizálási algoritmusok (pl. Adam, AdamW, SGD)
-    \item \texttt{torch.utils.data}: Adatbetöltés és előfeldolgozás
-    \item \texttt{sklearn.metrics}: Osztályozási metrikák kiértékelése
-    \item \texttt{transformers}: Előtanított nyelvi modellek és tokenizálók
-    \item \texttt{datasets}: Nagy nyelvi adathalmazok kezelése
-    \item \texttt{pandas}: Adatkezelés és -elemzés
-    \item \texttt{numpy}: Numerikus számítások
-    \item \texttt{tqdm}: Progress bar a betanítás során
-    \item \texttt{os}: Operációs rendszer szintű műveletek (pl. fájlkezelés)
+    \item \texttt{os}: Operációs rendszer szintű műveletek (fájlkezelés, környezeti változók)
+    \item \texttt{json}: JSON adatok szerializálása és deszerializálása
+    \item \texttt{re}: Reguláris kifejezések a szövegfeldolgozáshoz (regex)
+    \item \texttt{time}: Időzítési műveletek és késleltetések
+    \item \texttt{logging}: Alkalmazás naplózásának konfigurálása
+    \item \texttt{zlib}: Adattömörítés és kicsomagolás
 \end{itemize}
 
-\section{Források}
+\subsection{Adatgyűjtés és Feldolgozás}
 
+\begin{itemize}
+    \item \texttt{requests}: HTTP kérések küldése és fogadása
+    \item \texttt{BeautifulSoup}: HTML és XML dokumentumok elemzése
+    \item \texttt{concurrent.futures}: Párhuzamos feldolgozás megvalósítása
+    \item \texttt{urllib.parse}: URL címek kezelése
+\end{itemize}
+
+\subsection{Adatbázis Kapcsolatok}
+
+\begin{itemize}
+    \item \texttt{psycopg2}: PostgreSQL adatbázis-kezelőhöz való csatlakozás
+    \item \texttt{SQLAlchemy}: ORM \textit{(Object-Relational Mapping)} rendszer
+    \item \texttt{datetime}: Dátum és idő kezelése
+\end{itemize}
+
+\subsection{Webes Felület}
+
+\begin{itemize}
+    \item \texttt{Flask}: Mikrokeretrendszer webalkalmazás fejlesztéséhez
+    \item \texttt{flask\_login}: Felhasználói munkamenetek kezelése
+    \item \texttt{werkzeug.security}: Jelszavak biztonságos tárolása és ellenőrzése
+\end{itemize}
+
+\subsection{Machine Learning és NLP}
+
+\subsubsection{PyTorch Könyvtárak}
+\begin{itemize}
+    \item \texttt{torch}: Tenzor műveletek és GPU támogatás
+    \item \texttt{torch.nn}: Neurális hálók építéséhez szükséges modulok
+    \item \texttt{torch.optim}: Optimalizálási algoritmusok (Adam, SGD)
+    \item \texttt{torch.utils.data}: Adatbetöltés és előfeldolgozás
+\end{itemize}
+
+\subsubsection{NLP-specifikus Könyvtárak}
+\begin{itemize}
+    \item \texttt{transformers}: Előtanított nyelvi modellek kezelése
+    \item \texttt{datasets}: Nagy nyelvi adathalmazok betöltése és kezelése
+    \item \texttt{sklearn.metrics}: Osztályozási metrikák számítása
+\end{itemize}
+
+\subsection{Adatelemzés}
+\begin{itemize}
+    \item \texttt{pandas}: Adatok táblázatos kezelése és elemzése
+    \item \texttt{numpy}: Numerikus számítások és tömbműveletek
+    \item \texttt{tqdm}: Folyamatjelző sáv iterációkhoz
+\end{itemize}
+
+\subsection{Konténerizáció}
+\begin{itemize}
+    \item \texttt{Docker}: Alkalmazás konténerbe csomagolása
+    \item \texttt{Docker Compose}: Többkonténeres alkalmazások kezelése
+\end{itemize}
+
+\subsection{Függőségek}
+A projekt függőségeit a \texttt{requirements.txt} fájl tartalmazza.
+
+\section{Alapvető szentiment analízis modell elkészítése}
+A szentiment analízis modell elkészítése több fő lépésből áll, ezek bemutatása fog következni.
+
+\subsection{1. lépés: Az előre tanított BERT modell betöltése és a tanítás felparaméterezése}
+Első lépésként a kiválasztott nyelvhez illeszkedő előre tanított neurális háló betöltésére van szükség. Jelen esetben a magyar nyelvfeldolgozáshoz a \texttt{SZTAKI-HLT/hubert-base-cc} modellre esett a választás.
+A konrét megvalósítása szemléltetése érdekében beillesztem az alábbi kódrészletet, ahol a felparaméterezés látható.
+
+\begin{lstlisting}[language=Python,caption=Modell konfiguráció]
+# Configuration - Using a publicly available Hungarian model
+MODEL_NAME = "SZTAKI-HLT/hubert-base-cc"  # Public Hungarian BERT model
+BATCH_SIZE = 16
+MAX_LENGTH = 128
+EPOCHS = 3
+LEARNING_RATE = 2e-5
+NUM_CLASSES = 3  # negative, neutral, positive
+LABEL_MAP = {"negative": 0, "neutral": 1, "positive": 2} # Create label mapping
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+\end{lstlisting}
+
+\subsubsection{Batch size}
+A kódrészletben a \textit{Batch size} paraméter határozza meg, hogy egy \textit{Epoch-ban} hány minta legyen felhasználva a tanításhoz. A jelenlegi 16-os \textit{batch size} azt jelenti, hogy ekkora csomagokban fog zajlani a tanítás. Ez az érték kiegyensúlyozott a memóriahasználat és a tanítási sebesség között.
+
+\subsubsection{Max length}
+A \textit{Max length} paraméter 128-as értéke azt állítja be, hogy legfeljebb 128 tokent tartalmazhasson egy minta. Pontosabban kifejezve, egy adott bemenet hossza legfeljebb 128 tokenből állhat, ahol egy token például egy szónak, szórészletnek, vagy írásjelnek feleltethető meg. A tokenek konkrét hossza és a tokenizáció menete a eltérő lehet különböző nyelvek közt. Jelenleg a rövidebb szövegeket \textit{padding} egészíti ki, a hosszabbak csonkolásra kerülnek.
+
+\subsubsection{Num classes és Label map}
+A \textit{Num classes} és a \textit{Label map} a tanítás során használni kívánt kategóriákat határozza meg. Esetünkben három kategória létezik: a negatív, semleges, és pozitív. A szöveges címkéket numerikus értékekre képezi le, ami szükséges a neurális háló számára.
+
+\subsubsection{Epochs}
+Az \textit{Epochs} a tanítási iterációk számát határozza meg. Egy epoch azt jelenti, hogy a teljes tanító adathalmazon egyszer végighaladt a modell. Túl sok epoch túltanításhoz \textit{(overfitting)} vezethet, míg kevesebb epoch alultanítást \textit{(underfitting)} eredményez. A jelenleg megadott érték elegendő lehet egy elégséges tanításhoz, erőforrások hiányában nem növelem, mert azzal jelentősen növekedne a tanításhoz szükséges idő is.
+
+\subsubsection{Learning rate}
+A \textit{Learning rate} a tanulási ráta, ami meghatározza, hogy mennyit változzon a modell súlya egy lépésben. Túl magas érték instabil tanításhoz vezet, míg túl alacsony érték lassú konvergálást eredményez. Jelenleg egy általánosan elfogadott érték került beállításra.
+
+\subsection{2. lépés: Adatok betöltése, előfeldolgozása, tokenizáció}
+
+Az előző fejezetben ismertetett paraméterek beállítása után elkezdhetjük az adatok betöltését. Egyfelől az előre betanított \texttt{huBERT} neurális hálót, másfelől a tanításhoz szükséges \texttt{HuSST} címkézett adatokat.
+
+\begin{enumerate}
+    \item Adathalmaz betöltése a Hugging Face \texttt{datasets} könyvtárával
+    \item Szövegek tokenizálása a huBERT tokenizálóval
+    \item PyTorch DataLoader-ek létrehozása a tanításhoz
+\end{enumerate}
+
+A \texttt{HuSST} tanító, validációs, és teszt adathalmazból áll a korábban ismertetett felépítéssel: egy magyar kijelentéshez vagy negatív, vagy semleges, vagy pozitív címke tartozik. Szemléltetésképp egy részlet a tanítási adathalmazból:
+
+\begin{lstlisting}[language=json, caption=Minta a HuSST adathalmazból]
+[
+    {
+        "text": "Azonban hiányzik belőle az a nagyság és hősiesség, ami Stevensont és a korábbi Disney-meséket jellemzi.",
+        "label": "negative"
+    },
+    {
+        "text": "Informatív, ha sok beszédes részt tartalmaz egy dokumentumfilm.",
+        "label": "neutral"
+    },
+    {
+        "text": "Ha szeretsz időnként moziba menni, érdemes a Wasabi-val kezdeni.",
+        "label": "positive"
+    }
+]
+\end{lstlisting}
+
+\subsubsection{Tokenizáció}
+A \texttt{HuSST} tokenizációját a \texttt{HuBERT} előre tanított tokenizálója végzi el. Ennek segítségével helyesen lesznek tagolva  a szavak a tanításhoz használt szöveg betöltésekor.
+
+\begin{lstlisting}[language=Python,caption=Tokenizáció]
+# Initialize tokenizer
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+
+# Create datasets
+train_dataset = HungarianSentimentDataset(
+    train_texts, train_labels, tokenizer, MAX_LENGTH
+)
+# Create dataloaders
+train_loader = DataLoader(
+    train_dataset, batch_size=BATCH_SIZE, shuffle=True
+)
+\end{lstlisting}
+
+\subsection{3. lépés: Tanítás, elkészült modell mentése}
+
+A folyamat végső lépéseként elkezdhető az új modell betanítása, a korábban bemutatottak segítségével.
+
+A \textit{train epoch} függvény felelős a modell egy epoch-on keresztüli tanításáért. A függvény először a modellt tanítási módba állítja, majd inicializálja a veszteség és az előrejelzések nyilvántartását. A tanítási ciklus a megadott adatokon halad végig, ahol minden kötegelt adatra három fő lépést hajt végre: az adatok mozgatása a megfelelő eszközre \textit{(CPU/GPU, jelenleg csak CPU áll rendelkezésre a tanításhoz)}, a forward és backward propagáció végrehajtása, és a paraméterek frissítése az optimizer segítségével. A veszteségfüggvény \textit{CrossEntropyLoss} értékelésével és a gradiensek visszaszámításával a modell súlyait finomhangolja.
+
+\begin{lstlisting}[language=Python,caption=Tanítási folyamat]
+# 3. Training functions
+def train_epoch(model, data_loader, optimizer, device):
+    model.train()
+    total_loss = 0
+    correct_predictions = 0
+
+    for batch in tqdm(data_loader, desc="Training"):
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        labels = batch['label'].to(device)
+
+        optimizer.zero_grad()
+        outputs = model(input_ids, attention_mask)
+        loss = nn.CrossEntropyLoss()(outputs, labels)
+        loss.backward()
+        optimizer.step()
+
+        total_loss += loss.item()
+        _, preds = torch.max(outputs, dim=1)
+        correct_predictions += torch.sum(preds == labels)
+
+    accuracy = correct_predictions.double() / len(data_loader.dataset)
+    avg_loss = total_loss / len(data_loader)
+
+    return avg_loss, accuracy
+\end{lstlisting}
+
+\section{Források}
 A dokumentumot az alább felsorolt források segítségével készítettem el.
 
 \begin{thebibliography}{9}
