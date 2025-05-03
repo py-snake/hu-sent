@@ -1,0 +1,6 @@
+flask
+requests
+flask-sqlalchemy
+psycopg2-binary
+flask-login
+bcrypt
