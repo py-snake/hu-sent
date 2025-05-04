@@ -331,7 +331,7 @@ class CommentFullCrawler:
                     mentions.append(word[1:])  # Remove @ symbol
         return mentions
 
-    def get_content_data(self, content_id, content_type="video", max_comment_pages=10, max_reply_pages=10, delay=1):
+    def get_content_data(self, content_id, content_type="video", max_comment_pages=10, max_reply_pages=10, delay=5):
         """Get all data for a single content (metadata + comments)"""
         # Get video metadata
         video_metadata = self.get_video_metadata(content_id)
@@ -508,7 +508,8 @@ if __name__ == "__main__":
     crawler = CommentFullCrawler(base_url, cookies, headers, download_videos=False)
 
     # Crawl a range of content IDs (adjust range as needed)
-    start_id = 4664
+    # delay = 5
+    start_id = 0
     end_id = 20000  # Adjust this based on how many IDs you want to check
 
     # Start crawling (using 4 threads)
