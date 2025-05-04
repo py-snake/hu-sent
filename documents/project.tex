@@ -322,7 +322,7 @@ def train_epoch(model, data_loader, optimizer, device):
 
 A folyamat utolsó szakaszában a modell tényleges betanítása történik meg a korábban definiált komponensek felhasználásával. A tanítási folyamat során a modell többször feldolgozza a teljes tanító adathalmazt, miközben a veszteségfüggvény minimalizálására törekszik. Minden futás után értékelni lehet a modell teljesítményét a validációs halmazon, ami lehetővé teszi a túlilleszkedés \textit{(overfitting)} felismerését. Az elkészült modellt a diszlre kerül mentésre, hogy predikciókat lehessen vele végezni a későbbiekben. A mentés során nem csak a modell súlyait, hanem a tokenizálót és a konfigurációs paramétereket is érdemes elmenteni.
 
-\subsection{A modell tanítása közben kletkezett kimenet}
+\subsection{A modell tanítása közben keletkezett kimenet}
 
 \begin{lstlisting}[style=docker]
 C:\Temp\py\hu-sent\venv\Scripts\python.exe C:\Temp\py\hu-sent\learn.py
@@ -684,7 +684,7 @@ A \textit{Docker Compose} segítségével a három szükséges konténer kezelé
 
 A dokumentumot az alább felsorolt források segítségével készítettem el.
 
-\begin{thebibliography}
+\begin{thebibliography}{99}
 
 \bibitem{hubert-hf}
 SZTAKI-HLT. \textit{hubert-base-cc}. Hugging Face. \\

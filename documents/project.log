@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  4 MAY 2025 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  4 MAY 2025 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -301,6 +301,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 80.
+ (./project.out) (./project.out)
 \@outlinefile=\write3
 \openout3 = `project.out'.
 
@@ -318,28 +319,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 
-{c:/Programs/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-No file project.toc.
+{c:/Programs/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./project.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+
+
+[2])
 \tf@toc=\write4
 \openout4 = `project.toc'.
 
 
 
-[2]
+[3]
 
-[3{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-[4]
+[4{c:/Programs/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [5]
 
-[6] (c:/Programs/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+[6]
+
+[7] (c:/Programs/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 210.
 
-
-[7]
 
 [8]
 
@@ -350,36 +357,38 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 [11]
 
 [12]
+
+[13]
 Overfull \hbox (4.43265pt too wide) in paragraph at lines 431--432
 []\T1/cmr/bx/n/12 API szer-ver \T1/cmr/m/n/12 (Py-thon Flask): A szen-ti-ment elem-zés vég-re-haj-tá-sa REST
  []
 
 
 
-[13]
-
 [14]
-<images/01_login.png, id=257, 1927.2pt x 954.56625pt>
+
+[15]
+<images/01_login.png, id=413, 1927.2pt x 954.56625pt>
 File: images/01_login.png Graphic file (type png)
 <use images/01_login.png>
 Package pdftex.def Info: images/01_login.png  used on input line 487.
 (pdftex.def)             Requested size: 390.0pt x 193.16751pt.
 
 
-[15]
-<images/02_register.png, id=286, 1927.2pt x 954.56625pt>
+[16]
+<images/02_register.png, id=441, 1927.2pt x 954.56625pt>
 File: images/02_register.png Graphic file (type png)
 <use images/02_register.png>
 Package pdftex.def Info: images/02_register.png  used on input line 494.
 (pdftex.def)             Requested size: 390.0pt x 193.16751pt.
-<images/03_chat.png, id=287, 1927.2pt x 954.56625pt>
+<images/03_chat.png, id=442, 1927.2pt x 954.56625pt>
 File: images/03_chat.png Graphic file (type png)
 <use images/03_chat.png>
 Package pdftex.def Info: images/03_chat.png  used on input line 501.
 (pdftex.def)             Requested size: 390.0pt x 193.16751pt.
 
 
-[16
+[17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -390,19 +399,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.505 
        <./images/01_login.png> <./images/02_register.png>]
-<images/05_history.png, id=296, 1926.19624pt x 953.5625pt>
+<images/05_history.png, id=451, 1926.19624pt x 953.5625pt>
 File: images/05_history.png Graphic file (type png)
 <use images/05_history.png>
 Package pdftex.def Info: images/05_history.png  used on input line 508.
 (pdftex.def)             Requested size: 390.0pt x 193.06625pt.
-<images/04_chat.png, id=297, 1927.2pt x 3224.045pt>
+<images/04_chat.png, id=452, 1927.2pt x 3224.045pt>
 File: images/04_chat.png Graphic file (type png)
 <use images/04_chat.png>
 Package pdftex.def Info: images/04_chat.png  used on input line 515.
 (pdftex.def)             Requested size: 311.4754pt x 521.0724pt.
 
 
-[17
+[18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -414,14 +423,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
 l.519 
        <./images/03_chat.png> <./images/05_history.png (PNG copy)>]
 
-[18
+[19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.537 \end{table}
                   <./images/04_chat.png>]
 
-[19
+[20
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -433,281 +442,43 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has 
 l.567 
       ]
 
-[20]
-
 [21]
-Runaway argument?
-{\settowidth \labelwidth {\@biblabel {
-c:/Temp/py/hu-sent/documents/project.tex:688: Paragraph ended before \list was complete.
-<to be read again> 
-                   \par 
-l.688 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-c:/Temp/py/hu-sent/documents/project.tex:688: Extra }, or forgotten \endgroup.
-\thebibliography ...h \labelwidth {\@biblabel {#1}
-                                                  }\leftmargin \labelwidth \...
-l.688 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-c:/Temp/py/hu-sent/documents/project.tex:688: Extra }, or forgotten \endgroup.
-\thebibliography ... \labelwidth {\@biblabel {#1}}
-                                                  \leftmargin \labelwidth \a...
-l.688 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-c:/Temp/py/hu-sent/documents/project.tex:688: Extra }, or forgotten \endgroup.
-\thebibliography ...eenumiv {\@arabic \c@enumiv }}
-                                                  \sloppy \clubpenalty 4000 ...
-l.688 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-c:/Temp/py/hu-sent/documents/project.tex:689: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.689 \bibitem{hubert-hf}
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 689
-[][]
- []
-
-
 
 [22]
 
-c:/Temp/py/hu-sent/documents/project.tex:693: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.693 \bibitem{husset}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 693
-[][]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 726--728
+[]$\T1/cmtt/m/n/12 https : / / medium . com / @shaikhrayyan123 /
  []
 
 
-c:/Temp/py/hu-sent/documents/project.tex:697: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.697 \bibitem{hubert-official}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 697
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:701: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.701 \bibitem{awesome-nlp}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 701
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:705: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.705 \bibitem{awesome-github}
-                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 705
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:709: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.709 \bibitem{hubert-paper}
-                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 709
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:713: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.713 \bibitem{docker-debian}
-                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 713
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:717: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.717 \bibitem{docker-postinstall}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 717
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:721: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.721 \bibitem{bert-wiki}
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 721
-[][]
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:725: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 \bibitem{bert-guide}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 725
-[][]
- []
-
-
-Overfull \hbox (349.6456pt too wide) in paragraph at lines 726--728
-[]$\T1/cmtt/m/n/12 https : / / medium . com / @shaikhrayyan123 / a-[]comprehensive-[]guide-[]to-[]understanding-[]bert-[]from-[]beginners-[]to-[]advanced-[]2379699e2b51$[] 
- []
-
-
-c:/Temp/py/hu-sent/documents/project.tex:729: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.729 \bibitem{sentiment-hungarian}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 729
-[][]
+Overfull \hbox (151.5481pt too wide) in paragraph at lines 726--728
+\T1/cmtt/m/n/12 a-[]comprehensive-[]guide-[]to-[]understanding-[]bert-[]from-[]beginners-[]to-[]advanced-[]2379699e2b51$[] 
  []
 
 
 
-[23] (./project.aux)
+[24] (./project.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `project.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `project.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  714CC9BDC176927155E81D6CB5EC547D;6637.
+Package rerunfilecheck Info: File `project.out' has not changed.
+(rerunfilecheck)             Checksum: 5B6F5D859184825FB7C59E4CE64FB613;6642.
  ) 
 Here is how much of TeX's memory you used:
- 13937 strings out of 473190
- 216352 string characters out of 5715290
- 1361621 words of memory out of 5000000
- 36709 multiletter control sequences out of 15000+600000
+ 13983 strings out of 473190
+ 217062 string characters out of 5715290
+ 1362444 words of memory out of 5000000
+ 36748 multiletter control sequences out of 15000+600000
  571379 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,818b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on project.pdf (23 pages, 494433 bytes).
+Output written on project.pdf (24 pages, 501944 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 342 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 343 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

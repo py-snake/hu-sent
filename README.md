@@ -332,7 +332,7 @@ vele végezni a későbbiekben. A mentés során nem csak a modell súlyait,
 hanem a tokenizálót és a konfigurációs paramétereket is érdemes
 elmenteni.
 
-## A modell tanítása közben kletkezett kimenet
+## A modell tanítása közben keletkezett kimenet
 
 ```
 C:\Temp\py\hu-sent\venv\Scripts\python.exe C:\Temp\py\hu-sent\learn.py
