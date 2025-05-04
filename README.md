@@ -1,3 +1,7 @@
+# HU-Sent
+
+# Magyar nyelvű Szentimentanalízis Projekt
+
 # Projekt Áttekintése
 
 A projekt célja egy magyar nyelvű szentimentanalízis modell fejlesztése
