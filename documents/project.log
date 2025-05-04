@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  4 MAY 2025 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  4 MAY 2025 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -475,7 +475,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,818b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on project.pdf (24 pages, 501938 bytes).
+Output written on project.pdf (24 pages, 501933 bytes).
 PDF statistics:
  731 PDF objects out of 1000 (max. 8388607)
  666 compressed objects within 7 object streams
