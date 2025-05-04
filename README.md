@@ -696,8 +696,6 @@ FROM python:3.9-slim
 
 A dokumentumot az alább felsorolt források segítségével készítettem el.
 
-9
-
 SZTAKI-HLT. *hubert-base-cc*. Hugging Face.  
 <https://huggingface.co/SZTAKI-HLT/hubert-base-cc>
 
