@@ -1,6 +1,4 @@
-# HU-Sent
-
-# Magyar nyelvű Szentimentanalízis Projekt
+# HU-Sent - Magyar nyelvű Szentimentanalízis Projekt
 
 # Projekt Áttekintése
 
@@ -695,6 +693,184 @@ FROM python:3.9-slim
     
     CMD ["python", "app.py"]
 ```
+
+# Kommenteken végzett szentimentanalízis
+
+A projekt egyik ötlete egy szentimentanalízisre szolgáló webes
+chatfelület kialakítása, míg a másik megközelítés weboldalakról származó
+szövegek és kommentek automatikus gyűjtése valamint azok elemzése, majd
+egy webes felületen az eredmények megjelenítése.
+
+## Web scraping
+
+Az ötlet megvalósításához szükség van egy adatforrásra, ahonnan nagy
+mennyiségben hozzászólásokat lehet gyűjteni. Erre a célra egy fórum
+oldal felhasználását tűztem ki, ahol körülbelül 50.000 komment érhető
+el. A hozzászólások letöltéséhez egy erre a *web scrapingre* szánt
+Python scriptet készítettem, ami *HTTP* kérésekkel tölti le a
+weboldalról az adatokat. Az oldal eredeti formája *AJAX* kéréseket
+használ a kommentek betöltéséhez, így ezeket az *API* hívásokat
+Pythonban elkészítve, majd a válaszként érkezett *HTML* kódot
+megtisztítva *JSON* fájlokat tudtam előállítani. A *JSON* az alábbi
+mezőkkel rendelkezik:
+
+```
+{
+  "id_placeholder": {
+    "metadata": {
+      "id": 0,
+      "title": "Title Placeholder",
+      "description": "Description Placeholder",
+      "url": "https://example.com",
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "download_link": null
+    },
+    "comments": [
+      {
+        "id": "comment_id",
+        "user": {
+          "username": "Username Placeholder",
+          "profile_url": "https://example.com/user",
+          "avatar": "https://example.com/avatar.jpg",
+          "avatar_local": "path/to/avatar.jpg"
+        },
+        "timestamp": "Timestamp Placeholder",
+        "text": "Comment text placeholder",
+        "upvotes": 0,
+        "replies": [],
+        "has_more_replies": false,
+        "reply_count": 0
+      }
+    ]
+  }
+}
+```
+
+## Docker Compose beállításai
+
+A teljes rendszer indításához több konténerre is szükség van. Elsőként a
+*PostgreSQL* adatbázist kell elindítani, majd a szkriptet ami importálja
+a *JSON* fájlokban rögzített adatokat az adatbázisba. Utána a
+szentimentanalízis *API-t*, következőként a szkriptet ami elküldi az
+*API-nak* az adatbázisban rögzített kommenteket, végül a webes felületet
+szolgáltató webalkalmazást ami az adatbázissal kommunikál. A
+perzisztencia érdekében egy *docker volume* csatolására is szükség van.
+
+```
+services:
+  # Main comment database (only service with volume)
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: comment_user
+      POSTGRES_PASSWORD: comment_password
+      POSTGRES_DB: comments_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U comment_user -d comments_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  importer:
+    build:
+      context: .
+      dockerfile: ./importer/Dockerfile
+    environment:
+      DATABASE_URL: "postgresql://comment_user:comment_password@db:5432/comments_db"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  sentiment_api:
+    build:
+      context: .
+      dockerfile: ./model/Dockerfile
+    ports:
+      - "5001:5000"
+    environment:
+      - MODEL_NAME=SZTAKI-HLT/hubert-base-cc
+      - MAX_LENGTH=128
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -f http://localhost:5000/health || exit 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    depends_on:
+      importer:
+        condition: service_completed_successfully
+
+  sentiment_processor:
+    build:
+      context: .
+      dockerfile: ./sentiment_processor/Dockerfile
+    environment:
+      DATABASE_URL: "postgresql://comment_user:comment_password@db:5432/comments_db"
+      SENTIMENT_API_URL: "http://sentiment_api:5000/predict"
+    depends_on:
+      sentiment_api:
+        condition: service_healthy
+    restart: unless-stopped
+
+  webapp:
+    build:
+      context: ./webapp
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: "postgresql://comment_user:comment_password@db:5432/comments_db"
+    ports:
+      - "5000:5000"
+    depends_on:
+      db:
+        condition: service_healthy
+      sentiment_processor:
+        condition: service_started
+
+volumes:
+  postgres_data:
+```
+
+## Elért eredmények
+
+A kijelölt oldalról körülbelül 10.000 *json* fájl került előállításra és
+50.000 komment kiértékelésre. A fórumon lévő kommenteket
+szentimentanalízis alá vetve a következő eredményeket láthatjuk:
+
+- **Negatív kommentek száma:** 31 500 (*87% konfidencia*)
+
+- **Semleges kommentek száma:** 14 300 (*74% konfidencia*)
+
+- **Pozitív kommentek száma:** 3 300 (*80% konfidencia*)
+
+<figure id="fig:06_comment_home">
+<img src="documents/images/06_comment_home.png" />
+<figcaption>Komment szentimentanalízis</figcaption>
+</figure>
+
+<figure id="fig:07_comment_stats">
+<img src="documents/images/07_comment_stats.png" />
+<figcaption>Komment szentimentanalízis statisztika</figcaption>
+</figure>
+
+<figure id="fig:08_comment_user">
+<img src="documents/images/08_comment_user.png" />
+<figcaption>Felhasználó szentimentanalízise</figcaption>
+</figure>
+
+## Egyéb funkciók
+
+- Keresés a kommentek és felhasználók között
+
+- Találatok szűrése és rendezése
+
+- Felhasználó szentiment elemzése a kommentjei alapján
 
 # Források
 
