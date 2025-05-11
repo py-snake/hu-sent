@@ -8,11 +8,16 @@
 </head>
 <body>
     <header>
-        <h1><a href="{{ url_for('main.index') }}">Comment Explorer</a></h1>
-        <form action="{{ url_for('main.search') }}" method="get">
-            <input type="text" name="q" placeholder="Search comments..." value="{{ request.args.get('q', '') }}">
-            <button type="submit">Search</button>
-        </form>
+    <h1><a href="{{ url_for('main.index') }}">Comment Explorer</a></h1>
+    <form action="{{ url_for('main.search') }}" method="get">
+        <select name="type">
+            <option value="comments" {% if request.args.get('type') == 'comments' %}selected{% endif %}>Comments</option>
+            <option value="users" {% if request.args.get('type') == 'users' %}selected{% endif %}>Users</option>
+            <option value="videos" {% if request.args.get('type') == 'videos' %}selected{% endif %}>Videos</option>
+        </select>
+        <input type="text" name="q" placeholder="Search..." value="{{ request.args.get('q', '') }}">
+        <button type="submit">Search</button>
+    </form>
     </header>
     <main>
         {% block content %}{% endblock %}

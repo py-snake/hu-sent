@@ -3,41 +3,59 @@
 {% block content %}
     <h2>Search Results for "{{ query }}"</h2>
 
-    {% for comment in comments.items %}
-        <div class="comment">
-            <div class="comment-header">
-                <a href="{{ url_for('main.user_comments', username=comment.user.username) }}">
-                    {{ comment.user.username }}
-                </a>
-                <span class="timestamp">{{ comment.timestamp }}</span>
-                <span class="upvotes">{{ comment.upvotes }} upvotes</span>
-                {% if comment.sentiment_data %}
-                    <span class="sentiment-indicator" style="color:
-                    {% if comment.sentiment_data.sentiment == 'positive' %}#4CAF50
-                    {% elif comment.sentiment_data.sentiment == 'negative' %}#F44336
-                    {% else %}#FFC107{% endif %}">
-                        {{ comment.sentiment_data.sentiment|title }} ({{ comment.sentiment_data.confidence|round(2) }})
-                    </span>
-                {% endif %}
+    {% if type == 'comments' %}
+        {% for comment in results.items %}
+            <div class="comment">
+                <div class="comment-header">
+                    <a href="{{ url_for('main.user_comments', username=comment.user.username) }}">
+                        {{ comment.user.username }}
+                    </a>
+                    <span class="timestamp">{{ comment.timestamp }}</span>
+                    <span class="upvotes">{{ comment.upvotes }} upvotes</span>
+                    {% if comment.sentiment_data %}
+                        <span class="sentiment-indicator" style="color:
+                        {% if comment.sentiment_data.sentiment == 'positive' %}#4CAF50
+                        {% elif comment.sentiment_data.sentiment == 'negative' %}#F44336
+                        {% else %}#FFC107{% endif %}">
+                            {{ comment.sentiment_data.sentiment|title }} ({{ comment.sentiment_data.confidence|round(2) }})
+                        </span>
+                    {% endif %}
+                </div>
+                <div class="comment-text">{{ comment.text }}</div>
+                <div class="comment-footer">
+                    <a href="{{ url_for('main.video_comments', video_id=comment.video.video_id) }}">
+                        View video comments
+                    </a>
+                </div>
             </div>
-            <div class="comment-text">{{ comment.text }}</div>
-            <div class="comment-footer">
-                <a href="{{ url_for('main.video_comments', video_id=comment.video.video_id) }}">
-                    View video comments
+        {% endfor %}
+    {% elif type == 'users' %}
+        {% for user in results.items %}
+            <div class="user">
+                <a href="{{ url_for('main.user_comments', username=user.username) }}">
+                    {{ user.username }}
                 </a>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    {% elif type == 'videos' %}
+        {% for video in results.items %}
+            <div class="video">
+                <a href="{{ url_for('main.video_comments', video_id=video.video_id) }}">
+                    {{ video.title }}
+                </a>
+            </div>
+        {% endfor %}
+    {% endif %}
 
     <div class="pagination">
-        {% if comments.has_prev %}
-            <a href="{{ url_for('main.search', q=query, page=comments.prev_num) }}">Previous</a>
+        {% if results.has_prev %}
+            <a href="{{ url_for('main.search', q=query, type=type, page=results.prev_num) }}">Previous</a>
         {% endif %}
 
-        <span>Page {{ comments.page }} of {{ comments.pages }}</span>
+        <span>Page {{ results.page }} of {{ results.pages }}</span>
 
-        {% if comments.has_next %}
-            <a href="{{ url_for('main.search', q=query, page=comments.next_num) }}">Next</a>
+        {% if results.has_next %}
+            <a href="{{ url_for('main.search', q=query, type=type, page=results.next_num) }}">Next</a>
         {% endif %}
     </div>
 {% endblock %}
