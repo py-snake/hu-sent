@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="stats-page">
+    <h1>Database Statistics</h1>
+
+    <div class="stat-cards">
+        <div class="stat-card">
+            <h3>Videos</h3>
+            <p>{{ video_count }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Comments</h3>
+            <p>{{ comment_count }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Users</h3>
+            <p>{{ user_count }}</p>
+        </div>
+    </div>
+
+    <section class="stat-sentiment-section">
+        <h2>Sentiment Analysis</h2>
+        {% if sentiment_data.total > 0 %}
+            <div class="sentiment-meters">
+                {% for sentiment, data in sentiment_data.stats.items() %}
+                <div class="stat-meter">
+                    <div class="stat-meter-header">
+                        <span class="stat-sentiment-label">{{ sentiment|title }}</span>
+                        <span class="stat-sentiment-count">{{ data.count }}</span>
+                        <span class="stat-sentiment-percent">{{ (data.percentage*100)|round(1) }}%</span>
+                    </div>
+                    <div class="stat-meter-outer">
+                        <div class="stat-meter-bar" style="width: {{ (data.percentage*100)|round(1) }}%;
+                            background-color: {% if sentiment == 'positive' %}#4CAF50{% elif sentiment == 'negative' %}#F44336{% else %}#FFC107{% endif %}">
+                            <span class="stat-confidence">{{ data.avg_confidence }}% confidence</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p class="total-comments">Total comments analyzed: {{ sentiment_data.total }}</p>
+        {% else %}
+            <p>No sentiment analysis data available yet.</p>
+        {% endif %}
+    </section>
+</div>
+{% endblock %}

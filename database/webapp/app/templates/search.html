@@ -11,6 +11,14 @@
                 </a>
                 <span class="timestamp">{{ comment.timestamp }}</span>
                 <span class="upvotes">{{ comment.upvotes }} upvotes</span>
+                {% if comment.sentiment_data %}
+                    <span class="sentiment-indicator" style="color:
+                    {% if comment.sentiment_data.sentiment == 'positive' %}#4CAF50
+                    {% elif comment.sentiment_data.sentiment == 'negative' %}#F44336
+                    {% else %}#FFC107{% endif %}">
+                        {{ comment.sentiment_data.sentiment|title }} ({{ comment.sentiment_data.confidence|round(2) }})
+                    </span>
+                {% endif %}
             </div>
             <div class="comment-text">{{ comment.text }}</div>
             <div class="comment-footer">

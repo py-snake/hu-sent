@@ -79,9 +79,30 @@ def setup_database(conn):
         )
         """)
 
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS sentiment_analysis (
+            id SERIAL PRIMARY KEY,
+            comment_id TEXT REFERENCES comments(comment_id),
+            sentiment TEXT,
+            confidence FLOAT,
+            processed_at TIMESTAMP DEFAULT NOW(),
+            UNIQUE(comment_id)
+        )
+        """)
+
+        cur.execute("""
+        DO $$
+        BEGIN
+            IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
+                          WHERE table_name='comments' AND column_name='sentiment_processed') THEN
+                ALTER TABLE comments ADD COLUMN sentiment_processed BOOLEAN DEFAULT FALSE;
+            END IF;
+        END $$;
+        """)
+
         conn.commit()
 
-
+"""
 def process_json_files(conn, data_folder):
     for filepath in glob.glob(f"{data_folder}/*.json"):
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -92,7 +113,35 @@ def process_json_files(conn, data_folder):
                 except Exception as e:
                     print(f"Error processing video {video_id} in file {filepath}: {str(e)}")
                     conn.rollback()
+"""
 
+
+def process_json_files(conn, data_folder):
+    processed_files = get_processed_files(conn)
+
+    for filepath in glob.glob(f"{data_folder}/*.json"):
+        filename = os.path.basename(filepath)
+        if filename in processed_files:
+            continue
+
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                for video_id, video_data in data.items():
+                    process_video(conn, video_id, video_data)
+
+            # Mark file as processed
+            with conn.cursor() as cur:
+                cur.execute("""
+                INSERT INTO processed_files (filename)
+                VALUES (%s)
+                ON CONFLICT DO NOTHING
+                """, (filename,))
+                conn.commit()
+
+        except Exception as e:
+            print(f"Error processing file {filename}: {str(e)}")
+            conn.rollback()
 
 def process_video(conn, video_id, video_data):
     with conn.cursor() as cur:
@@ -201,16 +250,38 @@ def process_comment(conn, comment, video_id, parent_id=None):
 
         conn.commit()
 
+def get_processed_files(conn):
+    with conn.cursor() as cur:
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS processed_files (
+            filename TEXT PRIMARY KEY,
+            processed_at TIMESTAMP DEFAULT NOW()
+        )
+        """)
+        cur.execute("SELECT filename FROM processed_files")
+        return {row[0] for row in cur.fetchall()}
+
 
 if __name__ == "__main__":
     print("Starting data import...")
     conn = connect_db()
     setup_database(conn)
 
-    data_folder = "/app/data"  # Mounted volume from host
+    data_folder = "/app/data"
     if os.path.exists(data_folder):
-        print(f"Processing JSON files in {data_folder}...")
+        print(f"Found {len(glob.glob(f'{data_folder}/*.json'))} JSON files in {data_folder}")
         process_json_files(conn, data_folder)
+
+        # Print stats after import
+        with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM videos")
+            print(f"Total videos: {cur.fetchone()[0]}")
+
+            cur.execute("SELECT COUNT(*) FROM comments")
+            print(f"Total comments: {cur.fetchone()[0]}")
+
+            cur.execute("SELECT COUNT(*) FROM comments WHERE parent_id IS NOT NULL")
+            print(f"Total replies: {cur.fetchone()[0]}")
     else:
         print(f"Data folder not found: {data_folder}")
 

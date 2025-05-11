@@ -5,13 +5,15 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     gcc \
     python3-dev \
-    libpq-dev \
+    curl \
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt .
+COPY model/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+# Copy model file and application code
+COPY model/best_model.pt /app/
+COPY model/app.py /app/
 
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--timeout", "120", "wsgi:app"]
-
+CMD ["python", "app.py"]

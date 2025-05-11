@@ -1,11 +1,31 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <section class="stats">
-        <h2>Database Statistics</h2>
-        <p>{{ video_count }} Videos</p>
-        <p>{{ comment_count }} Comments</p>
-        <p>{{ user_count }} Users</p>
+    <section class="sentiment-stats">
+        <h2>Sentiment Analysis</h2>
+        {% if sentiment_data.total > 0 %}
+            <div class="sentiment-bars-container">
+                {% for sentiment, data in sentiment_data.stats.items() %}
+                <div class="sentiment-item">
+                    <div class="sentiment-info">
+                        <span class="sentiment-label">{{ sentiment|title }}</span>
+                        <span class="sentiment-count">{{ data.count }} comments</span>
+                        <span class="sentiment-percent">{{ (data.percentage*100)|round(1) }}%</span>
+                    </div>
+                    <div class="sentiment-bar-container">
+                        <div class="sentiment-bar"
+                             style="width: {{ (data.percentage*100)|round(1) }}%;
+                                    background-color: {% if sentiment == 'positive' %}#4CAF50{% elif sentiment == 'negative' %}#F44336{% else %}#FFC107{% endif %}">
+                            <span class="confidence-value">{{ data.avg_confidence }}% confidence</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p class="total-comments">Total comments analyzed: {{ sentiment_data.total }}</p>
+        {% else %}
+            <p>No sentiment analysis data available yet.</p>
+        {% endif %}
     </section>
 
     <section class="recent-comments">
@@ -18,6 +38,14 @@
                     </a>
                     <span class="timestamp">{{ comment.timestamp }}</span>
                     <span class="upvotes">{{ comment.upvotes }} upvotes</span>
+                    {% if comment.sentiment_data %}
+                        <span class="sentiment-indicator" style="color:
+                        {% if comment.sentiment_data.sentiment == 'positive' %}#4CAF50
+                        {% elif comment.sentiment_data.sentiment == 'negative' %}#F44336
+                        {% else %}#FFC107{% endif %}">
+                            {{ comment.sentiment_data.sentiment|title }} ({{ comment.sentiment_data.confidence|round(2) }})
+                        </span>
+                    {% endif %}
                 </div>
                 <div class="comment-text">{{ comment.text }}</div>
                 <div class="comment-footer">

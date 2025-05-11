@@ -6,14 +6,12 @@ RUN apt-get update && apt-get install -y \
     gcc \
     python3-dev \
     libpq-dev \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-COPY importer/requirements.txt .
+COPY sentiment_processor/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Create data directory and copy files
-RUN mkdir -p /app/data
-COPY data/*.json /app/data/
-COPY importer/import_comments.py /app/
+COPY sentiment_processor/process_sentiment.py .
 
-CMD ["python", "/app/import_comments.py"]
+CMD ["python", "process_sentiment.py"]
