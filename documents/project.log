@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  4 MAY 2025 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  11 MAY 2025 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -368,7 +368,7 @@ Overfull \hbox (4.43265pt too wide) in paragraph at lines 431--432
 [14]
 
 [15]
-<images/01_login.png, id=413, 1927.2pt x 954.56625pt>
+<images/01_login.png, id=438, 1927.2pt x 954.56625pt>
 File: images/01_login.png Graphic file (type png)
 <use images/01_login.png>
 Package pdftex.def Info: images/01_login.png  used on input line 487.
@@ -376,12 +376,12 @@ Package pdftex.def Info: images/01_login.png  used on input line 487.
 
 
 [16]
-<images/02_register.png, id=441, 1927.2pt x 954.56625pt>
+<images/02_register.png, id=466, 1927.2pt x 954.56625pt>
 File: images/02_register.png Graphic file (type png)
 <use images/02_register.png>
 Package pdftex.def Info: images/02_register.png  used on input line 494.
 (pdftex.def)             Requested size: 390.0pt x 193.16751pt.
-<images/03_chat.png, id=442, 1927.2pt x 954.56625pt>
+<images/03_chat.png, id=467, 1927.2pt x 954.56625pt>
 File: images/03_chat.png Graphic file (type png)
 <use images/03_chat.png>
 Package pdftex.def Info: images/03_chat.png  used on input line 501.
@@ -399,12 +399,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.505 
        <./images/01_login.png> <./images/02_register.png>]
-<images/05_history.png, id=451, 1926.19624pt x 953.5625pt>
+<images/05_history.png, id=476, 1926.19624pt x 953.5625pt>
 File: images/05_history.png Graphic file (type png)
 <use images/05_history.png>
 Package pdftex.def Info: images/05_history.png  used on input line 508.
 (pdftex.def)             Requested size: 390.0pt x 193.06625pt.
-<images/04_chat.png, id=452, 1927.2pt x 3224.045pt>
+<images/04_chat.png, id=477, 1927.2pt x 3224.045pt>
 File: images/04_chat.png Graphic file (type png)
 <use images/04_chat.png>
 Package pdftex.def Info: images/04_chat.png  used on input line 515.
@@ -447,38 +447,87 @@ l.567
 [22]
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 726--728
+Overfull \hbox (7.70139pt too wide) in paragraph at lines 689--690
+\T1/cmr/m/n/12 Az ˆt-let meg-va-lÛ-sÌ-t·-s·-hoz sz¸k-sÈg van egy adat-for-r·s-ra, ahon-nan nagy mennyi-
+ []
+
+
+
+[24]
+
+[25]
+
+[26]
+<images/06_comment_home.png, id=719, 1433.355pt x 712.91344pt>
+File: images/06_comment_home.png Graphic file (type png)
+<use images/06_comment_home.png>
+Package pdftex.def Info: images/06_comment_home.png  used on input line 820.
+(pdftex.def)             Requested size: 390.0pt x 193.96863pt.
+<images/07_comment_stats.png, id=720, 1927.2pt x 1030.85126pt>
+File: images/07_comment_stats.png Graphic file (type png)
+<use images/07_comment_stats.png>
+Package pdftex.def Info: images/07_comment_stats.png  used on input line 827.
+(pdftex.def)             Requested size: 390.0pt x 208.60466pt.
+
+
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.831 
+       <./images/06_comment_home.png>]
+<images/08_comment_user.png, id=734, 1433.355pt x 714.41907pt>
+File: images/08_comment_user.png Graphic file (type png)
+<use images/08_comment_user.png>
+Package pdftex.def Info: images/08_comment_user.png  used on input line 834.
+(pdftex.def)             Requested size: 390.0pt x 194.37828pt.
+
+
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.843   \item T
+               al√°latok sz≈±r√©se √©s rendez√©se
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.843   \item T
+               al√°latok sz≈±r√©se √©s rendez√©se <./images/07_comment_stats.png> <./images/08_comment_user.png>]
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 890--892
 []$\T1/cmtt/m/n/12 https : / / medium . com / @shaikhrayyan123 /
  []
 
 
-Overfull \hbox (151.5481pt too wide) in paragraph at lines 726--728
+Overfull \hbox (151.5481pt too wide) in paragraph at lines 890--892
 \T1/cmtt/m/n/12 a-[]comprehensive-[]guide-[]to-[]understanding-[]bert-[]from-[]beginners-[]to-[]advanced-[]2379699e2b51$[] 
  []
 
 
 
-[24] (./project.aux)
+[30] (./project.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: 5B6F5D859184825FB7C59E4CE64FB613;6642.
+(rerunfilecheck)             Checksum: 738AF6DD0E2BF77358E1912D47C65055;7496.
  ) 
 Here is how much of TeX's memory you used:
- 13983 strings out of 473190
- 217062 string characters out of 5715290
- 1362444 words of memory out of 5000000
- 36748 multiletter control sequences out of 15000+600000
+ 14187 strings out of 473190
+ 220367 string characters out of 5715290
+ 1362616 words of memory out of 5000000
+ 36829 multiletter control sequences out of 15000+600000
  571379 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,818b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/Programs/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on project.pdf (24 pages, 501944 bytes).
+Output written on project.pdf (30 pages, 638100 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 343 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 925 PDF objects out of 1000 (max. 8388607)
+ 846 compressed objects within 9 object streams
+ 466 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
